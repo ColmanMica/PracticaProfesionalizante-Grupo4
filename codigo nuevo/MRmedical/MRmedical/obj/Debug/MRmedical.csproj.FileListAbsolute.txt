@@ -1,0 +1,11 @@
+C:\Users\rocio\source\repos\MRmedical\MRmedical\bin\Debug\MRmedical.exe.config
+C:\Users\rocio\source\repos\MRmedical\MRmedical\bin\Debug\MRmedical.exe
+C:\Users\rocio\source\repos\MRmedical\MRmedical\bin\Debug\MRmedical.pdb
+C:\Users\rocio\source\repos\MRmedical\MRmedical\obj\Debug\MRmedical.csproj.AssemblyReference.cache
+C:\Users\rocio\source\repos\MRmedical\MRmedical\obj\Debug\MRmedical.csproj.SuggestedBindingRedirects.cache
+C:\Users\rocio\source\repos\MRmedical\MRmedical\obj\Debug\MRmedical.Form1.resources
+C:\Users\rocio\source\repos\MRmedical\MRmedical\obj\Debug\MRmedical.Properties.Resources.resources
+C:\Users\rocio\source\repos\MRmedical\MRmedical\obj\Debug\MRmedical.csproj.GenerateResource.cache
+C:\Users\rocio\source\repos\MRmedical\MRmedical\obj\Debug\MRmedical.csproj.CoreCompileInputs.cache
+C:\Users\rocio\source\repos\MRmedical\MRmedical\obj\Debug\MRmedical.exe
+C:\Users\rocio\source\repos\MRmedical\MRmedical\obj\Debug\MRmedical.pdb
