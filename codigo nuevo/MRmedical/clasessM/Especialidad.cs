@@ -6,9 +6,10 @@ using System.Threading.Tasks;
 
 namespace clasessM
 {
-    public class Medico : Usuario
+    public class Especialidad
     {
-        public string Especialidad { get; set; }
+        public int Id_Especialidad { get; set; }
 
+        //metodo que encuatre el id de medico
     }
 }

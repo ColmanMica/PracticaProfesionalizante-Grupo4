@@ -8,9 +8,9 @@ namespace clasessM
 {
     public class Turno
     {
-        public string Nombre { get; set; }
-        public string Apellido { get; set; }
+        public int id_Turno {  get; set; }
         public DateTime FechayHora { get; set; }
         public string Medico { get; set; }
     }
-}
+}        // metodo para busar el id del paciente, si no se encuentra redireccionar
+         // dar de alta un nuevo paciente

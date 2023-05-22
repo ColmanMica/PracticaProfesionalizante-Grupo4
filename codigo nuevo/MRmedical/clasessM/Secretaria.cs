@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace clasessM
 {
-    public class Secretaria
+    public class Secretaria:Usuario
     {
         public int Numerolegajo { get; set; }
+        
     }
 }
