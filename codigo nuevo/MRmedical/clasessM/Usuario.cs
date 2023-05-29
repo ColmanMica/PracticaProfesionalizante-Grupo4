@@ -6,9 +6,11 @@ using System.Threading.Tasks;
 
 namespace clasessM
 {
-    public class Usuario : Persona
+    public class Usuario
     {
-        public double VacunasalDia { get; set; }
+        public string Id_Usuario { get; set; }
+        public string Correo { get; set; }
+        public string Contrasenia { get; set; }
 
     }
 }
