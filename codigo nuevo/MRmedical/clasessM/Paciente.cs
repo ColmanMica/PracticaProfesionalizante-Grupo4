@@ -8,5 +8,6 @@ namespace clasessM
 {
    public class Paciente
     {
+        public double VacunasalDia { get; set; }
     }
 }

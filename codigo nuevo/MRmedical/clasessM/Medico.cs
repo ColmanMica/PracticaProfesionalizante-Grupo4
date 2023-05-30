@@ -6,9 +6,10 @@ using System.Threading.Tasks;
 
 namespace clasessM
 {
-    public class Medico : Usuario
+    public class Medico : Persona
     {
         public string Especialidad { get; set; }
-
+        public Usuario Usuario_Medico { get; set; }
     }
 }
+
