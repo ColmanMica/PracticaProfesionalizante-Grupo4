@@ -8,10 +8,10 @@ namespace clasessM
 {
     public class Historial
     {
-        public string Nombre { get; set; }
-        public string Apellido { get; set; }
-        public int DNI { get; set; }
-        public DateTime FechayHora { get; set; }
-        public string ObraSocial { get; set; }
+        public string nombre { get; set; }
+        public string apellido { get; set; }
+        public int dni { get; set; }
+        public DateTime fechaHora { get; set; }
+        public string obraSocial { get; set; }
     }
 }

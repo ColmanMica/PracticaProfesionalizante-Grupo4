@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace clasessM
 {
-   public class Paciente
+   public class Paciente : Persona
     {
-        public double VacunasalDia { get; set; }
+        public double vacunasAlDia { get; set; }
     }
 }

@@ -8,9 +8,9 @@ namespace clasessM
 {
     public class Usuario
     {
-        public string Id_Usuario { get; set; }
-        public string Correo { get; set; }
-        public string Contrasenia { get; set; }
+        public string idUsuario { get; set; }
+        public string correo { get; set; }
+        public string contrasenia { get; set; }
 
     }
 }

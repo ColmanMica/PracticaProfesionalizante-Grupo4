@@ -8,7 +8,7 @@ namespace clasessM
 {
     public class Secretaria:Persona
     {
-        public int Numerolegajo { get; set; }
-        public Usuario Usuario_Secretaria { get; set; }
+        public int numerolegajo { get; set; }
+        public Usuario usuarioSecretaria { get; set; }
     }
 }

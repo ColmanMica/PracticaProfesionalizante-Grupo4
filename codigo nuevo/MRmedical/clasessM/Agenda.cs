@@ -8,7 +8,7 @@ namespace clasessM
 {
     public class Agenda
     {
-        public string Paciente { get; set; }
-        public DateTime FechayHora { get; set; }
+        public string paciente { get; set; }
+        public DateTime fechaHora { get; set; }
     }
 }

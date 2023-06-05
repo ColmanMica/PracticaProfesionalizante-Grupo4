@@ -8,8 +8,8 @@ namespace clasessM
 {
     public class Medico : Persona
     {
-        public string Especialidad { get; set; }
-        public Usuario Usuario_Medico { get; set; }
+        public string especialidad { get; set; }
+        public Usuario usuarioMedico { get; set; }
     }
 }
 
