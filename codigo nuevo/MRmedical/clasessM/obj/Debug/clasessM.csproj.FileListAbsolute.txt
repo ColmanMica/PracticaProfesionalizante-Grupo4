@@ -1,0 +1,2 @@
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\codigo nuevo\MRmedical\clasessM\obj\Debug\clasessM.csproj.AssemblyReference.cache
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\codigo nuevo\MRmedical\clasessM\obj\Debug\clasessM.csproj.CoreCompileInputs.cache
