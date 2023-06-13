@@ -15,21 +15,21 @@ namespace clasessM
         public void AltaPaciente(int dni, string nombre, string apellido, DateTime fechanac)
         {
             Paciente Nuevopaciente = new Paciente();
-            Nuevopaciente.DNI = dni;
-            Nuevopaciente.Nombre = nombre;
-            Nuevopaciente.Apellido = apellido;
-            Nuevopaciente.FechaNacimiento = fechanac;
+            Nuevopaciente.dni = dni;
+            Nuevopaciente.nombre = nombre;
+            Nuevopaciente.apellido = apellido;
+            Nuevopaciente.fechaNacimiento = fechanac;
             ListaPaciente.Add(Nuevopaciente);
         }
 
         public void AltaMedico(int dni, string nombre, string apellido, DateTime fechanac, string especialidad)
         {
             Medico Nuevomedico = new Medico();
-            Nuevomedico.DNI = dni;
-            Nuevomedico.Nombre = nombre;
-            Nuevomedico.Apellido = apellido;
-            Nuevomedico.FechaNacimiento = fechanac;
-            Nuevomedico.Especialidad = especialidad;
+            Nuevomedico.dni = dni;
+            Nuevomedico.nombre = nombre;
+            Nuevomedico.apellido = apellido;
+            Nuevomedico.fechaNacimiento = fechanac;
+            Nuevomedico.especialidad = especialidad;
             ListaMedico.Add(Nuevomedico);
         }
 
@@ -37,16 +37,16 @@ namespace clasessM
         {
             Historial Nuevohistorial = new Historial();
 
-            Nuevohistorial.DNI = dni;
-            Nuevohistorial.Nombre = nombre;
-            Nuevohistorial.Apellido = apellido;
-            Nuevohistorial.FechayHora = fechayhora;
-            Nuevohistorial.ObraSocial = obrasocial;
+            Nuevohistorial.dni = dni;
+            Nuevohistorial.nombre = nombre;
+            Nuevohistorial.apellido = apellido;
+            Nuevohistorial.fechaHora = fechayhora;
+            Nuevohistorial.obraSocial = obrasocial;
             ListaHistorial.Add(Nuevohistorial);
         }
 
     }
 }
 
-    }
-}
+    
+

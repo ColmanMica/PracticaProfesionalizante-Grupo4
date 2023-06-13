@@ -21,6 +21,7 @@ namespace MRmedical
         {
             comboBox1.Items.Add("Medico");
             comboBox1.Items.Add("Secretaria");
+
         }
 
         private void menuToolStripMenuItem_Click(object sender, EventArgs e)
@@ -31,6 +32,13 @@ namespace MRmedical
         private void medicosToolStripMenuItem_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form1 form = new Form1();
+            form.Show();
+            this.Close();
         }
     }
 }
