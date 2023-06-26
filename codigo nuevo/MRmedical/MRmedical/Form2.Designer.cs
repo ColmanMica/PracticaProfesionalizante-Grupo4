@@ -37,7 +37,7 @@
             this.medicosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.especielidadesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.agendaToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -65,7 +65,7 @@
             this.menuToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(800, 28);
+            this.menuStrip1.Size = new System.Drawing.Size(800, 30);
             this.menuStrip1.TabIndex = 2;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -76,20 +76,20 @@
             this.pacientesToolStripMenuItem,
             this.medicosToolStripMenuItem});
             this.menuToolStripMenuItem.Name = "menuToolStripMenuItem";
-            this.menuToolStripMenuItem.Size = new System.Drawing.Size(60, 24);
+            this.menuToolStripMenuItem.Size = new System.Drawing.Size(60, 26);
             this.menuToolStripMenuItem.Text = "Menu";
             this.menuToolStripMenuItem.Click += new System.EventHandler(this.menuToolStripMenuItem_Click);
             // 
             // agendaToolStripMenuItem
             // 
             this.agendaToolStripMenuItem.Name = "agendaToolStripMenuItem";
-            this.agendaToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.agendaToolStripMenuItem.Size = new System.Drawing.Size(153, 26);
             this.agendaToolStripMenuItem.Text = "Agenda";
             // 
             // pacientesToolStripMenuItem
             // 
             this.pacientesToolStripMenuItem.Name = "pacientesToolStripMenuItem";
-            this.pacientesToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.pacientesToolStripMenuItem.Size = new System.Drawing.Size(153, 26);
             this.pacientesToolStripMenuItem.Text = "Pacientes";
             // 
             // medicosToolStripMenuItem
@@ -98,38 +98,38 @@
             this.especielidadesToolStripMenuItem,
             this.agendaToolStripMenuItem1});
             this.medicosToolStripMenuItem.Name = "medicosToolStripMenuItem";
-            this.medicosToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.medicosToolStripMenuItem.Size = new System.Drawing.Size(153, 26);
             this.medicosToolStripMenuItem.Text = "Medicos";
             this.medicosToolStripMenuItem.Click += new System.EventHandler(this.medicosToolStripMenuItem_Click);
             // 
             // especielidadesToolStripMenuItem
             // 
             this.especielidadesToolStripMenuItem.Name = "especielidadesToolStripMenuItem";
-            this.especielidadesToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.especielidadesToolStripMenuItem.Size = new System.Drawing.Size(190, 26);
             this.especielidadesToolStripMenuItem.Text = "Especielidades";
             // 
             // agendaToolStripMenuItem1
             // 
             this.agendaToolStripMenuItem1.Name = "agendaToolStripMenuItem1";
-            this.agendaToolStripMenuItem1.Size = new System.Drawing.Size(224, 26);
+            this.agendaToolStripMenuItem1.Size = new System.Drawing.Size(190, 26);
             this.agendaToolStripMenuItem1.Text = "Agenda";
             // 
-            // button1
+            // button2
             // 
-            this.button1.Location = new System.Drawing.Point(647, 316);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(84, 30);
-            this.button1.TabIndex = 3;
-            this.button1.Text = "Volver";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.button2.Location = new System.Drawing.Point(355, 206);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(91, 38);
+            this.button2.TabIndex = 5;
+            this.button2.Text = "Aceptar";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.button2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.menuStrip1);
@@ -155,6 +155,6 @@
         private System.Windows.Forms.ToolStripMenuItem medicosToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem especielidadesToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem agendaToolStripMenuItem1;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
     }
 }
