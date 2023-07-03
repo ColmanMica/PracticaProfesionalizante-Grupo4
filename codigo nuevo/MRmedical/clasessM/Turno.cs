@@ -10,7 +10,8 @@ namespace clasessM
     {
         public int idTurno {  get; set; }
         public DateTime fechaHora { get; set; }
-        public string medico { get; set; }
+        public Medico medicoTurno { get; set; }
+        public Paciente pacienteTurno { get; set; }    
     }
 }        // metodo para busar el id del paciente, si no se encuentra redireccionar
          // dar de alta un nuevo paciente
