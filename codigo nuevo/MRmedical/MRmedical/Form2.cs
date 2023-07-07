@@ -41,5 +41,10 @@ namespace MRmedical
             form.Show();
             this.Hide();
         }
+
+        private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
+        }
     }
 }

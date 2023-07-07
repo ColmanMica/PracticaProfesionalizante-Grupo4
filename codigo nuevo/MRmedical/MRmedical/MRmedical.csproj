@@ -58,6 +58,18 @@
     <Compile Include="Form2.Designer.cs">
       <DependentUpon>Form2.cs</DependentUpon>
     </Compile>
+    <Compile Include="MenuMedico.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuMedico.Designer.cs">
+      <DependentUpon>MenuMedico.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MenuSecretaria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuSecretaria.Designer.cs">
+      <DependentUpon>MenuSecretaria.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
@@ -65,6 +77,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form2.resx">
       <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuMedico.resx">
+      <DependentUpon>MenuMedico.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuSecretaria.resx">
+      <DependentUpon>MenuSecretaria.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
