@@ -30,11 +30,8 @@
         {
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.agendaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.stafToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.turnoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.altaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.bajaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.modificacionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.stafToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.altaMedicoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.bajaMedicoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pacientesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -65,6 +62,13 @@
             this.agendaToolStripMenuItem.Size = new System.Drawing.Size(75, 24);
             this.agendaToolStripMenuItem.Text = "Agenda";
             // 
+            // turnoToolStripMenuItem
+            // 
+            this.turnoToolStripMenuItem.Name = "turnoToolStripMenuItem";
+            this.turnoToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.turnoToolStripMenuItem.Text = "Turno";
+            this.turnoToolStripMenuItem.Click += new System.EventHandler(this.turnoToolStripMenuItem_Click);
+            // 
             // stafToolStripMenuItem
             // 
             this.stafToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -74,44 +78,16 @@
             this.stafToolStripMenuItem.Size = new System.Drawing.Size(49, 24);
             this.stafToolStripMenuItem.Text = "Staf";
             // 
-            // turnoToolStripMenuItem
-            // 
-            this.turnoToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.altaToolStripMenuItem,
-            this.bajaToolStripMenuItem,
-            this.modificacionToolStripMenuItem});
-            this.turnoToolStripMenuItem.Name = "turnoToolStripMenuItem";
-            this.turnoToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
-            this.turnoToolStripMenuItem.Text = "Turno";
-            // 
-            // altaToolStripMenuItem
-            // 
-            this.altaToolStripMenuItem.Name = "altaToolStripMenuItem";
-            this.altaToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
-            this.altaToolStripMenuItem.Text = "Alta";
-            // 
-            // bajaToolStripMenuItem
-            // 
-            this.bajaToolStripMenuItem.Name = "bajaToolStripMenuItem";
-            this.bajaToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
-            this.bajaToolStripMenuItem.Text = "Baja";
-            // 
-            // modificacionToolStripMenuItem
-            // 
-            this.modificacionToolStripMenuItem.Name = "modificacionToolStripMenuItem";
-            this.modificacionToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
-            this.modificacionToolStripMenuItem.Text = "Modificacion";
-            // 
             // altaMedicoToolStripMenuItem
             // 
             this.altaMedicoToolStripMenuItem.Name = "altaMedicoToolStripMenuItem";
-            this.altaMedicoToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.altaMedicoToolStripMenuItem.Size = new System.Drawing.Size(171, 26);
             this.altaMedicoToolStripMenuItem.Text = "AltaMedico";
             // 
             // bajaMedicoToolStripMenuItem
             // 
             this.bajaMedicoToolStripMenuItem.Name = "bajaMedicoToolStripMenuItem";
-            this.bajaMedicoToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.bajaMedicoToolStripMenuItem.Size = new System.Drawing.Size(171, 26);
             this.bajaMedicoToolStripMenuItem.Text = "BajaMedico";
             // 
             // pacientesToolStripMenuItem
@@ -163,9 +139,6 @@
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem agendaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem turnoToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem altaToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem bajaToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem modificacionToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem stafToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem altaMedicoToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem bajaMedicoToolStripMenuItem;

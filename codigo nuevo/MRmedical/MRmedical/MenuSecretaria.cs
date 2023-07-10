@@ -16,5 +16,17 @@ namespace MRmedical
         {
             InitializeComponent();
         }
+
+        private void altaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void turnoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            AltaTurno form = new AltaTurno();
+            form.Show();
+            this.Hide();
+        }
     }
 }
