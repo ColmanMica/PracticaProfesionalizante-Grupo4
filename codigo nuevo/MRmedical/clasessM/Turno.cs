@@ -10,8 +10,12 @@ namespace clasessM
     {
         public int idTurno {  get; set; }
         public DateTime fechaHora { get; set; }
-        public Medico medicoTurno { get; set; }
-        public Paciente pacienteTurno { get; set; }    
+        public Medico medicoTurno { get; set; } //era necesario que que el tipo sea una clase?
+        public Paciente pacienteTurno { get; set; }
+        public string T
+        {
+            get { return "Fecha y Hora: " + fechaHora + ", Medico: " + medicoTurno + ", Paciente: " + pacienteTurno; }
+        }
     }
 }        // metodo para busar el id del paciente, si no se encuentra redireccionar
-         // dar de alta un nuevo paciente
+         // dar de alta un nuevo paciente /pensar es hacer el if dentro del metodo de alta

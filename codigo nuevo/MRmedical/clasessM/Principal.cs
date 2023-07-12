@@ -9,10 +9,10 @@ namespace clasessM
 {
     public class Principal
     {
-        List<Paciente> ListaPaciente = new List<Paciente>();
-        List<Medico> ListaMedico = new List<Medico>();
-        List<Historial> ListaHistorial = new List<Historial>();
-        List<Turno> ListaTurno = new List<Turno>();
+        public List<Paciente> ListaPaciente = new List<Paciente>();
+        public List<Medico> ListaMedico = new List<Medico>();
+        public List<Historial> ListaHistorial = new List<Historial>();
+        public List<Turno> ListaTurno = new List<Turno>();
 
 
         public void AltaPaciente(int dni, string nombre, string apellido, DateTime fechanac, double vacunasAlDia)
@@ -104,20 +104,17 @@ namespace clasessM
             Nuevoturno.pacienteTurno = pacienteTurno;
             ListaTurno.Add(Nuevoturno);
         }
-        public void ModificacionTurno(DateTime fechaHora)
+        public void ModificacionTurno(Turno NuevoTurno, Turno eliminarTurno)
         {
-            Turno Nuevoturno = new Turno();
-            var turnoBuscado = ListaTurno.Find(x => x.fechaHora == fechaHora);
-
-            Nuevoturno.fechaHora = fechaHora;
-
-            Nuevoturno.idTurno = turnoBuscado.idTurno;
-            Nuevoturno.medicoTurno = turnoBuscado.medicoTurno;
-            Nuevoturno.pacienteTurno = turnoBuscado.pacienteTurno;
+            Turno turnoModificado = new Turno();
+           
+            turnoModificado.idTurno = NuevoTurno.idTurno;
+            turnoModificado.medicoTurno = NuevoTurno.medicoTurno;
+            turnoModificado.pacienteTurno = NuevoTurno.pacienteTurno;
 
 
-            ListaTurno.Remove(turnoBuscado);
-            ListaTurno.Add(turnoBuscado);
+            ListaTurno.Remove(eliminarTurno);
+            ListaTurno.Add(NuevoTurno);
         }
         public void BajaTurno(Turno TurnoParametro)
         {

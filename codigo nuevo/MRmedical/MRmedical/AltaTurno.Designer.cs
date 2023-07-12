@@ -38,6 +38,7 @@
             this.modturno = new System.Windows.Forms.Button();
             this.bajaturno = new System.Windows.Forms.Button();
             this.listBox1 = new System.Windows.Forms.ListBox();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -101,17 +102,17 @@
             // 
             // modturno
             // 
-            this.modturno.Location = new System.Drawing.Point(507, 315);
+            this.modturno.Location = new System.Drawing.Point(488, 315);
             this.modturno.Name = "modturno";
             this.modturno.Size = new System.Drawing.Size(95, 50);
             this.modturno.TabIndex = 7;
-            this.modturno.Text = "Editar";
+            this.modturno.Text = "Modificar";
             this.modturno.UseVisualStyleBackColor = true;
             this.modturno.Click += new System.EventHandler(this.modturno_Click);
             // 
             // bajaturno
             // 
-            this.bajaturno.Location = new System.Drawing.Point(664, 315);
+            this.bajaturno.Location = new System.Drawing.Point(633, 315);
             this.bajaturno.Name = "bajaturno";
             this.bajaturno.Size = new System.Drawing.Size(87, 50);
             this.bajaturno.TabIndex = 8;
@@ -129,11 +130,22 @@
             this.listBox1.Size = new System.Drawing.Size(321, 228);
             this.listBox1.TabIndex = 15;
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(701, 399);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(76, 39);
+            this.button1.TabIndex = 16;
+            this.button1.Text = "Cancelar";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // AltaTurno
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.listBox1);
             this.Controls.Add(this.bajaturno);
             this.Controls.Add(this.modturno);
@@ -164,5 +176,6 @@
         private System.Windows.Forms.Button modturno;
         private System.Windows.Forms.Button bajaturno;
         private System.Windows.Forms.ListBox listBox1;
+        private System.Windows.Forms.Button button1;
     }
 }

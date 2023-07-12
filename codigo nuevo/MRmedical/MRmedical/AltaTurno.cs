@@ -13,6 +13,7 @@ namespace MRmedical
 {
     public partial class AltaTurno : Form
     {
+        Principal principal = new Principal();
         public AltaTurno()
         {
             InitializeComponent();
@@ -27,9 +28,20 @@ namespace MRmedical
         {
             Turno turno = new Turno();
 
-            turno.pacienteTurno = Paciente.Parse(textPaciente.Text);
+            turno.pacienteTurno = textPaciente.Text;//parcear
             turno.fechaHora = DateTime.Parse(textFechaHora.Text);
-            turno.medicoTurno = Medico.Parse(textMedico.Text);
+            turno.medicoTurno = textMedico.Text;//parcear
+
+            listBox1.DataSource = null;
+            listBox1.DisplayMember = "T";
+            listBox1.DataSource = principal.ListaTurno;
+
+            MessageBox.Show("Turno agendado.");
+
+            textPaciente.Clear();
+            textFechaHora.Clear();
+            textMedico.Clear();
+            //agregar que se pueda ver el id sin que lo ingresen por pantalla
         }
 
         private void Medico_TextChanged(object sender, EventArgs e)
@@ -43,25 +55,32 @@ namespace MRmedical
 
             Turno turno = new Turno();
 
-            turno.pacienteTurno = Paciente.Parse(textPaciente.Text);
+            turno.pacienteTurno = textPaciente.Text;//parcear
             turno.fechaHora = DateTime.Parse(textFechaHora.Text);
-            turno.medicoTurno = Medico.Parse(textMedico.Text);
+            turno.medicoTurno = textMedico.Text;
 
-            Principal.ModificacionTurno(itemSeleccionado);
+            principal.ModificacionTurno( turno , itemSeleccionado);
             listBox1.DataSource = null;
             listBox1.DisplayMember = "T";
-            listBox1.DataSource = Principal.ListaTurno; 
+            listBox1.DataSource = principal.ListaTurno; 
         }
 
         private void bajaturno_Click(object sender, EventArgs e)
         {
             Turno itemSeleccionado = (Turno)listBox1.SelectedItem;
 
-            principal.BajaVehiculoAutomovil(itemSeleccionado);
+            principal.BajaTurno(itemSeleccionado);
             listBox1.DataSource = null;
             listBox1.DisplayMember = "T";
             listBox1.DataSource = principal.ListaTurno;
             
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MenuSecretaria form = new MenuSecretaria();
+            form.Show();
+            this.Hide();
         }
     }
 }

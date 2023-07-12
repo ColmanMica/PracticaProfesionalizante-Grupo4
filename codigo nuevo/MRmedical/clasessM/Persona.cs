@@ -12,6 +12,7 @@ namespace clasessM
         public string nombre { get; set; }
         public string apellido { get; set; }
         public DateTime fechaNacimiento { get; set; }   
+        //deberia ner la direccion de las personas?
        
 
 

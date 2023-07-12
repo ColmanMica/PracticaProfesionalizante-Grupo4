@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AltaMedico.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AltaMedico.Designer.cs">
+      <DependentUpon>AltaMedico.cs</DependentUpon>
+    </Compile>
     <Compile Include="AltaTurno.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -78,6 +84,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AltaMedico.resx">
+      <DependentUpon>AltaMedico.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="AltaTurno.resx">
       <DependentUpon>AltaTurno.cs</DependentUpon>
     </EmbeddedResource>

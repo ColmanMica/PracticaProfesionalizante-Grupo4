@@ -28,5 +28,12 @@ namespace MRmedical
             form.Show();
             this.Hide();
         }
+
+        private void stafToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            AltaMedico form = new AltaMedico();
+            form.Show();
+            this.Hide();
+        }
     }
 }

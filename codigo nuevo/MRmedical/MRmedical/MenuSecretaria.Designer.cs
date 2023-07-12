@@ -32,8 +32,6 @@
             this.agendaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.turnoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.stafToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.altaMedicoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.bajaMedicoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pacientesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.altaPacienteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.bajapacienteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -71,24 +69,10 @@
             // 
             // stafToolStripMenuItem
             // 
-            this.stafToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.altaMedicoToolStripMenuItem,
-            this.bajaMedicoToolStripMenuItem});
             this.stafToolStripMenuItem.Name = "stafToolStripMenuItem";
             this.stafToolStripMenuItem.Size = new System.Drawing.Size(49, 24);
             this.stafToolStripMenuItem.Text = "Staf";
-            // 
-            // altaMedicoToolStripMenuItem
-            // 
-            this.altaMedicoToolStripMenuItem.Name = "altaMedicoToolStripMenuItem";
-            this.altaMedicoToolStripMenuItem.Size = new System.Drawing.Size(171, 26);
-            this.altaMedicoToolStripMenuItem.Text = "AltaMedico";
-            // 
-            // bajaMedicoToolStripMenuItem
-            // 
-            this.bajaMedicoToolStripMenuItem.Name = "bajaMedicoToolStripMenuItem";
-            this.bajaMedicoToolStripMenuItem.Size = new System.Drawing.Size(171, 26);
-            this.bajaMedicoToolStripMenuItem.Text = "BajaMedico";
+            this.stafToolStripMenuItem.Click += new System.EventHandler(this.stafToolStripMenuItem_Click);
             // 
             // pacientesToolStripMenuItem
             // 
@@ -140,8 +124,6 @@
         private System.Windows.Forms.ToolStripMenuItem agendaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem turnoToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem stafToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem altaMedicoToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem bajaMedicoToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem pacientesToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem altaPacienteToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem bajapacienteToolStripMenuItem;

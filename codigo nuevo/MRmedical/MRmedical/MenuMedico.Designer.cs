@@ -30,10 +30,10 @@
         {
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.historialToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.agendaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.altaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.modificacionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.bajaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.agendaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -59,29 +59,29 @@
             this.historialToolStripMenuItem.Size = new System.Drawing.Size(79, 24);
             this.historialToolStripMenuItem.Text = "Historial";
             // 
-            // agendaToolStripMenuItem
-            // 
-            this.agendaToolStripMenuItem.Name = "agendaToolStripMenuItem";
-            this.agendaToolStripMenuItem.Size = new System.Drawing.Size(75, 24);
-            this.agendaToolStripMenuItem.Text = "Agenda";
-            // 
             // altaToolStripMenuItem
             // 
             this.altaToolStripMenuItem.Name = "altaToolStripMenuItem";
-            this.altaToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.altaToolStripMenuItem.Size = new System.Drawing.Size(179, 26);
             this.altaToolStripMenuItem.Text = "Alta";
             // 
             // modificacionToolStripMenuItem
             // 
             this.modificacionToolStripMenuItem.Name = "modificacionToolStripMenuItem";
-            this.modificacionToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.modificacionToolStripMenuItem.Size = new System.Drawing.Size(179, 26);
             this.modificacionToolStripMenuItem.Text = "Modificacion";
             // 
             // bajaToolStripMenuItem
             // 
             this.bajaToolStripMenuItem.Name = "bajaToolStripMenuItem";
-            this.bajaToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.bajaToolStripMenuItem.Size = new System.Drawing.Size(179, 26);
             this.bajaToolStripMenuItem.Text = "Baja";
+            // 
+            // agendaToolStripMenuItem
+            // 
+            this.agendaToolStripMenuItem.Name = "agendaToolStripMenuItem";
+            this.agendaToolStripMenuItem.Size = new System.Drawing.Size(75, 24);
+            this.agendaToolStripMenuItem.Text = "Agenda";
             // 
             // MenuMedico
             // 
