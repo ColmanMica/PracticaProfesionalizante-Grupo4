@@ -1,0 +1,7 @@
+front
+#ABMPaciente / ABMHistorial / en el Login agregar si no esta registrado dar alta Usuario(ver si agrego lista de usuarios o si compara si es medico o secretaria y lo
+agrega a la lista respectiva
+#Completar los menus
+
+Logica
+#Metodos que falten / unir pantallas al front / completar propiedad de direccion en persona asi las demas heredan

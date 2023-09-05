@@ -10,7 +10,7 @@ namespace clasessM
 {
     public class Medico : Persona
     {
-        public string especialidad { get; set; }
+        public Especialidad especialidad { get; set; }
         public Usuario usuarioMedico { get; set; }
         public string Med
         {

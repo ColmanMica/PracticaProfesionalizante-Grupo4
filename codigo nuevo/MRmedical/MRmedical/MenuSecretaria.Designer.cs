@@ -36,6 +36,7 @@
             this.altaPacienteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.bajapacienteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.modificacionPacienteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.historialToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -45,7 +46,8 @@
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.agendaToolStripMenuItem,
             this.stafToolStripMenuItem,
-            this.pacientesToolStripMenuItem});
+            this.pacientesToolStripMenuItem,
+            this.historialToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(800, 28);
@@ -63,7 +65,7 @@
             // turnoToolStripMenuItem
             // 
             this.turnoToolStripMenuItem.Name = "turnoToolStripMenuItem";
-            this.turnoToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.turnoToolStripMenuItem.Size = new System.Drawing.Size(130, 26);
             this.turnoToolStripMenuItem.Text = "Turno";
             this.turnoToolStripMenuItem.Click += new System.EventHandler(this.turnoToolStripMenuItem_Click);
             // 
@@ -102,6 +104,12 @@
             this.modificacionPacienteToolStripMenuItem.Size = new System.Drawing.Size(234, 26);
             this.modificacionPacienteToolStripMenuItem.Text = "ModificacionPaciente";
             // 
+            // historialToolStripMenuItem
+            // 
+            this.historialToolStripMenuItem.Name = "historialToolStripMenuItem";
+            this.historialToolStripMenuItem.Size = new System.Drawing.Size(79, 24);
+            this.historialToolStripMenuItem.Text = "Historial";
+            // 
             // MenuSecretaria
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -128,5 +136,6 @@
         private System.Windows.Forms.ToolStripMenuItem altaPacienteToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem bajapacienteToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem modificacionPacienteToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem historialToolStripMenuItem;
     }
 }

@@ -33,12 +33,12 @@
             this.label3 = new System.Windows.Forms.Label();
             this.textPaciente = new System.Windows.Forms.TextBox();
             this.textMedico = new System.Windows.Forms.TextBox();
-            this.textFechaHora = new System.Windows.Forms.TextBox();
             this.aturno = new System.Windows.Forms.Button();
             this.modturno = new System.Windows.Forms.Button();
             this.bajaturno = new System.Windows.Forms.Button();
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.button1 = new System.Windows.Forms.Button();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
             // label1
@@ -82,13 +82,6 @@
             this.textMedico.Size = new System.Drawing.Size(100, 22);
             this.textMedico.TabIndex = 4;
             this.textMedico.TextChanged += new System.EventHandler(this.Medico_TextChanged);
-            // 
-            // textFechaHora
-            // 
-            this.textFechaHora.Location = new System.Drawing.Point(179, 112);
-            this.textFechaHora.Name = "textFechaHora";
-            this.textFechaHora.Size = new System.Drawing.Size(100, 22);
-            this.textFechaHora.TabIndex = 5;
             // 
             // aturno
             // 
@@ -140,17 +133,26 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(179, 109);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(100, 24);
+            this.comboBox1.TabIndex = 17;
+            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
+            // 
             // AltaTurno
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.listBox1);
             this.Controls.Add(this.bajaturno);
             this.Controls.Add(this.modturno);
             this.Controls.Add(this.aturno);
-            this.Controls.Add(this.textFechaHora);
             this.Controls.Add(this.textMedico);
             this.Controls.Add(this.textPaciente);
             this.Controls.Add(this.label3);
@@ -171,11 +173,11 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox textPaciente;
         private System.Windows.Forms.TextBox textMedico;
-        private System.Windows.Forms.TextBox textFechaHora;
         private System.Windows.Forms.Button aturno;
         private System.Windows.Forms.Button modturno;
         private System.Windows.Forms.Button bajaturno;
         private System.Windows.Forms.ListBox listBox1;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.ComboBox comboBox1;
     }
 }

@@ -13,7 +13,7 @@ namespace clasessM
         public List<Medico> ListaMedico = new List<Medico>();
         public List<Historial> ListaHistorial = new List<Historial>();
         public List<Turno> ListaTurno = new List<Turno>();
-
+        public List<Especialidad> ListaEspecialidades = new List<Especialidad>();
 
         public void AltaPaciente(int dni, string nombre, string apellido, DateTime fechanac, double vacunasAlDia)
         {
@@ -25,20 +25,19 @@ namespace clasessM
             Nuevopaciente.vacunasAlDia = vacunasAlDia;
             ListaPaciente.Add(Nuevopaciente);
         }
-        public void ModificacionPaciente(double vacunasAlDia)
+        public void ModificacionPaciente(int dni)
         {
-            Paciente Nuevopaciente = new Paciente();
-            var pacienteBuscado = ListaPaciente.Find(x => x.vacunasAlDia == vacunasAlDia);
+            Paciente pacienteModificado = new Paciente();
+            var pacienteBuscado = ListaPaciente.Find(x => x.dni == dni);
 
-            Nuevopaciente.vacunasAlDia = vacunasAlDia;
+            pacienteModificado.dni = dni;
+            pacienteModificado.nombre = pacienteBuscado.nombre;
+            pacienteModificado.apellido = pacienteBuscado.apellido;
+            pacienteModificado.fechaNacimiento = pacienteBuscado.fechaNacimiento;
+            pacienteModificado.vacunasAlDia = pacienteBuscado.vacunasAlDia;
 
-            Nuevopaciente.dni = pacienteBuscado.dni;
-            Nuevopaciente.nombre = pacienteBuscado.nombre;
-            Nuevopaciente.apellido = pacienteBuscado.apellido;
-            Nuevopaciente.fechaNacimiento = pacienteBuscado.fechaNacimiento;
-            
             ListaPaciente.Remove(pacienteBuscado);
-            ListaPaciente.Add(Nuevopaciente);
+            ListaPaciente.Add(pacienteModificado);
 
         }
         public void BajaPaciente(Paciente PacienteParametro)
@@ -46,7 +45,7 @@ namespace clasessM
             ListaPaciente.Remove(PacienteParametro);
         }
 
-            public void AltaMedico(int dni, string nombre, string apellido, DateTime fechanac, string especialidad)
+        public void AltaMedico(int dni, string nombre, string apellido, DateTime fechanac, Especialidad especialidad)
         {
             Medico Nuevomedico = new Medico();
             Nuevomedico.dni = dni;
@@ -57,13 +56,29 @@ namespace clasessM
             ListaMedico.Add(Nuevomedico);
         }
 
+        public void ModificacionMedico(int dni)
+        {
+            Medico medicoModificado = new Medico();
+            var medicoBuscado = ListaMedico.Find(x => x.dni == dni);
+
+            medicoModificado.dni = dni;
+            medicoModificado.nombre = medicoBuscado.nombre;
+            medicoModificado.apellido = medicoBuscado.apellido;
+            medicoModificado.fechaNacimiento = medicoBuscado.fechaNacimiento;
+            medicoModificado.especialidad = medicoBuscado.especialidad;
+
+            ListaMedico.Remove(medicoBuscado);
+            ListaMedico.Add(medicoModificado);
+        }
+
+
         public void BajaMedico(Medico MedicoParametro)
         {
             ListaMedico.Remove(MedicoParametro);
         }
 
 
-        public void AltaHistorial(int dni, string nombre,string apellido, DateTime fechayhora, string obrasocial)
+        public void AltaHistorial(int dni, string nombre, string apellido, DateTime fechayhora, string obrasocial)
         {
             Historial Nuevohistorial = new Historial();
 
@@ -74,31 +89,30 @@ namespace clasessM
             Nuevohistorial.obraSocial = obrasocial;
             ListaHistorial.Add(Nuevohistorial);
         }
-         public void ModificacionHitorial(string obrasocial) 
+        public void ModificacionHitorial(int dni)
         {
-            Historial Nuevohistorial = new Historial();
-            var historialBuscado = ListaHistorial.Find(x => x.obraSocial == obrasocial);
+            Historial historialModificado = new Historial();
+            var historialBuscado = ListaHistorial.Find(x => x.dni == dni);
 
-            Nuevohistorial.obraSocial = obrasocial;
-
-            Nuevohistorial.dni = historialBuscado.dni;
-            Nuevohistorial.nombre = historialBuscado.nombre;
-            Nuevohistorial.apellido = historialBuscado.apellido;
-            Nuevohistorial.fechaHora = historialBuscado.fechaHora;
+            historialModificado.dni = dni;
+            historialModificado.nombre = historialBuscado.nombre;
+            historialModificado.apellido = historialBuscado.apellido;
+            historialModificado.fechaHora = historialBuscado.fechaHora;
+            historialModificado.obraSocial = historialBuscado.obraSocial;
 
             ListaHistorial.Remove(historialBuscado);
-            ListaHistorial.Add(Nuevohistorial);
+            ListaHistorial.Add(historialModificado);
         }
         public void BajaHistorial(Historial HistorialParametro)
         {
             ListaHistorial.Remove(HistorialParametro);
         }
-        public void AltaTurno( DateTime fechaHora, Medico medicoTurno, Paciente pacienteTurno)
+        public void AltaTurno(DateTime fechaHora, Medico medicoTurno, Paciente pacienteTurno)
         {
             Turno Nuevoturno = new Turno();
             var contador = ListaTurno.Count() + 1;
 
-            Nuevoturno.idTurno = contador; 
+            Nuevoturno.idTurno = contador;
             Nuevoturno.fechaHora = fechaHora;
             Nuevoturno.medicoTurno = medicoTurno;
             Nuevoturno.pacienteTurno = pacienteTurno;
@@ -107,7 +121,7 @@ namespace clasessM
         public void ModificacionTurno(Turno NuevoTurno, Turno eliminarTurno)
         {
             Turno turnoModificado = new Turno();
-           
+
             turnoModificado.idTurno = NuevoTurno.idTurno;
             turnoModificado.medicoTurno = NuevoTurno.medicoTurno;
             turnoModificado.pacienteTurno = NuevoTurno.pacienteTurno;
@@ -120,8 +134,34 @@ namespace clasessM
         {
             ListaTurno.Remove(TurnoParametro);
         }
-    }
-}
 
-    
+        public List<Especialidad> MostrarEspecialidades()
+        {
+            return ListaEspecialidades;
+        }
+        /*public bool ValidarUsuario(string correo, string contrasenia)
+        {
+            Usuario usuario = new Usuario();
+            if (usuario.correo == correo)
+            {
+                if (usuario.contrasenia == contrasenia)
+                {
+                    return true;
+                }
+                else
+                {
+                    return false;//Contrasenia invalida
+                }
+            }
+            return false;//Usuario invalido*/
+             
+
+
+        }
+        //metodo de busqueda de medicos porque la secretaria primerio selecciona la especialidad
+        //y despues el medico que tenga lugar o el que el paciengte elija 
+    }
+
+
+
 

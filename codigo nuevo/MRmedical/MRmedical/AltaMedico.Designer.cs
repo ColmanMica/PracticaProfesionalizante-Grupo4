@@ -107,6 +107,7 @@
             this.textdni.Name = "textdni";
             this.textdni.Size = new System.Drawing.Size(100, 22);
             this.textdni.TabIndex = 20;
+            this.textdni.TextChanged += new System.EventHandler(this.textdni_TextChanged);
             // 
             // label3
             // 
@@ -142,6 +143,7 @@
             this.comboespecialidades.Name = "comboespecialidades";
             this.comboespecialidades.Size = new System.Drawing.Size(121, 24);
             this.comboespecialidades.TabIndex = 28;
+            this.comboespecialidades.SelectedIndexChanged += new System.EventHandler(this.comboespecialidades_SelectedIndexChanged);
             // 
             // label4
             // 
@@ -197,6 +199,7 @@
             this.Controls.Add(this.label1);
             this.Name = "AltaMedico";
             this.Text = "AltaMedico";
+            this.Load += new System.EventHandler(this.AltaMedico_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

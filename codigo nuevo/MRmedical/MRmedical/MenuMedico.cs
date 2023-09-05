@@ -16,5 +16,20 @@ namespace MRmedical
         {
             InitializeComponent();
         }
+
+        private void altaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void agendaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            //monthCalendar1.Enabled = true; prugentar si funcionaria asi o necesito otra pantalla
+        }
+
+        private void monthCalendar1_DateChanged(object sender, DateRangeEventArgs e)
+        {
+
+        }
     }
 }

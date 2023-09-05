@@ -9,7 +9,8 @@ namespace clasessM
     public class Especialidad
     {
         public int idEspecialidad { get; set; }
+        public string nombre { get; set; }  
 
-        //metodo que encuatre el id de medico
+        
     }
 }

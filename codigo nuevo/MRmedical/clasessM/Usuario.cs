@@ -11,6 +11,7 @@ namespace clasessM
         public string idUsuario { get; set; }
         public string correo { get; set; }
         public string contrasenia { get; set; }
+        public object tipo { get; set; }
 
     }
 }

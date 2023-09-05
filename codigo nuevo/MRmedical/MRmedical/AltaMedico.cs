@@ -5,6 +5,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -29,7 +30,7 @@ namespace MRmedical
         private void aturno_Click(object sender, EventArgs e)
         {
             principal.AltaMedico(int.Parse(textdni.Text), textnombre.Text, textapellido.Text,
-                                 DateTime.Parse(textfechanacimiento.Text), comboespecialidades.Text);
+                                 DateTime.Parse(textfechanacimiento.Text),(Especialidad)comboespecialidades.SelectedItem);
 
             listBox2.DataSource = null;
             listBox2.DisplayMember = "Med";
@@ -55,7 +56,7 @@ namespace MRmedical
             medico.nombre = textnombre.Text;
             medico.apellido = textapellido.Text;
             medico.fechaNacimiento = DateTime.Parse(textfechanacimiento.Text); 
-            medico.especialidad = comboespecialidades.Text;
+            medico.especialidad = (Especialidad)comboespecialidades.SelectedItem;
 
             /* principal.ModificacionTurno(medico, itemSeleccionado);
              listBox2.DataSource = null;
@@ -70,6 +71,21 @@ namespace MRmedical
             listBox2.DataSource = principal.ListaMedico;
 
             MessageBox.Show("Eliminado Correctamente.");
+        }
+
+        private void AltaMedico_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textdni_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void comboespecialidades_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            principal.MostrarEspecialidades();
         }
     }
     
