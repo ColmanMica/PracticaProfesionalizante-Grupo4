@@ -140,8 +140,8 @@ namespace MRmedical
             {
                 if (usuario.contrasenia == txtBoxContrasenia.Text)
                 {
-                        
-                    if (Secretaria != null)//si secretaria no es nulo
+
+                    if (usuario.tipo == "Secretaria")
                     {
                         MenuSecretaria form = new MenuSecretaria();
                         form.Show();
