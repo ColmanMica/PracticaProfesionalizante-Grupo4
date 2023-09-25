@@ -8,7 +8,8 @@ namespace Back
 {
     public class Paciente:Persona
     {
+        
         public double vacunasAlDia { get; set; }
     }
 }
-}
+

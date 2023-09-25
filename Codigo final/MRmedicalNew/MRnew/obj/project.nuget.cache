@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DO3JkbXpcOjGP0DyB/JQRrDI2IxnPmx/whTdslarjnFoZ923JFJiezunoIyOHoQHE8SL5wMYmXB+fs/i599OgA==",
+  "dgSpecHash": "RzwrZJtWSXn3pIy75GIh7OUISR1kE7Hm5VClrcSQgQqHbnrSRkbJzXEOQKSgNHXK9nUeRjX0yNV3keN3l/j8aQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\rocio\\source\\repos\\MRmedicalNew\\MRnew\\MRnew.csproj",
+  "projectFilePath": "C:\\Users\\rocio\\OneDrive\\Documentos\\GitHub\\PracticaProfesionalizante-Grupo4\\Codigo final\\MRmedicalNew\\MRnew\\MRnew.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\rocio\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\rocio\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
@@ -53,6 +53,7 @@
     "C:\\Users\\rocio\\.nuget\\packages\\system.resources.resourcemanager\\4.3.0\\system.resources.resourcemanager.4.3.0.nupkg.sha512",
     "C:\\Users\\rocio\\.nuget\\packages\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512",
     "C:\\Users\\rocio\\.nuget\\packages\\system.runtime.caching\\5.0.0\\system.runtime.caching.5.0.0.nupkg.sha512",
+    "C:\\Users\\rocio\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "C:\\Users\\rocio\\.nuget\\packages\\system.security.accesscontrol\\5.0.0\\system.security.accesscontrol.5.0.0.nupkg.sha512",
     "C:\\Users\\rocio\\.nuget\\packages\\system.security.cryptography.cng\\5.0.0\\system.security.cryptography.cng.5.0.0.nupkg.sha512",
     "C:\\Users\\rocio\\.nuget\\packages\\system.security.cryptography.protecteddata\\5.0.0\\system.security.cryptography.protecteddata.5.0.0.nupkg.sha512",

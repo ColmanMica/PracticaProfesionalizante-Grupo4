@@ -8,7 +8,10 @@ namespace Back
 {
     public class Medico:Persona
     {
+        public string matriculaMedico { get; set; }
         public Especialidad especialidad { get; set; }
         public Usuario usuarioMedico { get; set; }
+
+        List<Especialidad> especialidadList { get; set; }//doble enganche
     }
 }

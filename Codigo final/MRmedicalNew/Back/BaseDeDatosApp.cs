@@ -19,6 +19,12 @@ namespace Back
         public DbSet<Secretaria> Secretarias { get; set; }
         public DbSet<Turno> Turnos { get; set; }
         public DbSet<Usuario> Usuarios { get; set; }
+
+
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder) 
+        {
+            optionsBuilder.UseSqlServer("server=ROCIORELLANO\\SQLEXPRESS;database=BaseRM;trusted_connection=true;encrypt=False");
+        }
         
     }
 }

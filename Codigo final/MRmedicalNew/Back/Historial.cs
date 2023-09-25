@@ -11,6 +11,7 @@ namespace Back
         public string nombre { get; set; }
         public string apellido { get; set; }
         public int dni { get; set; }
+        public DateTime fechaNacimiento { get; set; }
         public DateTime fechaHora { get; set; }
         public string obraSocial { get; set; }
     }
