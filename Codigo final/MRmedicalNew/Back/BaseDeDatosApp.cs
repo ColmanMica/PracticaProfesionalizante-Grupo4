@@ -23,7 +23,7 @@ namespace Back
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder) 
         {
-            optionsBuilder.UseSqlServer("server=ROCIORELLANO\\SQLEXPRESS;database=BaseRM;trusted_connection=true;encrypt=False");
+            optionsBuilder.UseSqlServer("server=ROCIORELLANO;database=BaseMR;trusted_connection=true;encrypt=False");
         }
         
     }

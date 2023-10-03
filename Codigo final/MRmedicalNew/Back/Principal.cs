@@ -172,9 +172,11 @@ namespace Back
             }
         }
 
-        public void MostrarEspecialidades() //que hago con esto?
+        public List<Especialidad> MostrarEspecialidades() //que hago con esto?
         {
-            return;//lista de especialidades
+            var ListaEspecialidad = context.Especialidades.ToList();
+            
+            return ListaEspecialidad;
         }
 
 

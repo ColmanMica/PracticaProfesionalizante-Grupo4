@@ -47,7 +47,7 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(39, 45);
+            label1.Location = new Point(118, 41);
             label1.Name = "label1";
             label1.Size = new Size(35, 20);
             label1.TabIndex = 0;
@@ -55,7 +55,7 @@
             // 
             // txtdni
             // 
-            txtdni.Location = new Point(189, 38);
+            txtdni.Location = new Point(360, 38);
             txtdni.Name = "txtdni";
             txtdni.Size = new Size(125, 27);
             txtdni.TabIndex = 1;
@@ -63,15 +63,15 @@
             // comboespec
             // 
             comboespec.FormattingEnabled = true;
-            comboespec.Location = new Point(189, 280);
+            comboespec.Location = new Point(360, 280);
             comboespec.Name = "comboespec";
-            comboespec.Size = new Size(151, 28);
+            comboespec.Size = new Size(125, 28);
             comboespec.TabIndex = 2;
             comboespec.SelectedIndexChanged += comboespec_SelectedIndexChanged;
             // 
             // amedico
             // 
-            amedico.Location = new Point(416, 151);
+            amedico.Location = new Point(634, 41);
             amedico.Name = "amedico";
             amedico.Size = new Size(113, 55);
             amedico.TabIndex = 3;
@@ -82,7 +82,7 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(39, 95);
+            label2.Location = new Point(118, 95);
             label2.Name = "label2";
             label2.Size = new Size(64, 20);
             label2.TabIndex = 4;
@@ -91,7 +91,7 @@
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(37, 151);
+            label3.Location = new Point(118, 151);
             label3.Name = "label3";
             label3.Size = new Size(66, 20);
             label3.TabIndex = 5;
@@ -100,7 +100,7 @@
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(37, 211);
+            label4.Location = new Point(118, 215);
             label4.Name = "label4";
             label4.Size = new Size(146, 20);
             label4.TabIndex = 6;
@@ -108,28 +108,28 @@
             // 
             // txtdate
             // 
-            txtdate.Location = new Point(189, 204);
+            txtdate.Location = new Point(360, 208);
             txtdate.Name = "txtdate";
             txtdate.Size = new Size(125, 27);
             txtdate.TabIndex = 9;
             // 
             // txtapell
             // 
-            txtapell.Location = new Point(189, 144);
+            txtapell.Location = new Point(360, 144);
             txtapell.Name = "txtapell";
             txtapell.Size = new Size(125, 27);
             txtapell.TabIndex = 10;
             // 
             // textname
             // 
-            textname.Location = new Point(189, 88);
+            textname.Location = new Point(360, 88);
             textname.Name = "textname";
             textname.Size = new Size(125, 27);
             textname.TabIndex = 11;
             // 
             // modmed
             // 
-            modmed.Location = new Point(416, 235);
+            modmed.Location = new Point(634, 144);
             modmed.Name = "modmed";
             modmed.Size = new Size(113, 54);
             modmed.TabIndex = 12;
@@ -140,7 +140,7 @@
             // label5
             // 
             label5.AutoSize = true;
-            label5.Location = new Point(39, 283);
+            label5.Location = new Point(118, 288);
             label5.Name = "label5";
             label5.Size = new Size(93, 20);
             label5.TabIndex = 13;
@@ -148,7 +148,7 @@
             // 
             // elimedico
             // 
-            elimedico.Location = new Point(416, 310);
+            elimedico.Location = new Point(634, 255);
             elimedico.Name = "elimedico";
             elimedico.RightToLeft = RightToLeft.No;
             elimedico.Size = new Size(113, 53);
@@ -159,7 +159,7 @@
             // 
             // cancelarM
             // 
-            cancelarM.Location = new Point(469, 397);
+            cancelarM.Location = new Point(653, 409);
             cancelarM.Name = "cancelarM";
             cancelarM.Size = new Size(94, 29);
             cancelarM.TabIndex = 15;

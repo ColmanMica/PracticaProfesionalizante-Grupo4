@@ -42,7 +42,7 @@
             // 
             // cancelarT
             // 
-            cancelarT.Location = new Point(469, 393);
+            cancelarT.Location = new Point(671, 409);
             cancelarT.Name = "cancelarT";
             cancelarT.Size = new Size(94, 29);
             cancelarT.TabIndex = 25;
@@ -52,7 +52,7 @@
             // 
             // elimturno
             // 
-            elimturno.Location = new Point(455, 259);
+            elimturno.Location = new Point(546, 309);
             elimturno.Name = "elimturno";
             elimturno.RightToLeft = RightToLeft.No;
             elimturno.Size = new Size(94, 42);
@@ -64,7 +64,7 @@
             // labelmed
             // 
             labelmed.AutoSize = true;
-            labelmed.Location = new Point(59, 195);
+            labelmed.Location = new Point(150, 195);
             labelmed.Name = "labelmed";
             labelmed.Size = new Size(59, 20);
             labelmed.TabIndex = 23;
@@ -72,7 +72,7 @@
             // 
             // modturno
             // 
-            modturno.Location = new Point(455, 177);
+            modturno.Location = new Point(362, 309);
             modturno.Name = "modturno";
             modturno.Size = new Size(94, 46);
             modturno.TabIndex = 22;
@@ -82,14 +82,14 @@
             // 
             // txtPac
             // 
-            txtPac.Location = new Point(189, 47);
+            txtPac.Location = new Point(331, 51);
             txtPac.Name = "txtPac";
             txtPac.Size = new Size(125, 27);
             txtPac.TabIndex = 21;
             // 
             // txtDate
             // 
-            txtDate.Location = new Point(189, 119);
+            txtDate.Location = new Point(331, 119);
             txtDate.Name = "txtDate";
             txtDate.Size = new Size(125, 27);
             txtDate.TabIndex = 20;
@@ -97,7 +97,7 @@
             // labelfech
             // 
             labelfech.AutoSize = true;
-            labelfech.Location = new Point(54, 119);
+            labelfech.Location = new Point(150, 119);
             labelfech.Name = "labelfech";
             labelfech.Size = new Size(81, 20);
             labelfech.TabIndex = 19;
@@ -106,7 +106,7 @@
             // labelpac
             // 
             labelpac.AutoSize = true;
-            labelpac.Location = new Point(54, 54);
+            labelpac.Location = new Point(150, 54);
             labelpac.Name = "labelpac";
             labelpac.Size = new Size(64, 20);
             labelpac.TabIndex = 18;
@@ -115,7 +115,7 @@
             // 
             // aturno
             // 
-            aturno.Location = new Point(455, 89);
+            aturno.Location = new Point(180, 309);
             aturno.Name = "aturno";
             aturno.Size = new Size(94, 50);
             aturno.TabIndex = 17;
@@ -126,7 +126,7 @@
             // combomed
             // 
             combomed.FormattingEnabled = true;
-            combomed.Location = new Point(189, 195);
+            combomed.Location = new Point(331, 195);
             combomed.Name = "combomed";
             combomed.Size = new Size(151, 28);
             combomed.TabIndex = 16;

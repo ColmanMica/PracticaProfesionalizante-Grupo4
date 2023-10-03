@@ -4,6 +4,12 @@
     <Compile Update="AltaMedico.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="AHistorial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="MHistorial.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Home.cs">
       <SubType>Form</SubType>
     </Compile>

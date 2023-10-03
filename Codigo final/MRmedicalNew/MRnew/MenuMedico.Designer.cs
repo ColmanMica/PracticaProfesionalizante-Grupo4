@@ -30,10 +30,10 @@
         {
             menuStrip1 = new MenuStrip();
             historialToolStripMenuItem = new ToolStripMenuItem();
-            agendaToolStripMenuItem = new ToolStripMenuItem();
             altaToolStripMenuItem = new ToolStripMenuItem();
             modificaciónToolStripMenuItem = new ToolStripMenuItem();
             bajaToolStripMenuItem = new ToolStripMenuItem();
+            agendaToolStripMenuItem = new ToolStripMenuItem();
             monthCalendar1 = new MonthCalendar();
             menuStrip1.SuspendLayout();
             SuspendLayout();
@@ -55,18 +55,12 @@
             historialToolStripMenuItem.Size = new Size(79, 24);
             historialToolStripMenuItem.Text = "Historial";
             // 
-            // agendaToolStripMenuItem
-            // 
-            agendaToolStripMenuItem.Name = "agendaToolStripMenuItem";
-            agendaToolStripMenuItem.Size = new Size(75, 24);
-            agendaToolStripMenuItem.Text = "Agenda";
-            agendaToolStripMenuItem.Click += agendaToolStripMenuItem_Click;
-            // 
             // altaToolStripMenuItem
             // 
             altaToolStripMenuItem.Name = "altaToolStripMenuItem";
             altaToolStripMenuItem.Size = new Size(224, 26);
             altaToolStripMenuItem.Text = "Alta";
+            altaToolStripMenuItem.Click += altaToolStripMenuItem_Click;
             // 
             // modificaciónToolStripMenuItem
             // 
@@ -79,6 +73,13 @@
             bajaToolStripMenuItem.Name = "bajaToolStripMenuItem";
             bajaToolStripMenuItem.Size = new Size(224, 26);
             bajaToolStripMenuItem.Text = "Baja";
+            // 
+            // agendaToolStripMenuItem
+            // 
+            agendaToolStripMenuItem.Name = "agendaToolStripMenuItem";
+            agendaToolStripMenuItem.Size = new Size(75, 24);
+            agendaToolStripMenuItem.Text = "Agenda";
+            agendaToolStripMenuItem.Click += agendaToolStripMenuItem_Click;
             // 
             // monthCalendar1
             // 

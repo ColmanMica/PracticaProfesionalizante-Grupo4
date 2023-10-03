@@ -20,6 +20,13 @@ namespace MRnew
         private void agendaToolStripMenuItem_Click(object sender, EventArgs e)
         {
             //monthCalendar1.Enabled = true; prugentar si funcionaria asi o necesito otra pantalla
+        }   //poner pantalla
+
+        private void altaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            AHistorial form = new AHistorial();
+            form.Show();
+            this.Hide();
         }
     }
 }

@@ -54,3 +54,10 @@ C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\Codig
 C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\Codigo final\MRmedicalNew\MRnew\obj\Debug\net6.0-windows\MRnew.pdb
 C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\Codigo final\MRmedicalNew\MRnew\obj\Debug\net6.0-windows\MRnew.genruntimeconfig.cache
 C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\Codigo final\MRmedicalNew\MRnew\obj\Debug\net6.0-windows\ref\MRnew.dll
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\Codigo final\MRmedicalNew\MRnew\obj\Debug\net6.0-windows\MRnew.AltaMedico.resources
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\Codigo final\MRmedicalNew\MRnew\obj\Debug\net6.0-windows\MRnew.LogUsuario.resources
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\Codigo final\MRmedicalNew\MRnew\obj\Debug\net6.0-windows\MRnew.MenuMedico.resources
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\Codigo final\MRmedicalNew\MRnew\obj\Debug\net6.0-windows\MRnew.MenuSecretaria.resources
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\Codigo final\MRmedicalNew\MRnew\obj\Debug\net6.0-windows\MRnew.NuevoTurno.resources
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\Codigo final\MRmedicalNew\MRnew\obj\Debug\net6.0-windows\MRnew.AHistorial.resources
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\Codigo final\MRmedicalNew\MRnew\obj\Debug\net6.0-windows\MRnew.MHistorial.resources

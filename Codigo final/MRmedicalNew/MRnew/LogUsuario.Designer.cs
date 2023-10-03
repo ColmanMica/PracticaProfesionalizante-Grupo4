@@ -32,14 +32,14 @@
             txtBoxCorreo = new TextBox();
             ingresoUsuario = new Button();
             label2 = new Label();
-            label3 = new Label();
             txtBoxContrasenia = new TextBox();
+            linkLabel1 = new LinkLabel();
             SuspendLayout();
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(122, 81);
+            label1.Location = new Point(224, 78);
             label1.Name = "label1";
             label1.Size = new Size(59, 20);
             label1.TabIndex = 0;
@@ -47,14 +47,14 @@
             // 
             // txtBoxCorreo
             // 
-            txtBoxCorreo.Location = new Point(246, 78);
+            txtBoxCorreo.Location = new Point(356, 78);
             txtBoxCorreo.Name = "txtBoxCorreo";
-            txtBoxCorreo.Size = new Size(125, 27);
+            txtBoxCorreo.Size = new Size(198, 27);
             txtBoxCorreo.TabIndex = 1;
             // 
             // ingresoUsuario
             // 
-            ingresoUsuario.Location = new Point(246, 297);
+            ingresoUsuario.Location = new Point(397, 278);
             ingresoUsuario.Name = "ingresoUsuario";
             ingresoUsuario.Size = new Size(108, 60);
             ingresoUsuario.TabIndex = 2;
@@ -65,35 +65,36 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(122, 171);
+            label2.Location = new Point(215, 160);
             label2.Name = "label2";
             label2.Size = new Size(83, 20);
             label2.TabIndex = 3;
             label2.Text = "Contraseña";
             // 
-            // label3
-            // 
-            label3.AutoSize = true;
-            label3.Location = new Point(235, 205);
-            label3.Name = "label3";
-            label3.Size = new Size(149, 20);
-            label3.TabIndex = 4;
-            label3.Text = "Olvide mi contraseña";
-            // 
             // txtBoxContrasenia
             // 
-            txtBoxContrasenia.Location = new Point(246, 164);
+            txtBoxContrasenia.Location = new Point(356, 157);
             txtBoxContrasenia.Name = "txtBoxContrasenia";
-            txtBoxContrasenia.Size = new Size(125, 27);
+            txtBoxContrasenia.Size = new Size(198, 27);
             txtBoxContrasenia.TabIndex = 5;
+            // 
+            // linkLabel1
+            // 
+            linkLabel1.AutoSize = true;
+            linkLabel1.Location = new Point(356, 187);
+            linkLabel1.Name = "linkLabel1";
+            linkLabel1.Size = new Size(149, 20);
+            linkLabel1.TabIndex = 6;
+            linkLabel1.TabStop = true;
+            linkLabel1.Text = "Olvide mi contraseña";
             // 
             // LogUsuario
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(linkLabel1);
             Controls.Add(txtBoxContrasenia);
-            Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(ingresoUsuario);
             Controls.Add(txtBoxCorreo);
@@ -110,7 +111,7 @@
         private TextBox txtBoxCorreo;
         private Button ingresoUsuario;
         private Label label2;
-        private Label label3;
         private TextBox txtBoxContrasenia;
+        private LinkLabel linkLabel1;
     }
 }
