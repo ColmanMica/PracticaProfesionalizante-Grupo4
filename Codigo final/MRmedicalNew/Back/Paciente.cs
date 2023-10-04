@@ -7,8 +7,9 @@ using System.Threading.Tasks;
 
 namespace Back
 {
-    public class Paciente:Persona
+    public class Paciente : Persona
     {
+        [Key]
         public double vacunasAlDia { get; set; }
     }
 }

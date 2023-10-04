@@ -9,6 +9,7 @@ namespace Back
 {
     public class Medico:Persona
     {
+        [Key]
         public string matriculaMedico { get; set; }
         public Especialidad especialidad { get; set; }
         public Usuario usuarioMedico { get; set; }

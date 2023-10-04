@@ -35,12 +35,13 @@
             // 
             // butIngresoSistem
             // 
-            butIngresoSistem.Location = new Point(290, 200);
+            butIngresoSistem.Location = new Point(306, 197);
             butIngresoSistem.Name = "butIngresoSistem";
             butIngresoSistem.Size = new Size(157, 54);
             butIngresoSistem.TabIndex = 0;
             butIngresoSistem.Text = "Ingreso al Sistema";
             butIngresoSistem.UseVisualStyleBackColor = true;
+            butIngresoSistem.Click += butIngresoSistem_Click;
             // 
             // label1
             // 

@@ -9,6 +9,7 @@ namespace Back
 {
     public class Usuario : Persona
     {
+        [Key]
         public string idUsuario { get; set; }
         public string correo { get; set; }
         public string contrasenia { get; set; }

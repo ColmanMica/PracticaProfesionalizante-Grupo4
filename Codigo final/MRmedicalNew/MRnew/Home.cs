@@ -6,5 +6,10 @@ namespace MRnew
         {
             InitializeComponent();
         }
+
+        private void butIngresoSistem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

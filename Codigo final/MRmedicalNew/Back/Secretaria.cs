@@ -9,7 +9,7 @@ namespace Back
 {
     public class Secretaria:Persona
     {
-        
+        [Key]
         public int numerolegajo { get; set; }
         public Usuario usuarioSecretaria { get; set; }
     }

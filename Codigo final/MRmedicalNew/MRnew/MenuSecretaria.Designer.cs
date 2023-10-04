@@ -65,6 +65,7 @@
             agendaToolStripMenuItem.Name = "agendaToolStripMenuItem";
             agendaToolStripMenuItem.Size = new Size(75, 24);
             agendaToolStripMenuItem.Text = "Agenda";
+            agendaToolStripMenuItem.Click += agendaToolStripMenuItem_Click;
             // 
             // turnoToolStripMenuItem
             // 
@@ -84,7 +85,7 @@
             // especialidadToolStripMenuItem
             // 
             especialidadToolStripMenuItem.Name = "especialidadToolStripMenuItem";
-            especialidadToolStripMenuItem.Size = new Size(224, 26);
+            especialidadToolStripMenuItem.Size = new Size(176, 26);
             especialidadToolStripMenuItem.Text = "Especialidad";
             // 
             // pacientesToolStripMenuItem

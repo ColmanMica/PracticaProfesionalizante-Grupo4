@@ -30,5 +30,10 @@ namespace MRnew
             form.Show();
             this.Hide();
         }
+
+        private void agendaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
