@@ -9,7 +9,7 @@ namespace Back
 {
     public class Agenda
     {
-        [Key]
+        public int Id {  get; set; }    
         public int idAgenda { get; set; }
         public string paciente { get; set; }
         public DateTime fechaHora { get; set; }

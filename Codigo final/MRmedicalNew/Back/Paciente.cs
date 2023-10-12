@@ -9,7 +9,8 @@ namespace Back
 {
     public class Paciente : Persona
     {
-        [Key]
+        public int id { get; set; }
+        public int idpaciente {  get; set; }
         public double vacunasAlDia { get; set; }
     }
 }

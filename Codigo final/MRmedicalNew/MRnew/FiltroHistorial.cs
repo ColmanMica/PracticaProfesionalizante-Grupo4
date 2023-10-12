@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace MRnew
 {
-    public partial class MHistorial : Form
+    public partial class FiltroHistorial : Form
     {
-        public MHistorial()
+        public FiltroHistorial()
         {
             InitializeComponent();
         }

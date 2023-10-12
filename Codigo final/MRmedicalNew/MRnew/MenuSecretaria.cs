@@ -33,7 +33,32 @@ namespace MRnew
 
         private void agendaToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            AgendaData form = new AgendaData();
+            form.Show();
+            this.Hide();
+            //despues de ver la grilla ahi deberia poder agrgar los turnos
+        }
 
+        private void altaPAcienteToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void especialidadToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ABMespecialidad form = new ABMespecialidad();
+            form.Show();
+            this.Hide();
+        }
+
+        private void pacientesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            //deberia hacer lo mismo con la agenda y dar las altas desde el datagride
+        }
+
+        private void historialToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            // hacer la misma busqueda que implementa el medico 
         }
     }
 }

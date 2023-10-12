@@ -21,20 +21,26 @@ namespace MRnew
 
         private void amedico_Click(object sender, EventArgs e)
         {
-            principal.AltaMedico(int.Parse(textdni.Text), textnombre.Text, textapellido.Text,
-                                 DateTime.Parse(textfechanacimiento.Text), (Especialidad)comboespecialidades.SelectedItem);
+            Medico nuevoMedico = new Medico();
+            nuevoMedico.dni = int.Parse(txtdni.Text);
+            nuevoMedico.nombre = textname.Text;
+            nuevoMedico.apellido = txtapell.Text;
+            nuevoMedico.fechaNacimiento = DateTime.Parse(txtdate.Text);
+            nuevoMedico.especialidad = (Especialidad)comboespec.SelectedItem;
+           
+            principal.AltaMedico(nuevoMedico);
 
-            listBox2.DataSource = null;
+            /*listBox2.DataSource = null;
             listBox2.DisplayMember = "Med";
-            listBox2.DataSource = principal.ListaMedico;
+            listBox2.DataSource = principal.ListaMedico;*/ //aca creo que se suma al dataGriv
 
             MessageBox.Show("Medico agregado.");
 
-            textdni.Clear();
+            /*textdni.Clear();
             textnombre.Clear();
             textapellido.Clear();
             textfechanacimiento.Clear();
-            //mostrar tambien las especialidades
+            //mostrar tambien las especialidades*/ // MODIFICAR SEGUN LOS CAMBIOS EN PANTALLA
         }
 
         private void modmed_Click(object sender, EventArgs e)
@@ -55,7 +61,7 @@ namespace MRnew
              listBox2.DataSource = principal.ListaMedico;*/
             //SI AGREGO LA PROPIEDAD DE DIRECCION PUEDO HACER LA MODIFICACION SINO NO HACE FALTA
 
-            principal.BajaMedico(itemSeleccionado);
+            principal.EliminarMedico(itemSeleccionado);
         }
 
         private void elimedico_Click(object sender, EventArgs e)

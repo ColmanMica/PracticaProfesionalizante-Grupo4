@@ -32,12 +32,12 @@
             elimturno = new Button();
             labelmed = new Label();
             modturno = new Button();
-            txtPac = new TextBox();
             txtDate = new TextBox();
             labelfech = new Label();
             labelpac = new Label();
             aturno = new Button();
-            combomed = new ComboBox();
+            comboMed = new ComboBox();
+            comboPac = new ComboBox();
             SuspendLayout();
             // 
             // cancelarT
@@ -80,19 +80,13 @@
             modturno.UseVisualStyleBackColor = true;
             modturno.Click += modturno_Click;
             // 
-            // txtPac
-            // 
-            txtPac.Location = new Point(331, 51);
-            txtPac.Name = "txtPac";
-            txtPac.Size = new Size(125, 27);
-            txtPac.TabIndex = 21;
-            // 
             // txtDate
             // 
-            txtDate.Location = new Point(331, 119);
+            txtDate.Location = new Point(315, 119);
             txtDate.Name = "txtDate";
             txtDate.Size = new Size(125, 27);
             txtDate.TabIndex = 20;
+            txtDate.TextChanged += txtDate_TextChanged;
             // 
             // labelfech
             // 
@@ -123,29 +117,38 @@
             aturno.UseVisualStyleBackColor = true;
             aturno.Click += aturno_Click;
             // 
-            // combomed
+            // comboMed
             // 
-            combomed.FormattingEnabled = true;
-            combomed.Location = new Point(331, 195);
-            combomed.Name = "combomed";
-            combomed.Size = new Size(151, 28);
-            combomed.TabIndex = 16;
+            comboMed.FormattingEnabled = true;
+            comboMed.Location = new Point(315, 195);
+            comboMed.Name = "comboMed";
+            comboMed.Size = new Size(151, 28);
+            comboMed.TabIndex = 16;
+            comboMed.SelectedIndexChanged += combomed_SelectedIndexChanged;
+            // 
+            // comboPac
+            // 
+            comboPac.FormattingEnabled = true;
+            comboPac.Location = new Point(315, 46);
+            comboPac.Name = "comboPac";
+            comboPac.Size = new Size(151, 28);
+            comboPac.TabIndex = 26;
             // 
             // NuevoTurno
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(comboPac);
             Controls.Add(cancelarT);
             Controls.Add(elimturno);
             Controls.Add(labelmed);
             Controls.Add(modturno);
-            Controls.Add(txtPac);
             Controls.Add(txtDate);
             Controls.Add(labelfech);
             Controls.Add(labelpac);
             Controls.Add(aturno);
-            Controls.Add(combomed);
+            Controls.Add(comboMed);
             Name = "NuevoTurno";
             Text = "NuevoTurno";
             ResumeLayout(false);
@@ -158,11 +161,11 @@
         private Button elimturno;
         private Label labelmed;
         private Button modturno;
-        private TextBox txtPac;
         private TextBox txtDate;
         private Label labelfech;
         private Label labelpac;
         private Button aturno;
-        private ComboBox combomed;
+        private ComboBox comboMed;
+        private ComboBox comboPac;
     }
 }

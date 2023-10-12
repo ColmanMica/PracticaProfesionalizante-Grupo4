@@ -9,7 +9,7 @@ namespace Back
 {
     public class Turno
     {
-        [Key]
+        public int Id { get; set; }
         public int idTurno { get; set; }
         public DateTime fechaHora { get; set; }
         public Medico medicoTurno { get; set; } //era necesario que que el tipo sea una clase?

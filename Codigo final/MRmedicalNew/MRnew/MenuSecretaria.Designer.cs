@@ -32,7 +32,6 @@
             contextMenuStrip1 = new ContextMenuStrip(components);
             menuStrip1 = new MenuStrip();
             agendaToolStripMenuItem = new ToolStripMenuItem();
-            turnoToolStripMenuItem = new ToolStripMenuItem();
             stafToolStripMenuItem = new ToolStripMenuItem();
             especialidadToolStripMenuItem = new ToolStripMenuItem();
             pacientesToolStripMenuItem = new ToolStripMenuItem();
@@ -61,18 +60,10 @@
             // 
             // agendaToolStripMenuItem
             // 
-            agendaToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { turnoToolStripMenuItem });
             agendaToolStripMenuItem.Name = "agendaToolStripMenuItem";
             agendaToolStripMenuItem.Size = new Size(75, 24);
             agendaToolStripMenuItem.Text = "Agenda";
             agendaToolStripMenuItem.Click += agendaToolStripMenuItem_Click;
-            // 
-            // turnoToolStripMenuItem
-            // 
-            turnoToolStripMenuItem.Name = "turnoToolStripMenuItem";
-            turnoToolStripMenuItem.Size = new Size(224, 26);
-            turnoToolStripMenuItem.Text = "Turno";
-            turnoToolStripMenuItem.Click += turnoToolStripMenuItem_Click;
             // 
             // stafToolStripMenuItem
             // 
@@ -87,6 +78,7 @@
             especialidadToolStripMenuItem.Name = "especialidadToolStripMenuItem";
             especialidadToolStripMenuItem.Size = new Size(176, 26);
             especialidadToolStripMenuItem.Text = "Especialidad";
+            especialidadToolStripMenuItem.Click += especialidadToolStripMenuItem_Click;
             // 
             // pacientesToolStripMenuItem
             // 
@@ -94,12 +86,14 @@
             pacientesToolStripMenuItem.Name = "pacientesToolStripMenuItem";
             pacientesToolStripMenuItem.Size = new Size(84, 24);
             pacientesToolStripMenuItem.Text = "Pacientes";
+            pacientesToolStripMenuItem.Click += pacientesToolStripMenuItem_Click;
             // 
             // altaPAcienteToolStripMenuItem
             // 
             altaPAcienteToolStripMenuItem.Name = "altaPAcienteToolStripMenuItem";
             altaPAcienteToolStripMenuItem.Size = new Size(234, 26);
             altaPAcienteToolStripMenuItem.Text = "AltaPAciente";
+            altaPAcienteToolStripMenuItem.Click += altaPAcienteToolStripMenuItem_Click;
             // 
             // bajaPacienteToolStripMenuItem
             // 
@@ -118,6 +112,7 @@
             historialToolStripMenuItem.Name = "historialToolStripMenuItem";
             historialToolStripMenuItem.Size = new Size(79, 24);
             historialToolStripMenuItem.Text = "Historial";
+            historialToolStripMenuItem.Click += historialToolStripMenuItem_Click;
             // 
             // MenuSecretaria
             // 
@@ -139,7 +134,6 @@
         private ContextMenuStrip contextMenuStrip1;
         private MenuStrip menuStrip1;
         private ToolStripMenuItem agendaToolStripMenuItem;
-        private ToolStripMenuItem turnoToolStripMenuItem;
         private ToolStripMenuItem stafToolStripMenuItem;
         private ToolStripMenuItem especialidadToolStripMenuItem;
         private ToolStripMenuItem pacientesToolStripMenuItem;

@@ -61,3 +61,7 @@ C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\Codig
 C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\Codigo final\MRmedicalNew\MRnew\obj\Debug\net6.0-windows\MRnew.NuevoTurno.resources
 C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\Codigo final\MRmedicalNew\MRnew\obj\Debug\net6.0-windows\MRnew.AHistorial.resources
 C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\Codigo final\MRmedicalNew\MRnew\obj\Debug\net6.0-windows\MRnew.MHistorial.resources
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\Codigo final\MRmedicalNew\MRnew\obj\Debug\net6.0-windows\MRnew.ABMespecialidad.resources
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\Codigo final\MRmedicalNew\MRnew\obj\Debug\net6.0-windows\MRnew.ABMPaciente.resources
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\Codigo final\MRmedicalNew\MRnew\obj\Debug\net6.0-windows\MRnew.AgendaData.resources
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\Codigo final\MRmedicalNew\MRnew\obj\Debug\net6.0-windows\MRnew.FiltroHistorial.resources

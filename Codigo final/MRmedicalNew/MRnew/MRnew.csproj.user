@@ -1,13 +1,22 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
+    <Compile Update="ABMPaciente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="AgendaData.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="AltaMedico.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="AHistorial.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="MHistorial.cs">
+    <Compile Update="FiltroHistorial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ABMespecialidad.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Home.cs">

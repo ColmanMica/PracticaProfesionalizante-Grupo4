@@ -42,6 +42,10 @@
             label5 = new Label();
             elimedico = new Button();
             cancelarM = new Button();
+            label6 = new Label();
+            txtDireccion = new TextBox();
+            label7 = new Label();
+            txtMatricula = new TextBox();
             SuspendLayout();
             // 
             // label1
@@ -63,7 +67,7 @@
             // comboespec
             // 
             comboespec.FormattingEnabled = true;
-            comboespec.Location = new Point(360, 280);
+            comboespec.Location = new Point(360, 381);
             comboespec.Name = "comboespec";
             comboespec.Size = new Size(125, 28);
             comboespec.TabIndex = 2;
@@ -100,7 +104,7 @@
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(118, 215);
+            label4.Location = new Point(109, 215);
             label4.Name = "label4";
             label4.Size = new Size(146, 20);
             label4.TabIndex = 6;
@@ -140,7 +144,7 @@
             // label5
             // 
             label5.AutoSize = true;
-            label5.Location = new Point(118, 288);
+            label5.Location = new Point(109, 384);
             label5.Name = "label5";
             label5.Size = new Size(93, 20);
             label5.TabIndex = 13;
@@ -167,11 +171,47 @@
             cancelarM.UseVisualStyleBackColor = true;
             cancelarM.Click += cancelarM_Click;
             // 
+            // label6
+            // 
+            label6.AutoSize = true;
+            label6.Location = new Point(118, 268);
+            label6.Name = "label6";
+            label6.Size = new Size(72, 20);
+            label6.TabIndex = 16;
+            label6.Text = "Direccion";
+            // 
+            // txtDireccion
+            // 
+            txtDireccion.Location = new Point(360, 268);
+            txtDireccion.Name = "txtDireccion";
+            txtDireccion.Size = new Size(125, 27);
+            txtDireccion.TabIndex = 17;
+            // 
+            // label7
+            // 
+            label7.AutoSize = true;
+            label7.Location = new Point(118, 334);
+            label7.Name = "label7";
+            label7.Size = new Size(71, 20);
+            label7.TabIndex = 18;
+            label7.Text = "Matricula";
+            // 
+            // txtMatricula
+            // 
+            txtMatricula.Location = new Point(360, 331);
+            txtMatricula.Name = "txtMatricula";
+            txtMatricula.Size = new Size(125, 27);
+            txtMatricula.TabIndex = 19;
+            // 
             // AltaMedico
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(txtMatricula);
+            Controls.Add(label7);
+            Controls.Add(txtDireccion);
+            Controls.Add(label6);
             Controls.Add(cancelarM);
             Controls.Add(elimedico);
             Controls.Add(label5);
@@ -208,5 +248,9 @@
         private Label label5;
         private Button elimedico;
         private Button cancelarM;
+        private Label label6;
+        private TextBox txtDireccion;
+        private Label label7;
+        private TextBox txtMatricula;
     }
 }

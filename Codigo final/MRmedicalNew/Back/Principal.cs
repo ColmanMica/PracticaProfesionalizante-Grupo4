@@ -54,7 +54,7 @@ namespace Back
         {
             using (var context = new BaseDeDatosApp())
             {
-                var nuevoMedico = new Medico { dni = medico.dni,matriculaMedico = medico.matriculaMedico, nombre = medico.nombre, apellido = medico.apellido, fechaNacimiento = medico.fechaNacimiento, especialidad = medico.especialidad, direccion = medico.direccion };
+                var nuevoMedico = new Medico { dni = medico.dni, matriculaMedico = medico.matriculaMedico, nombre = medico.nombre, apellido = medico.apellido, fechaNacimiento = medico.fechaNacimiento, especialidad = medico.especialidad, direccion = medico.direccion };
                 context.Medicos.Add(nuevoMedico);
                 context.SaveChanges();
             }

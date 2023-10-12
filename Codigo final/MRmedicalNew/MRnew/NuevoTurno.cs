@@ -14,6 +14,7 @@ namespace MRnew
     public partial class NuevoTurno : Form
     {
         Principal principal = new Principal();
+        BaseDeDatosApp basededatos = new BaseDeDatosApp();
         public NuevoTurno()
         {
             InitializeComponent();
@@ -28,46 +29,45 @@ namespace MRnew
         {
             Turno turno = new Turno();
 
-            turno.pacienteTurno = textPaciente.Text;//parcear
-            turno.fechaHora = DateTime.Parse(textFechaHora.Text);
-            turno.medicoTurno = textMedico.Text;//parcear
+            turno.pacienteTurno = (Paciente)comboPac.SelectedItem;
+            turno.fechaHora = DateTime.Parse(txtDate.Text);
+            turno.medicoTurno = (Medico)comboMed.SelectedItem;
 
-            listBox1.DataSource = null;
-            listBox1.DisplayMember = "T";
-            listBox1.DataSource = principal.ListaTurno;
+            comboMed.DataSource = null;
+            comboMed.DisplayMember = "T";
+            comboMed.DataSource = basededatos.Turnos;
 
             MessageBox.Show("Turno agendado.");
 
-            textPaciente.Clear();
-            textFechaHora.Clear();
-            textMedico.Clear();
+            txtDate.Clear();
+
             //agregar que se pueda ver el id sin que lo ingresen por pantalla
         }
 
         private void modturno_Click(object sender, EventArgs e)
         {
-            Turno itemSeleccionado = (Turno)listBox1.SelectedItem;//ver video para que funcione
+            /*Turno itemSeleccionado = (Turno)comboMed.SelectedItem;//ver video para que funcione
 
             Turno turno = new Turno();
 
-            turno.pacienteTurno = textPaciente.Text;//parcear
-            turno.fechaHora = DateTime.Parse(textFechaHora.Text);
-            turno.medicoTurno = textMedico.Text;
+            turno.pacienteTurno = (Paciente)comboPac.SelectedItem;
+            turno.fechaHora = DateTime.Parse(txtDate.Text);
+            turno.medicoTurno = (Medico)comboMed.SelectedItem;
 
-            principal.ModificacionTurno(turno, itemSeleccionado);
-            listBox1.DataSource = null;
-            listBox1.DisplayMember = "T";
-            listBox1.DataSource = principal.ListaTurno;
+            principal.ModificarTurno(turno, itemSeleccionado);
+            comboMed.DataSource = null;
+            comboMed.DisplayMember = "T";
+            comboMed.DataSource = basededatos.Turnos;*/ //reveer todo porque no va a funcionar 
         }
 
         private void elimturno_Click(object sender, EventArgs e)
         {
-            Turno itemSeleccionado = (Turno)listBox1.SelectedItem;
+           /* Turno itemSeleccionado = (Turno)comboMed.SelectedItem;
 
-            principal.BajaTurno(itemSeleccionado);
-            listBox1.DataSource = null;
-            listBox1.DisplayMember = "T";
-            listBox1.DataSource = principal.ListaTurno;
+            principal.EliminarTurno(itemSeleccionado);
+            comboMed.DataSource = null;
+            comboMed.DisplayMember = "T";
+            comboMed.DataSource = principal.listaTurnos;*/ //Reveer tambien porque tendria que buscar en la agenda del turno
 
         }
 
@@ -76,6 +76,16 @@ namespace MRnew
             MenuSecretaria form = new MenuSecretaria();
             form.Show();
             this.Hide();
+        }
+
+        private void combomed_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtDate_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
