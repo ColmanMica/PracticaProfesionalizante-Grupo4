@@ -19,26 +19,7 @@ namespace Back
         public DbSet<Secretaria> Secretarias { get; set; }
         public DbSet<Turno> Turnos { get; set; }
         public DbSet<Usuario> Usuarios { get; set; }
-
-        /*
-        protected override void OnModelCreating(ModelBuilder modelBuilder)
-        {
-           modelBuilder.Entity<Persona>()
-             .HasOne(s => s.)
-            .WithMany()
-            .HasForeignKey(e => e.Message_Id)
-        .WillCascadeOnDelete(false);
-        }
-        */
-            //protected override void OnModelCreating(DbModelBuilder modelBuilder)
-            //{
-            //   modelBuilder.Entity<ClaseA>()
-            //      .HasOptional(a => a.ClaseB)
-            //    .WithMany()
-            //  .HasForeignKey(a => a.ClaseBId)
-            //.WillCascadeOnDelete(false);
-            //}
-
+        
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder) 
         {
             optionsBuilder.UseSqlServer("server=ROCIORELLANO;database=BaseMR;trusted_connection=true;encrypt=False");

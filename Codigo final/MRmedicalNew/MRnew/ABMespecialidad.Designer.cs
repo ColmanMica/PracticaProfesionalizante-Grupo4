@@ -30,9 +30,9 @@
         {
             components = new System.ComponentModel.Container();
             dataGridView1 = new DataGridView();
-            especialidadBindingSource = new BindingSource(components);
             idEspecialidadDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
             nombreDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
+            especialidadBindingSource = new BindingSource(components);
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)especialidadBindingSource).BeginInit();
             SuspendLayout();
@@ -43,16 +43,13 @@
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridView1.Columns.AddRange(new DataGridViewColumn[] { idEspecialidadDataGridViewTextBoxColumn, nombreDataGridViewTextBoxColumn });
             dataGridView1.DataSource = especialidadBindingSource;
-            dataGridView1.Location = new Point(148, 91);
+            dataGridView1.Location = new Point(52, 75);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.RowHeadersWidth = 51;
             dataGridView1.RowTemplate.Height = 29;
-            dataGridView1.Size = new Size(300, 188);
+            dataGridView1.Size = new Size(458, 188);
             dataGridView1.TabIndex = 0;
-            // 
-            // especialidadBindingSource
-            // 
-            especialidadBindingSource.DataSource = typeof(Back.Especialidad);
+            dataGridView1.CellContentClick += dataGridView1_CellContentClick;
             // 
             // idEspecialidadDataGridViewTextBoxColumn
             // 
@@ -69,6 +66,10 @@
             nombreDataGridViewTextBoxColumn.MinimumWidth = 6;
             nombreDataGridViewTextBoxColumn.Name = "nombreDataGridViewTextBoxColumn";
             nombreDataGridViewTextBoxColumn.Width = 125;
+            // 
+            // especialidadBindingSource
+            // 
+            especialidadBindingSource.DataSource = typeof(Back.Especialidad);
             // 
             // ABMespecialidad
             // 

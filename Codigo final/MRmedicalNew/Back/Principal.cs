@@ -147,7 +147,7 @@ namespace Back
         {
             using (var context = new BaseDeDatosApp())
             {
-                var TurnoAModificar = context.Turnos.Find(turno.idTurno);
+                var TurnoAModificar = context.Turnos.Find(turno.id);
                 if (TurnoAModificar != null)
                 {
                     TurnoAModificar.fechaHora = turno.fechaHora;
@@ -162,13 +162,51 @@ namespace Back
         {
             using (var context = new BaseDeDatosApp())
             {
-                var turnoABorrar = context.Turnos.Find(turno.idTurno);
+                var turnoABorrar = context.Turnos.Find(turno.id);
                 if (turnoABorrar != null)
                 {
                     context.Turnos.Remove(turnoABorrar);
-                    context.SaveChanges();
-                }//metodo de busqueda de medicos porque la secretaria primerio selecciona la especialidad
-                 //y despues el medico que tenga lugar o el que el paciente elija 
+                    
+                }
+                context.SaveChanges();//metodo de busqueda de medicos porque la secretaria primerio selecciona la especialidad
+                                      //y despues el medico que tenga lugar o el que el paciente elija 
+            }
+           
+        }
+        public void AltaUsuario(string correo,string contrasenia,string tipo)
+        {
+            using (var context = new BaseDeDatosApp())
+            {
+                //hacer en la base el id autonumerico
+                var nuevoUsuario = new Usuario { correo = correo, contrasenia = contrasenia, tipo = tipo };
+                context.Usuarios.Add(nuevoUsuario);
+                context.SaveChanges();
+            }
+        }
+        public void ModificarUsuario(Usuario usuario)
+        {
+            using (var context = new BaseDeDatosApp())
+            {
+                var usuarioAModificar = context.Usuarios.Find(usuario.id);
+                if (usuarioAModificar != null)
+                {
+                    usuarioAModificar.correo = usuario.correo;
+                    usuarioAModificar.contrasenia = usuario.contrasenia;
+                }
+                context.SaveChanges();
+            }
+        }
+        public void EliminarUsuario(Usuario usuario)
+        {
+            using (var context = new BaseDeDatosApp())
+            {
+                var usuarioABorrar = context.Usuarios.Find(usuario.id);
+                if (usuarioABorrar != null)
+                {
+                    context.Usuarios.Remove(usuarioABorrar);
+
+                }
+                context.SaveChanges();
             }
         }
 

@@ -21,10 +21,15 @@ namespace MRnew
 
         private void ABMespecialidad_Load(object sender, EventArgs e)
         {
-            dataGridView1.DataSource = principal.MostrarEspecialidades();
+            /* dataGridView1.DataSource = principal.MostrarEspecialidades();*/
 
 
-            ((DataGridViewComboBoxColumn)dataGridView1.Columns["CMBProvi"]).DataSource = Provincia.dameListaProv();
+             
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }

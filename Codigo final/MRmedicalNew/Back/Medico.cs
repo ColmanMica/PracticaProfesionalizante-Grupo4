@@ -11,7 +11,7 @@ namespace Back
 {
     public class Medico:Persona
     {
-        
+        public int id { get; set; }
         public string matriculaMedico { get; set; }
         public Especialidad especialidad { get; set; }
         public Usuario usuarioMedico { get; set; }

@@ -1,16 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Compile Update="ABMPaciente.cs">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Update="AgendaData.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="AltaMedico.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="AHistorial.cs">
+    <Compile Update="AMBMedico.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="FiltroHistorial.cs">
@@ -19,19 +13,19 @@
     <Compile Update="ABMespecialidad.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Home.cs">
+    <Compile Update="homes\Home.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="LogUsuario.cs">
+    <Compile Update="homes\LogUsuario.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="MenuMedico.cs">
+    <Compile Update="menus\MenuMedico.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="MenuSecretaria.cs">
+    <Compile Update="menus\MenuSecretaria.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="NuevoTurno.cs">
+    <Compile Update="PacientesData.cs">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>

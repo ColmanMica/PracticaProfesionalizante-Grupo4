@@ -19,9 +19,9 @@ namespace MRnew
 
         private void dataGridAgenda_CellContentClick(object sender, DataGridViewCellEventArgs e)
         { // Para actualizar el dataGrid
-           /* BindingSource aBind = new BindingSource();
-            aBind.DataSource = // la propiedad de la lista
-            DataGridView1.Data = aBind //Modelo.BaseDeDatos.obtenerListaClientes()*/
+            /* BindingSource aBind = new BindingSource();
+             aBind.DataSource = // la propiedad de la lista
+             DataGridView1.Data = aBind //Modelo.BaseDeDatos.obtenerListaClientes()*/
         }
     }
 }

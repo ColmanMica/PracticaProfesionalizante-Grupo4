@@ -9,8 +9,8 @@ namespace Back
 {
     public class Especialidad
     {
-        public int Id { get; set; }
-        public int idEspecialidad { get; set; }
+        public int id { get; set; }
+       // public int idEspecialidad { get; set; }
         public string nombre { get; set; }
     }
 }

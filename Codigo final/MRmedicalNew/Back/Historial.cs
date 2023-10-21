@@ -9,7 +9,7 @@ namespace Back
 {
     public class Historial
     {
-        public int Id { get; set; }
+        public int id { get; set; }
         public string nombre { get; set; }
         public string apellido { get; set; }
         public int dni { get; set; }

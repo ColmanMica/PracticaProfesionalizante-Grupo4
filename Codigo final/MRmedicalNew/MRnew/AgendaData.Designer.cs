@@ -30,20 +30,19 @@
         {
             components = new System.ComponentModel.Container();
             dataGridAgenda = new DataGridView();
-            especialidadBindingSource = new BindingSource(components);
-            agendaBindingSource = new BindingSource(components);
             idDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
             paciente = new DataGridViewTextBoxColumn();
             fechaHora = new DataGridViewTextBoxColumn();
             medicoAgenda = new DataGridViewTextBoxColumn();
+            agendaBindingSource = new BindingSource(components);
+            especialidadBindingSource = new BindingSource(components);
             ((System.ComponentModel.ISupportInitialize)dataGridAgenda).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)especialidadBindingSource).BeginInit();
             ((System.ComponentModel.ISupportInitialize)agendaBindingSource).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)especialidadBindingSource).BeginInit();
             SuspendLayout();
             // 
             // dataGridAgenda
             // 
-            dataGridAgenda.AllowUserToOrderColumns = true;
             dataGridAgenda.AutoGenerateColumns = false;
             dataGridAgenda.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridAgenda.Columns.AddRange(new DataGridViewColumn[] { idDataGridViewTextBoxColumn, paciente, fechaHora, medicoAgenda });
@@ -55,14 +54,6 @@
             dataGridAgenda.Size = new Size(592, 188);
             dataGridAgenda.TabIndex = 0;
             dataGridAgenda.CellContentClick += dataGridAgenda_CellContentClick;
-            // 
-            // especialidadBindingSource
-            // 
-            especialidadBindingSource.DataSource = typeof(Back.Especialidad);
-            // 
-            // agendaBindingSource
-            // 
-            agendaBindingSource.DataSource = typeof(Back.Agenda);
             // 
             // idDataGridViewTextBoxColumn
             // 
@@ -96,6 +87,14 @@
             medicoAgenda.Name = "medicoAgenda";
             medicoAgenda.Width = 125;
             // 
+            // agendaBindingSource
+            // 
+            agendaBindingSource.DataSource = typeof(Back.Agenda);
+            // 
+            // especialidadBindingSource
+            // 
+            especialidadBindingSource.DataSource = typeof(Back.Especialidad);
+            // 
             // AgendaData
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -105,8 +104,8 @@
             Name = "AgendaData";
             Text = "AgendaData";
             ((System.ComponentModel.ISupportInitialize)dataGridAgenda).EndInit();
-            ((System.ComponentModel.ISupportInitialize)especialidadBindingSource).EndInit();
             ((System.ComponentModel.ISupportInitialize)agendaBindingSource).EndInit();
+            ((System.ComponentModel.ISupportInitialize)especialidadBindingSource).EndInit();
             ResumeLayout(false);
         }
 

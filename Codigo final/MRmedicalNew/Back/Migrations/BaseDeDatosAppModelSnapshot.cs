@@ -24,50 +24,53 @@ namespace Back.Migrations
 
             modelBuilder.Entity("Back.Agenda", b =>
                 {
-                    b.Property<int>("idAgenda")
+                    b.Property<int>("id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("idAgenda"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("id"));
 
                     b.Property<DateTime>("fechaHora")
                         .HasColumnType("datetime2");
 
-                    b.Property<int>("medicoAgendadni")
+                    b.Property<int>("medicoAgendaid")
                         .HasColumnType("int");
 
                     b.Property<string>("paciente")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.HasKey("idAgenda");
+                    b.HasKey("id");
 
-                    b.HasIndex("medicoAgendadni");
+                    b.HasIndex("medicoAgendaid");
 
                     b.ToTable("Agendas");
                 });
 
             modelBuilder.Entity("Back.Especialidad", b =>
                 {
-                    b.Property<int>("idEspecialidad")
+                    b.Property<int>("id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("idEspecialidad"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("id"));
 
                     b.Property<string>("nombre")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.HasKey("idEspecialidad");
+                    b.HasKey("id");
 
                     b.ToTable("Especialidades");
                 });
 
             modelBuilder.Entity("Back.Historial", b =>
                 {
-                    b.Property<string>("nombre")
-                        .HasColumnType("nvarchar(450)");
+                    b.Property<int>("id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("id"));
 
                     b.Property<string>("apellido")
                         .IsRequired()
@@ -82,22 +85,26 @@ namespace Back.Migrations
                     b.Property<DateTime>("fechaNacimiento")
                         .HasColumnType("datetime2");
 
+                    b.Property<string>("nombre")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("obraSocial")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.HasKey("nombre");
+                    b.HasKey("id");
 
                     b.ToTable("Historiales");
                 });
 
             modelBuilder.Entity("Back.Persona", b =>
                 {
-                    b.Property<int>("dni")
+                    b.Property<int>("id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("dni"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("id"));
 
                     b.Property<string>("Discriminator")
                         .IsRequired()
@@ -111,6 +118,9 @@ namespace Back.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<int>("dni")
+                        .HasColumnType("int");
+
                     b.Property<DateTime>("fechaNacimiento")
                         .HasColumnType("datetime2");
 
@@ -118,7 +128,7 @@ namespace Back.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.HasKey("dni");
+                    b.HasKey("id");
 
                     b.ToTable("Personas");
 
@@ -129,47 +139,72 @@ namespace Back.Migrations
 
             modelBuilder.Entity("Back.Turno", b =>
                 {
-                    b.Property<int>("idTurno")
+                    b.Property<int>("id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("idTurno"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("id"));
 
                     b.Property<DateTime>("fechaHora")
                         .HasColumnType("datetime2");
 
-                    b.Property<int>("medicoTurnodni")
+                    b.Property<int>("medicoTurnoid")
                         .HasColumnType("int");
 
-                    b.Property<int>("pacienteTurnodni")
+                    b.Property<int>("pacienteTurnoid")
                         .HasColumnType("int");
 
-                    b.HasKey("idTurno");
+                    b.HasKey("id");
 
-                    b.HasIndex("medicoTurnodni");
+                    b.HasIndex("medicoTurnoid");
 
-                    b.HasIndex("pacienteTurnodni");
+                    b.HasIndex("pacienteTurnoid");
 
                     b.ToTable("Turnos");
+                });
+
+            modelBuilder.Entity("Back.Usuario", b =>
+                {
+                    b.Property<int>("id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("id"));
+
+                    b.Property<string>("contrasenia")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("correo")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("tipo")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("id");
+
+                    b.ToTable("Usuarios");
                 });
 
             modelBuilder.Entity("Back.Medico", b =>
                 {
                     b.HasBaseType("Back.Persona");
 
-                    b.Property<int>("especialidadidEspecialidad")
+                    b.Property<int>("especialidadid")
                         .HasColumnType("int");
 
                     b.Property<string>("matriculaMedico")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("usuarioMedicodni")
+                    b.Property<int>("usuarioMedicoid")
                         .HasColumnType("int");
 
-                    b.HasIndex("especialidadidEspecialidad");
+                    b.HasIndex("especialidadid");
 
-                    b.HasIndex("usuarioMedicodni");
+                    b.HasIndex("usuarioMedicoid");
 
                     b.HasDiscriminator().HasValue("Medico");
                 });
@@ -191,42 +226,19 @@ namespace Back.Migrations
                     b.Property<int>("numerolegajo")
                         .HasColumnType("int");
 
-                    b.Property<int>("usuarioSecretariadni")
+                    b.Property<int>("usuarioSecretariaid")
                         .HasColumnType("int");
 
-                    b.HasIndex("usuarioSecretariadni");
+                    b.HasIndex("usuarioSecretariaid");
 
                     b.HasDiscriminator().HasValue("Secretaria");
-                });
-
-            modelBuilder.Entity("Back.Usuario", b =>
-                {
-                    b.HasBaseType("Back.Persona");
-
-                    b.Property<string>("contrasenia")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("correo")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("idUsuario")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("tipo")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasDiscriminator().HasValue("Usuario");
                 });
 
             modelBuilder.Entity("Back.Agenda", b =>
                 {
                     b.HasOne("Back.Medico", "medicoAgenda")
                         .WithMany()
-                        .HasForeignKey("medicoAgendadni")
+                        .HasForeignKey("medicoAgendaid")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
@@ -237,13 +249,13 @@ namespace Back.Migrations
                 {
                     b.HasOne("Back.Medico", "medicoTurno")
                         .WithMany()
-                        .HasForeignKey("medicoTurnodni")
+                        .HasForeignKey("medicoTurnoid")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.HasOne("Back.Paciente", "pacienteTurno")
                         .WithMany()
-                        .HasForeignKey("pacienteTurnodni")
+                        .HasForeignKey("pacienteTurnoid")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
@@ -256,13 +268,13 @@ namespace Back.Migrations
                 {
                     b.HasOne("Back.Especialidad", "especialidad")
                         .WithMany()
-                        .HasForeignKey("especialidadidEspecialidad")
+                        .HasForeignKey("especialidadid")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.HasOne("Back.Usuario", "usuarioMedico")
                         .WithMany()
-                        .HasForeignKey("usuarioMedicodni")
+                        .HasForeignKey("usuarioMedicoid")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
@@ -275,7 +287,7 @@ namespace Back.Migrations
                 {
                     b.HasOne("Back.Usuario", "usuarioSecretaria")
                         .WithMany()
-                        .HasForeignKey("usuarioSecretariadni")
+                        .HasForeignKey("usuarioSecretariaid")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
