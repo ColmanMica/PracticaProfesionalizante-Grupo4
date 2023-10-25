@@ -30,32 +30,25 @@
         {
             menuStrip1 = new MenuStrip();
             agendaToolStripMenuItem = new ToolStripMenuItem();
-            historialToolStripMenuItem = new ToolStripComboBox();
             menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
             // menuStrip1
             // 
             menuStrip1.ImageScalingSize = new Size(20, 20);
-            menuStrip1.Items.AddRange(new ToolStripItem[] { historialToolStripMenuItem, agendaToolStripMenuItem });
+            menuStrip1.Items.AddRange(new ToolStripItem[] { agendaToolStripMenuItem });
             menuStrip1.Location = new Point(0, 0);
             menuStrip1.Name = "menuStrip1";
-            menuStrip1.Size = new Size(800, 32);
+            menuStrip1.Size = new Size(800, 28);
             menuStrip1.TabIndex = 0;
             menuStrip1.Text = "menuStrip1";
             // 
             // agendaToolStripMenuItem
             // 
             agendaToolStripMenuItem.Name = "agendaToolStripMenuItem";
-            agendaToolStripMenuItem.Size = new Size(75, 28);
+            agendaToolStripMenuItem.Size = new Size(75, 24);
             agendaToolStripMenuItem.Text = "Agenda";
             agendaToolStripMenuItem.Click += agendaToolStripMenuItem_Click;
-            // 
-            // historialToolStripMenuItem
-            // 
-            historialToolStripMenuItem.Name = "historialToolStripMenuItem";
-            historialToolStripMenuItem.Size = new Size(79, 28);
-            historialToolStripMenuItem.Click += historialToolStripMenuItem_Click;
             // 
             // MenuMedico
             // 
@@ -76,6 +69,5 @@
 
         private MenuStrip menuStrip1;
         private ToolStripMenuItem agendaToolStripMenuItem;
-        private ToolStripComboBox historialToolStripMenuItem;
     }
 }

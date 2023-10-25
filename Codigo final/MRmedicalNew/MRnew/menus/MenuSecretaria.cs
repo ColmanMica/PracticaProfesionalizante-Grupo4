@@ -49,7 +49,7 @@ namespace MRnew
             ABMespecialidad form = new ABMespecialidad();
             form.Show();
             this.Hide(); // ACA DEVOLVER LA LISTA DE ESPECIALIDADES DE LA BASE DE DATOS Y SEGUN LA ELECCION MOSTRAR LOS MEDICOS QUE HAY
-        }
+        } // en el load escribir para que me apareza la lista de especialidades y depues hacer un buscador que no no esxixte agrgarla y que eso me lleve al ABMespecialidades
 
         private void pacientesToolStripMenuItem_Click(object sender, EventArgs e)
         {

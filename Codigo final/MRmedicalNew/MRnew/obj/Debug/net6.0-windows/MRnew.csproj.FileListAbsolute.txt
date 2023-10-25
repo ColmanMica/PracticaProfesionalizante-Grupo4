@@ -62,3 +62,6 @@ C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\Codig
 C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\Codigo final\MRmedicalNew\MRnew\obj\Debug\net6.0-windows\MRnew.FiltroHistorial.resources
 C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\Codigo final\MRmedicalNew\MRnew\obj\Debug\net6.0-windows\MRnew.AMBMedico.resources
 C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\Codigo final\MRmedicalNew\MRnew\obj\Debug\net6.0-windows\MRnew.PacientesData.resources
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\Codigo final\MRmedicalNew\MRnew\obj\Debug\net6.0-windows\MRnew.UsuariosData.resources
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\Codigo final\MRmedicalNew\MRnew\obj\Debug\net6.0-windows\MRnew.TurnosData.resources
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\Codigo final\MRmedicalNew\MRnew\obj\Debug\net6.0-windows\MRnew.logUsuario2.resources

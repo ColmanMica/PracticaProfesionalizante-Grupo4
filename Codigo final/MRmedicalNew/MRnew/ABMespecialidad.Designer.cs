@@ -29,35 +29,37 @@
         private void InitializeComponent()
         {
             components = new System.ComponentModel.Container();
-            dataGridView1 = new DataGridView();
-            idEspecialidadDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
+            dataGridEspecialidades = new DataGridView();
+            idDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
             nombreDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
             especialidadBindingSource = new BindingSource(components);
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
+            initialCreateBindingSource = new BindingSource(components);
+            ((System.ComponentModel.ISupportInitialize)dataGridEspecialidades).BeginInit();
             ((System.ComponentModel.ISupportInitialize)especialidadBindingSource).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)initialCreateBindingSource).BeginInit();
             SuspendLayout();
             // 
-            // dataGridView1
+            // dataGridEspecialidades
             // 
-            dataGridView1.AutoGenerateColumns = false;
-            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Columns.AddRange(new DataGridViewColumn[] { idEspecialidadDataGridViewTextBoxColumn, nombreDataGridViewTextBoxColumn });
-            dataGridView1.DataSource = especialidadBindingSource;
-            dataGridView1.Location = new Point(52, 75);
-            dataGridView1.Name = "dataGridView1";
-            dataGridView1.RowHeadersWidth = 51;
-            dataGridView1.RowTemplate.Height = 29;
-            dataGridView1.Size = new Size(458, 188);
-            dataGridView1.TabIndex = 0;
-            dataGridView1.CellContentClick += dataGridView1_CellContentClick;
+            dataGridEspecialidades.AutoGenerateColumns = false;
+            dataGridEspecialidades.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridEspecialidades.Columns.AddRange(new DataGridViewColumn[] { idDataGridViewTextBoxColumn, nombreDataGridViewTextBoxColumn });
+            dataGridEspecialidades.DataSource = especialidadBindingSource;
+            dataGridEspecialidades.Location = new Point(52, 75);
+            dataGridEspecialidades.Name = "dataGridEspecialidades";
+            dataGridEspecialidades.RowHeadersWidth = 51;
+            dataGridEspecialidades.RowTemplate.Height = 29;
+            dataGridEspecialidades.Size = new Size(458, 188);
+            dataGridEspecialidades.TabIndex = 0;
+            dataGridEspecialidades.CellContentClick += dataGridView1_CellContentClick;
             // 
-            // idEspecialidadDataGridViewTextBoxColumn
+            // idDataGridViewTextBoxColumn
             // 
-            idEspecialidadDataGridViewTextBoxColumn.DataPropertyName = "idEspecialidad";
-            idEspecialidadDataGridViewTextBoxColumn.HeaderText = "idEspecialidad";
-            idEspecialidadDataGridViewTextBoxColumn.MinimumWidth = 6;
-            idEspecialidadDataGridViewTextBoxColumn.Name = "idEspecialidadDataGridViewTextBoxColumn";
-            idEspecialidadDataGridViewTextBoxColumn.Width = 125;
+            idDataGridViewTextBoxColumn.DataPropertyName = "id";
+            idDataGridViewTextBoxColumn.HeaderText = "id";
+            idDataGridViewTextBoxColumn.MinimumWidth = 6;
+            idDataGridViewTextBoxColumn.Name = "idDataGridViewTextBoxColumn";
+            idDataGridViewTextBoxColumn.Width = 125;
             // 
             // nombreDataGridViewTextBoxColumn
             // 
@@ -71,25 +73,32 @@
             // 
             especialidadBindingSource.DataSource = typeof(Back.Especialidad);
             // 
+            // initialCreateBindingSource
+            // 
+            initialCreateBindingSource.DataSource = typeof(Back.Migrations.InitialCreate);
+            // 
             // ABMespecialidad
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
-            Controls.Add(dataGridView1);
+            Controls.Add(dataGridEspecialidades);
             Name = "ABMespecialidad";
             Text = "Form1";
             Load += ABMespecialidad_Load;
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)dataGridEspecialidades).EndInit();
             ((System.ComponentModel.ISupportInitialize)especialidadBindingSource).EndInit();
+            ((System.ComponentModel.ISupportInitialize)initialCreateBindingSource).EndInit();
             ResumeLayout(false);
         }
 
         #endregion
 
-        private DataGridView dataGridView1;
+        private DataGridView dataGridEspecialidades;
         private DataGridViewTextBoxColumn idEspecialidadDataGridViewTextBoxColumn;
-        private DataGridViewTextBoxColumn nombreDataGridViewTextBoxColumn;
         private BindingSource especialidadBindingSource;
+        private DataGridViewTextBoxColumn idDataGridViewTextBoxColumn;
+        private DataGridViewTextBoxColumn nombreDataGridViewTextBoxColumn;
+        private BindingSource initialCreateBindingSource;
     }
 }

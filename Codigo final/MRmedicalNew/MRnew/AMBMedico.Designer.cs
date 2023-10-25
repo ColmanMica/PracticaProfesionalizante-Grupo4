@@ -29,33 +29,34 @@
         private void InitializeComponent()
         {
             components = new System.ComponentModel.Container();
-            dataGridView1 = new DataGridView();
+            dataGridMedico = new DataGridView();
             matriculaMedicoDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
-            especialidadDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
-            usuarioMedicoDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
-            idDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
             dniDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
             nombreDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
             apellidoDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
             fechaNacimientoDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
             direccionDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
+            especColumn = new DataGridViewComboBoxColumn();
             medicoBindingSource = new BindingSource(components);
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)dataGridMedico).BeginInit();
             ((System.ComponentModel.ISupportInitialize)medicoBindingSource).BeginInit();
             SuspendLayout();
             // 
-            // dataGridView1
+            // dataGridMedico
             // 
-            dataGridView1.AutoGenerateColumns = false;
-            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Columns.AddRange(new DataGridViewColumn[] { matriculaMedicoDataGridViewTextBoxColumn, especialidadDataGridViewTextBoxColumn, usuarioMedicoDataGridViewTextBoxColumn, idDataGridViewTextBoxColumn, dniDataGridViewTextBoxColumn, nombreDataGridViewTextBoxColumn, apellidoDataGridViewTextBoxColumn, fechaNacimientoDataGridViewTextBoxColumn, direccionDataGridViewTextBoxColumn });
-            dataGridView1.DataSource = medicoBindingSource;
-            dataGridView1.Location = new Point(2, 57);
-            dataGridView1.Name = "dataGridView1";
-            dataGridView1.RowHeadersWidth = 51;
-            dataGridView1.RowTemplate.Height = 29;
-            dataGridView1.Size = new Size(786, 188);
-            dataGridView1.TabIndex = 0;
+            dataGridMedico.AllowUserToOrderColumns = true;
+            dataGridMedico.AutoGenerateColumns = false;
+            dataGridMedico.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridMedico.Columns.AddRange(new DataGridViewColumn[] { matriculaMedicoDataGridViewTextBoxColumn, dniDataGridViewTextBoxColumn, nombreDataGridViewTextBoxColumn, apellidoDataGridViewTextBoxColumn, fechaNacimientoDataGridViewTextBoxColumn, direccionDataGridViewTextBoxColumn, especColumn });
+            dataGridMedico.DataSource = medicoBindingSource;
+            dataGridMedico.Location = new Point(12, 21);
+            dataGridMedico.Name = "dataGridMedico";
+            dataGridMedico.RowHeadersWidth = 51;
+            dataGridMedico.RowTemplate.Height = 29;
+            dataGridMedico.Size = new Size(936, 198);
+            dataGridMedico.TabIndex = 0;
+            dataGridMedico.CellContentClick += dataGridMedico_CellContentClick;
+            dataGridMedico.CellParsing += dataGridMedico_CellParsing;
             // 
             // matriculaMedicoDataGridViewTextBoxColumn
             // 
@@ -64,30 +65,6 @@
             matriculaMedicoDataGridViewTextBoxColumn.MinimumWidth = 6;
             matriculaMedicoDataGridViewTextBoxColumn.Name = "matriculaMedicoDataGridViewTextBoxColumn";
             matriculaMedicoDataGridViewTextBoxColumn.Width = 125;
-            // 
-            // especialidadDataGridViewTextBoxColumn
-            // 
-            especialidadDataGridViewTextBoxColumn.DataPropertyName = "especialidad";
-            especialidadDataGridViewTextBoxColumn.HeaderText = "especialidad";
-            especialidadDataGridViewTextBoxColumn.MinimumWidth = 6;
-            especialidadDataGridViewTextBoxColumn.Name = "especialidadDataGridViewTextBoxColumn";
-            especialidadDataGridViewTextBoxColumn.Width = 125;
-            // 
-            // usuarioMedicoDataGridViewTextBoxColumn
-            // 
-            usuarioMedicoDataGridViewTextBoxColumn.DataPropertyName = "usuarioMedico";
-            usuarioMedicoDataGridViewTextBoxColumn.HeaderText = "usuarioMedico";
-            usuarioMedicoDataGridViewTextBoxColumn.MinimumWidth = 6;
-            usuarioMedicoDataGridViewTextBoxColumn.Name = "usuarioMedicoDataGridViewTextBoxColumn";
-            usuarioMedicoDataGridViewTextBoxColumn.Width = 125;
-            // 
-            // idDataGridViewTextBoxColumn
-            // 
-            idDataGridViewTextBoxColumn.DataPropertyName = "Id";
-            idDataGridViewTextBoxColumn.HeaderText = "Id";
-            idDataGridViewTextBoxColumn.MinimumWidth = 6;
-            idDataGridViewTextBoxColumn.Name = "idDataGridViewTextBoxColumn";
-            idDataGridViewTextBoxColumn.Width = 125;
             // 
             // dniDataGridViewTextBoxColumn
             // 
@@ -129,6 +106,16 @@
             direccionDataGridViewTextBoxColumn.Name = "direccionDataGridViewTextBoxColumn";
             direccionDataGridViewTextBoxColumn.Width = 125;
             // 
+            // especColumn
+            // 
+            especColumn.DataPropertyName = "especialidad";
+            especColumn.HeaderText = "especialidad";
+            especColumn.MinimumWidth = 6;
+            especColumn.Name = "especColumn";
+            especColumn.Resizable = DataGridViewTriState.True;
+            especColumn.SortMode = DataGridViewColumnSortMode.Automatic;
+            especColumn.Width = 125;
+            // 
             // medicoBindingSource
             // 
             medicoBindingSource.DataSource = typeof(Back.Medico);
@@ -137,27 +124,27 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
-            Controls.Add(dataGridView1);
+            ClientSize = new Size(1103, 450);
+            Controls.Add(dataGridMedico);
             Name = "AMBMedico";
             Text = "AMBMedico";
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
+            Load += AMBMedico_Load;
+            ((System.ComponentModel.ISupportInitialize)dataGridMedico).EndInit();
             ((System.ComponentModel.ISupportInitialize)medicoBindingSource).EndInit();
             ResumeLayout(false);
         }
 
         #endregion
 
-        private DataGridView dataGridView1;
-        private DataGridViewTextBoxColumn matriculaMedicoDataGridViewTextBoxColumn;
-        private DataGridViewTextBoxColumn especialidadDataGridViewTextBoxColumn;
-        private DataGridViewTextBoxColumn usuarioMedicoDataGridViewTextBoxColumn;
+        private DataGridView dataGridMedico;
         private DataGridViewTextBoxColumn idDataGridViewTextBoxColumn;
+        private BindingSource medicoBindingSource;
+        private DataGridViewTextBoxColumn matriculaMedicoDataGridViewTextBoxColumn;
         private DataGridViewTextBoxColumn dniDataGridViewTextBoxColumn;
         private DataGridViewTextBoxColumn nombreDataGridViewTextBoxColumn;
         private DataGridViewTextBoxColumn apellidoDataGridViewTextBoxColumn;
         private DataGridViewTextBoxColumn fechaNacimientoDataGridViewTextBoxColumn;
         private DataGridViewTextBoxColumn direccionDataGridViewTextBoxColumn;
-        private BindingSource medicoBindingSource;
+        private DataGridViewComboBoxColumn especColumn;
     }
 }

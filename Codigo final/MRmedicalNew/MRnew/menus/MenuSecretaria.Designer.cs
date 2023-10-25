@@ -33,10 +33,10 @@
             menuStrip1 = new MenuStrip();
             agendaToolStripMenuItem = new ToolStripMenuItem();
             stafToolStripMenuItem = new ToolStripMenuItem();
-            especialidadToolStripMenuItem = new ToolStripComboBox();
             nuevoMedicoToolStripMenuItem = new ToolStripMenuItem();
             pacientesToolStripMenuItem = new ToolStripMenuItem();
             historialToolStripMenuItem = new ToolStripMenuItem();
+            especialidadToolStripMenuItem = new ToolStripMenuItem();
             menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
@@ -71,17 +71,10 @@
             stafToolStripMenuItem.Text = "Staf";
             stafToolStripMenuItem.Click += stafToolStripMenuItem_Click;
             // 
-            // especialidadToolStripMenuItem
-            // 
-            especialidadToolStripMenuItem.Name = "especialidadToolStripMenuItem";
-            especialidadToolStripMenuItem.Size = new Size(224, 28);
-            especialidadToolStripMenuItem.Text = "Especialidad";
-            especialidadToolStripMenuItem.Click += especialidadToolStripMenuItem_Click;
-            // 
             // nuevoMedicoToolStripMenuItem
             // 
             nuevoMedicoToolStripMenuItem.Name = "nuevoMedicoToolStripMenuItem";
-            nuevoMedicoToolStripMenuItem.Size = new Size(298, 26);
+            nuevoMedicoToolStripMenuItem.Size = new Size(224, 26);
             nuevoMedicoToolStripMenuItem.Text = "Medico";
             nuevoMedicoToolStripMenuItem.Click += nuevoMedicoToolStripMenuItem_Click;
             // 
@@ -98,6 +91,13 @@
             historialToolStripMenuItem.Size = new Size(79, 24);
             historialToolStripMenuItem.Text = "Historial";
             historialToolStripMenuItem.Click += historialToolStripMenuItem_Click;
+            // 
+            // especialidadToolStripMenuItem
+            // 
+            especialidadToolStripMenuItem.Name = "especialidadToolStripMenuItem";
+            especialidadToolStripMenuItem.Size = new Size(224, 26);
+            especialidadToolStripMenuItem.Text = "Especialidad";
+            especialidadToolStripMenuItem.Click += especialidadToolStripMenuItem_Click;
             // 
             // MenuSecretaria
             // 
@@ -122,7 +122,7 @@
         private ToolStripMenuItem stafToolStripMenuItem;
         private ToolStripMenuItem pacientesToolStripMenuItem;
         private ToolStripMenuItem historialToolStripMenuItem;
-        private ToolStripComboBox especialidadToolStripMenuItem;
         private ToolStripMenuItem nuevoMedicoToolStripMenuItem;
+        private ToolStripMenuItem especialidadToolStripMenuItem;
     }
 }

@@ -166,14 +166,14 @@ namespace Back
                 if (turnoABorrar != null)
                 {
                     context.Turnos.Remove(turnoABorrar);
-                    
+
                 }
                 context.SaveChanges();//metodo de busqueda de medicos porque la secretaria primerio selecciona la especialidad
                                       //y despues el medico que tenga lugar o el que el paciente elija 
             }
-           
+
         }
-        public void AltaUsuario(string correo,string contrasenia,string tipo)
+        public void AltaUsuario(string correo, string contrasenia, string tipo)
         {
             using (var context = new BaseDeDatosApp())
             {
@@ -209,14 +209,55 @@ namespace Back
                 context.SaveChanges();
             }
         }
-
-        public List<Especialidad> MostrarEspecialidades() //que hago con esto?
+            // LISTAS DE ACCESO A LA BASE DE DATOS
+        public List<Especialidad> MostrarEspecialidades()
         {
             var ListaEspecialidad = context.Especialidades.ToList();
-            
+
             return ListaEspecialidad;
         }
 
+        public List<Usuario> MostrarUsuarios()
+        {
+            var ListaUsuarios = context.Usuarios.ToList();
 
+            return ListaUsuarios;
+        }
+        public List<Agenda> MostrarAgenda()
+        {
+            var ListaAgenda = context.Agendas.ToList();
+
+            return ListaAgenda;
+        }
+        public List<Historial> MostrarHistoriales()
+        {
+            var ListaHistoriales = context.Historiales.ToList();
+
+            return ListaHistoriales;
+        }
+        public List<Turno> MostrarTurnos()
+        {
+            var ListaTurnos = context.Turnos.ToList();
+
+            return ListaTurnos;
+        }
+        public List<Medico> MostrarMedicos()
+        {
+            var ListaMedicos = context.Medicos.ToList();
+
+            return ListaMedicos;
+        }
+        public List<Paciente> MostrarPacientes()
+        {
+            var ListaPacientes = context.Pacientes.ToList();
+
+            return ListaPacientes;
+        }
+        public List<Secretaria> MostrarSecretarias()
+        {
+            var ListaSecretarias = context.Secretarias.ToList();
+
+            return ListaSecretarias;
+        }
     }
 }

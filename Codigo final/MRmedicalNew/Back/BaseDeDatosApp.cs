@@ -25,21 +25,6 @@ namespace Back
             optionsBuilder.UseSqlServer("server=ROCIORELLANO;database=BaseMR;trusted_connection=true;encrypt=False");
         }
 
-        /* protected override void OnModelCreating(ModelBuilder modelBuilder)
-         {
-             modelBuilder.Entity<Medico>()
-                // .HasOne(h => h.matriculaMedico)
-                // .WithMany(p => p.Medicos)
-                // .HasForeignKey(h => h.PersonaId)
-                 .OnDelete(DeleteBehavior.Restrict); // Configura la restricción ON DELETE NO ACTION
-         }
-       /* protected override void OnModelCreating(ModelBuilder modelBuilder)
-        {
-            modelBuilder.Entity<Hijo>()
-                .HasOne(h => h.Padre)
-                .WithMany(p => p.Hijos)
-                .HasForeignKey(h => h.PadreId)
-                .OnDelete(DeleteBehavior.Restrict); // Configura la restricción ON DELETE NO ACTION
-        }*/
+        
     }
 }

@@ -21,10 +21,10 @@ namespace MRnew
 
         private void ABMespecialidad_Load(object sender, EventArgs e)
         {
-            /* dataGridView1.DataSource = principal.MostrarEspecialidades();*/
+            dataGridEspecialidades.DataSource = new BindingList<Especialidad>(principal.MostrarEspecialidades());
 
+            
 
-             
         }
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)

@@ -19,6 +19,9 @@
     <Compile Update="homes\LogUsuario.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="logUsuario2.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="menus\MenuMedico.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -26,6 +29,12 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="PacientesData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="TurnosData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UsuariosData.cs">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>

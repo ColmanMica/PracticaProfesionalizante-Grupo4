@@ -28,7 +28,7 @@ namespace MRnew
                 if (usuario.contrasenia == txtBoxContrasenia.Text)
                 {
 
-                    if (usuario.tipo == "Secretaria")
+                    if (usuario.tipo == "secretaria")
                     {
                         MenuSecretaria form = new MenuSecretaria();
                         form.Show();
@@ -54,33 +54,18 @@ namespace MRnew
 
         private void butRegistro_Click(object sender, EventArgs e)
         {
-            principal.AltaUsuario(txtBoxCorreo.Text, txtBoxContrasenia.Text, txtTipo.Text);
-            Validate(); //validacion manual
-
-            Usuario usuario = new Usuario();
-
-           if (txtTipo.Text == "Secretaria")
-             {
-                usuario.tipo = txtTipo.Text;
-             }
-             else
-             {
-               if (txtTipo.Text == "Medico")
-                {
-                    usuario.tipo = txtTipo.Text;
-                }
-                else 
-                {
-                    MessageBox.Show("El tipo imgresado es incorrecto");
-                }
 
 
-              }
-                    MessageBox.Show("Usuario registrado con exito");
 
-              
+
+
         }
 
-        
+        private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            logUsuario2 form = new logUsuario2();
+            form.Show();
+            this.Hide();
+        }
     }
 }

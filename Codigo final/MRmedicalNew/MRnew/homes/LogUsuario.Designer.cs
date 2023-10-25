@@ -34,8 +34,7 @@
             label2 = new Label();
             txtBoxContrasenia = new TextBox();
             linkLabel1 = new LinkLabel();
-            butRegistro = new Button();
-            txtTipo = new TextBox();
+            linkLabel2 = new LinkLabel();
             SuspendLayout();
             // 
             // label1
@@ -56,9 +55,9 @@
             // 
             // ingresoUsuario
             // 
-            ingresoUsuario.Location = new Point(404, 281);
+            ingresoUsuario.Location = new Point(356, 250);
             ingresoUsuario.Name = "ingresoUsuario";
-            ingresoUsuario.Size = new Size(101, 64);
+            ingresoUsuario.Size = new Size(153, 64);
             ingresoUsuario.TabIndex = 2;
             ingresoUsuario.Text = "Ingresar";
             ingresoUsuario.UseVisualStyleBackColor = true;
@@ -90,30 +89,24 @@
             linkLabel1.TabStop = true;
             linkLabel1.Text = "Olvide mi contraseña";
             // 
-            // butRegistro
+            // linkLabel2
             // 
-            butRegistro.Location = new Point(623, 157);
-            butRegistro.Name = "butRegistro";
-            butRegistro.Size = new Size(105, 39);
-            butRegistro.TabIndex = 7;
-            butRegistro.Text = "Registrarse";
-            butRegistro.UseVisualStyleBackColor = true;
-            butRegistro.Click += butRegistro_Click;
-            // 
-            // txtTipo
-            // 
-            txtTipo.Location = new Point(612, 111);
-            txtTipo.Name = "txtTipo";
-            txtTipo.Size = new Size(125, 27);
-            txtTipo.TabIndex = 8;
+            linkLabel2.AutoSize = true;
+            linkLabel2.LinkColor = Color.DarkGreen;
+            linkLabel2.Location = new Point(322, 362);
+            linkLabel2.Name = "linkLabel2";
+            linkLabel2.Size = new Size(232, 20);
+            linkLabel2.TabIndex = 7;
+            linkLabel2.TabStop = true;
+            linkLabel2.Text = "Registrarme como Nuevo Usuario";
+            linkLabel2.LinkClicked += linkLabel2_LinkClicked;
             // 
             // LogUsuario
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
-            Controls.Add(txtTipo);
-            Controls.Add(butRegistro);
+            Controls.Add(linkLabel2);
             Controls.Add(linkLabel1);
             Controls.Add(txtBoxContrasenia);
             Controls.Add(label2);
@@ -134,7 +127,6 @@
         private Label label2;
         private TextBox txtBoxContrasenia;
         private LinkLabel linkLabel1;
-        private Button butRegistro;
-        private TextBox txtTipo;
+        private LinkLabel linkLabel2;
     }
 }

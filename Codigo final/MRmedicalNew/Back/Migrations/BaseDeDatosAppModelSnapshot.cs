@@ -192,6 +192,14 @@ namespace Back.Migrations
                 {
                     b.HasBaseType("Back.Persona");
 
+                    b.Property<string>("contrasenia")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("correo")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<int>("especialidadid")
                         .HasColumnType("int");
 
@@ -199,12 +207,7 @@ namespace Back.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("usuarioMedicoid")
-                        .HasColumnType("int");
-
                     b.HasIndex("especialidadid");
-
-                    b.HasIndex("usuarioMedicoid");
 
                     b.HasDiscriminator().HasValue("Medico");
                 });
@@ -212,6 +215,9 @@ namespace Back.Migrations
             modelBuilder.Entity("Back.Paciente", b =>
                 {
                     b.HasBaseType("Back.Persona");
+
+                    b.Property<int>("idpaciente")
+                        .HasColumnType("int");
 
                     b.Property<double>("vacunasAlDia")
                         .HasColumnType("float");
@@ -222,6 +228,9 @@ namespace Back.Migrations
             modelBuilder.Entity("Back.Secretaria", b =>
                 {
                     b.HasBaseType("Back.Persona");
+
+                    b.Property<int>("idSecretaria")
+                        .HasColumnType("int");
 
                     b.Property<int>("numerolegajo")
                         .HasColumnType("int");
@@ -272,15 +281,7 @@ namespace Back.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("Back.Usuario", "usuarioMedico")
-                        .WithMany()
-                        .HasForeignKey("usuarioMedicoid")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
                     b.Navigation("especialidad");
-
-                    b.Navigation("usuarioMedico");
                 });
 
             modelBuilder.Entity("Back.Secretaria", b =>

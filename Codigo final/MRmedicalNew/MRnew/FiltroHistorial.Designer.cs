@@ -29,39 +29,34 @@
         private void InitializeComponent()
         {
             components = new System.ComponentModel.Container();
-            dataGridView1 = new DataGridView();
-            idDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
+            dataGridHistorial = new DataGridView();
+            historialBindingSource = new BindingSource(components);
             nombreDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
             apellidoDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
             dniDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
             fechaNacimientoDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
-            fechaHoraDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
             obraSocialDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
-            historialBindingSource = new BindingSource(components);
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
+            fechaHoraDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
+            ((System.ComponentModel.ISupportInitialize)dataGridHistorial).BeginInit();
             ((System.ComponentModel.ISupportInitialize)historialBindingSource).BeginInit();
             SuspendLayout();
             // 
-            // dataGridView1
+            // dataGridHistorial
             // 
-            dataGridView1.AutoGenerateColumns = false;
-            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Columns.AddRange(new DataGridViewColumn[] { idDataGridViewTextBoxColumn, nombreDataGridViewTextBoxColumn, apellidoDataGridViewTextBoxColumn, dniDataGridViewTextBoxColumn, fechaNacimientoDataGridViewTextBoxColumn, fechaHoraDataGridViewTextBoxColumn, obraSocialDataGridViewTextBoxColumn });
-            dataGridView1.DataSource = historialBindingSource;
-            dataGridView1.Location = new Point(12, 31);
-            dataGridView1.Name = "dataGridView1";
-            dataGridView1.RowHeadersWidth = 51;
-            dataGridView1.RowTemplate.Height = 29;
-            dataGridView1.Size = new Size(759, 264);
-            dataGridView1.TabIndex = 0;
+            dataGridHistorial.AutoGenerateColumns = false;
+            dataGridHistorial.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridHistorial.Columns.AddRange(new DataGridViewColumn[] { nombreDataGridViewTextBoxColumn, apellidoDataGridViewTextBoxColumn, dniDataGridViewTextBoxColumn, fechaNacimientoDataGridViewTextBoxColumn, obraSocialDataGridViewTextBoxColumn, fechaHoraDataGridViewTextBoxColumn });
+            dataGridHistorial.DataSource = historialBindingSource;
+            dataGridHistorial.Location = new Point(12, 31);
+            dataGridHistorial.Name = "dataGridHistorial";
+            dataGridHistorial.RowHeadersWidth = 51;
+            dataGridHistorial.RowTemplate.Height = 29;
+            dataGridHistorial.Size = new Size(805, 264);
+            dataGridHistorial.TabIndex = 0;
             // 
-            // idDataGridViewTextBoxColumn
+            // historialBindingSource
             // 
-            idDataGridViewTextBoxColumn.DataPropertyName = "Id";
-            idDataGridViewTextBoxColumn.HeaderText = "Id";
-            idDataGridViewTextBoxColumn.MinimumWidth = 6;
-            idDataGridViewTextBoxColumn.Name = "idDataGridViewTextBoxColumn";
-            idDataGridViewTextBoxColumn.Width = 125;
+            historialBindingSource.DataSource = typeof(Back.Historial);
             // 
             // nombreDataGridViewTextBoxColumn
             // 
@@ -95,14 +90,6 @@
             fechaNacimientoDataGridViewTextBoxColumn.Name = "fechaNacimientoDataGridViewTextBoxColumn";
             fechaNacimientoDataGridViewTextBoxColumn.Width = 125;
             // 
-            // fechaHoraDataGridViewTextBoxColumn
-            // 
-            fechaHoraDataGridViewTextBoxColumn.DataPropertyName = "fechaHora";
-            fechaHoraDataGridViewTextBoxColumn.HeaderText = "fechaHora";
-            fechaHoraDataGridViewTextBoxColumn.MinimumWidth = 6;
-            fechaHoraDataGridViewTextBoxColumn.Name = "fechaHoraDataGridViewTextBoxColumn";
-            fechaHoraDataGridViewTextBoxColumn.Width = 125;
-            // 
             // obraSocialDataGridViewTextBoxColumn
             // 
             obraSocialDataGridViewTextBoxColumn.DataPropertyName = "obraSocial";
@@ -111,33 +98,38 @@
             obraSocialDataGridViewTextBoxColumn.Name = "obraSocialDataGridViewTextBoxColumn";
             obraSocialDataGridViewTextBoxColumn.Width = 125;
             // 
-            // historialBindingSource
+            // fechaHoraDataGridViewTextBoxColumn
             // 
-            historialBindingSource.DataSource = typeof(Back.Historial);
+            fechaHoraDataGridViewTextBoxColumn.DataPropertyName = "fechaHora";
+            fechaHoraDataGridViewTextBoxColumn.HeaderText = "fechaHora";
+            fechaHoraDataGridViewTextBoxColumn.MinimumWidth = 6;
+            fechaHoraDataGridViewTextBoxColumn.Name = "fechaHoraDataGridViewTextBoxColumn";
+            fechaHoraDataGridViewTextBoxColumn.Width = 125;
             // 
             // FiltroHistorial
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
-            Controls.Add(dataGridView1);
+            ClientSize = new Size(1018, 450);
+            Controls.Add(dataGridHistorial);
             Name = "FiltroHistorial";
             Text = "FiltroHistorial";
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
+            Load += FiltroHistorial_Load;
+            ((System.ComponentModel.ISupportInitialize)dataGridHistorial).EndInit();
             ((System.ComponentModel.ISupportInitialize)historialBindingSource).EndInit();
             ResumeLayout(false);
         }
 
         #endregion
 
-        private DataGridView dataGridView1;
+        private DataGridView dataGridHistorial;
         private DataGridViewTextBoxColumn idDataGridViewTextBoxColumn;
+        private BindingSource historialBindingSource;
         private DataGridViewTextBoxColumn nombreDataGridViewTextBoxColumn;
         private DataGridViewTextBoxColumn apellidoDataGridViewTextBoxColumn;
         private DataGridViewTextBoxColumn dniDataGridViewTextBoxColumn;
         private DataGridViewTextBoxColumn fechaNacimientoDataGridViewTextBoxColumn;
-        private DataGridViewTextBoxColumn fechaHoraDataGridViewTextBoxColumn;
         private DataGridViewTextBoxColumn obraSocialDataGridViewTextBoxColumn;
-        private BindingSource historialBindingSource;
+        private DataGridViewTextBoxColumn fechaHoraDataGridViewTextBoxColumn;
     }
 }

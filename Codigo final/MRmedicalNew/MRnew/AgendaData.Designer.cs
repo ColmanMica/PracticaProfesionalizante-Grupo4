@@ -30,12 +30,12 @@
         {
             components = new System.ComponentModel.Container();
             dataGridAgenda = new DataGridView();
-            idDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
-            paciente = new DataGridViewTextBoxColumn();
-            fechaHora = new DataGridViewTextBoxColumn();
-            medicoAgenda = new DataGridViewTextBoxColumn();
             agendaBindingSource = new BindingSource(components);
             especialidadBindingSource = new BindingSource(components);
+            medicoAgenda = new DataGridViewTextBoxColumn();
+            paciente = new DataGridViewTextBoxColumn();
+            fechaHora = new DataGridViewTextBoxColumn();
+            idDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)dataGridAgenda).BeginInit();
             ((System.ComponentModel.ISupportInitialize)agendaBindingSource).BeginInit();
             ((System.ComponentModel.ISupportInitialize)especialidadBindingSource).BeginInit();
@@ -45,23 +45,32 @@
             // 
             dataGridAgenda.AutoGenerateColumns = false;
             dataGridAgenda.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridAgenda.Columns.AddRange(new DataGridViewColumn[] { idDataGridViewTextBoxColumn, paciente, fechaHora, medicoAgenda });
+            dataGridAgenda.Columns.AddRange(new DataGridViewColumn[] { medicoAgenda, paciente, fechaHora, idDataGridViewTextBoxColumn });
             dataGridAgenda.DataSource = agendaBindingSource;
-            dataGridAgenda.Location = new Point(113, 112);
+            dataGridAgenda.Location = new Point(30, 29);
             dataGridAgenda.Name = "dataGridAgenda";
             dataGridAgenda.RowHeadersWidth = 51;
             dataGridAgenda.RowTemplate.Height = 29;
-            dataGridAgenda.Size = new Size(592, 188);
+            dataGridAgenda.Size = new Size(556, 230);
             dataGridAgenda.TabIndex = 0;
             dataGridAgenda.CellContentClick += dataGridAgenda_CellContentClick;
             // 
-            // idDataGridViewTextBoxColumn
+            // agendaBindingSource
             // 
-            idDataGridViewTextBoxColumn.DataPropertyName = "Id";
-            idDataGridViewTextBoxColumn.HeaderText = "Id";
-            idDataGridViewTextBoxColumn.MinimumWidth = 6;
-            idDataGridViewTextBoxColumn.Name = "idDataGridViewTextBoxColumn";
-            idDataGridViewTextBoxColumn.Width = 125;
+            agendaBindingSource.DataSource = typeof(Back.Agenda);
+            // 
+            // especialidadBindingSource
+            // 
+            especialidadBindingSource.DataSource = typeof(Back.Especialidad);
+            // 
+            // medicoAgenda
+            // 
+            medicoAgenda.DataPropertyName = "medicoAgenda";
+            medicoAgenda.HeaderText = "medicoAgenda";
+            medicoAgenda.MinimumWidth = 6;
+            medicoAgenda.Name = "medicoAgenda";
+            medicoAgenda.Resizable = DataGridViewTriState.True;
+            medicoAgenda.Width = 125;
             // 
             // paciente
             // 
@@ -79,30 +88,23 @@
             fechaHora.Name = "fechaHora";
             fechaHora.Width = 125;
             // 
-            // medicoAgenda
+            // idDataGridViewTextBoxColumn
             // 
-            medicoAgenda.DataPropertyName = "medicoAgenda";
-            medicoAgenda.HeaderText = "medicoAgenda";
-            medicoAgenda.MinimumWidth = 6;
-            medicoAgenda.Name = "medicoAgenda";
-            medicoAgenda.Width = 125;
-            // 
-            // agendaBindingSource
-            // 
-            agendaBindingSource.DataSource = typeof(Back.Agenda);
-            // 
-            // especialidadBindingSource
-            // 
-            especialidadBindingSource.DataSource = typeof(Back.Especialidad);
+            idDataGridViewTextBoxColumn.DataPropertyName = "id";
+            idDataGridViewTextBoxColumn.HeaderText = "id";
+            idDataGridViewTextBoxColumn.MinimumWidth = 6;
+            idDataGridViewTextBoxColumn.Name = "idDataGridViewTextBoxColumn";
+            idDataGridViewTextBoxColumn.Width = 125;
             // 
             // AgendaData
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(1029, 450);
             Controls.Add(dataGridAgenda);
             Name = "AgendaData";
             Text = "AgendaData";
+            Load += AgendaData_Load;
             ((System.ComponentModel.ISupportInitialize)dataGridAgenda).EndInit();
             ((System.ComponentModel.ISupportInitialize)agendaBindingSource).EndInit();
             ((System.ComponentModel.ISupportInitialize)especialidadBindingSource).EndInit();
@@ -114,9 +116,9 @@
         private DataGridView dataGridAgenda;
         private BindingSource agendaBindingSource;
         private BindingSource especialidadBindingSource;
-        private DataGridViewTextBoxColumn idDataGridViewTextBoxColumn;
+        private DataGridViewTextBoxColumn medicoAgenda;
         private DataGridViewTextBoxColumn paciente;
         private DataGridViewTextBoxColumn fechaHora;
-        private DataGridViewTextBoxColumn medicoAgenda;
+        private DataGridViewTextBoxColumn idDataGridViewTextBoxColumn;
     }
 }
