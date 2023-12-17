@@ -33,14 +33,14 @@
             ingresoUsuario = new Button();
             label2 = new Label();
             txtBoxContrasenia = new TextBox();
-            linkLabel1 = new LinkLabel();
             linkLabel2 = new LinkLabel();
+            butatrasLog = new Button();
             SuspendLayout();
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(224, 78);
+            label1.Location = new Point(135, 82);
             label1.Name = "label1";
             label1.Size = new Size(59, 20);
             label1.TabIndex = 0;
@@ -48,14 +48,14 @@
             // 
             // txtBoxCorreo
             // 
-            txtBoxCorreo.Location = new Point(356, 78);
+            txtBoxCorreo.Location = new Point(332, 79);
             txtBoxCorreo.Name = "txtBoxCorreo";
             txtBoxCorreo.Size = new Size(198, 27);
             txtBoxCorreo.TabIndex = 1;
             // 
             // ingresoUsuario
             // 
-            ingresoUsuario.Location = new Point(356, 250);
+            ingresoUsuario.Location = new Point(346, 243);
             ingresoUsuario.Name = "ingresoUsuario";
             ingresoUsuario.Size = new Size(153, 64);
             ingresoUsuario.TabIndex = 2;
@@ -66,7 +66,7 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(215, 160);
+            label2.Location = new Point(135, 157);
             label2.Name = "label2";
             label2.Size = new Size(83, 20);
             label2.TabIndex = 3;
@@ -74,26 +74,16 @@
             // 
             // txtBoxContrasenia
             // 
-            txtBoxContrasenia.Location = new Point(356, 157);
+            txtBoxContrasenia.Location = new Point(332, 157);
             txtBoxContrasenia.Name = "txtBoxContrasenia";
             txtBoxContrasenia.Size = new Size(198, 27);
             txtBoxContrasenia.TabIndex = 5;
-            // 
-            // linkLabel1
-            // 
-            linkLabel1.AutoSize = true;
-            linkLabel1.Location = new Point(356, 187);
-            linkLabel1.Name = "linkLabel1";
-            linkLabel1.Size = new Size(149, 20);
-            linkLabel1.TabIndex = 6;
-            linkLabel1.TabStop = true;
-            linkLabel1.Text = "Olvide mi contraseña";
             // 
             // linkLabel2
             // 
             linkLabel2.AutoSize = true;
             linkLabel2.LinkColor = Color.DarkGreen;
-            linkLabel2.Location = new Point(322, 362);
+            linkLabel2.Location = new Point(298, 356);
             linkLabel2.Name = "linkLabel2";
             linkLabel2.Size = new Size(232, 20);
             linkLabel2.TabIndex = 7;
@@ -101,13 +91,23 @@
             linkLabel2.Text = "Registrarme como Nuevo Usuario";
             linkLabel2.LinkClicked += linkLabel2_LinkClicked;
             // 
+            // butatrasLog
+            // 
+            butatrasLog.Location = new Point(12, 3);
+            butatrasLog.Name = "butatrasLog";
+            butatrasLog.Size = new Size(94, 29);
+            butatrasLog.TabIndex = 8;
+            butatrasLog.Text = "Atras";
+            butatrasLog.UseVisualStyleBackColor = true;
+            butatrasLog.Click += butatrasLog_Click;
+            // 
             // LogUsuario
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(649, 450);
+            Controls.Add(butatrasLog);
             Controls.Add(linkLabel2);
-            Controls.Add(linkLabel1);
             Controls.Add(txtBoxContrasenia);
             Controls.Add(label2);
             Controls.Add(ingresoUsuario);
@@ -126,7 +126,7 @@
         private Button ingresoUsuario;
         private Label label2;
         private TextBox txtBoxContrasenia;
-        private LinkLabel linkLabel1;
         private LinkLabel linkLabel2;
+        private Button butatrasLog;
     }
 }

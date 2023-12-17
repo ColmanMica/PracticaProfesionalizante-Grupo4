@@ -98,7 +98,7 @@ namespace Back.Migrations
                     b.ToTable("Historiales");
                 });
 
-            modelBuilder.Entity("Back.Persona", b =>
+            modelBuilder.Entity("Back.Medico", b =>
                 {
                     b.Property<int>("id")
                         .ValueGeneratedOnAdd()
@@ -106,9 +106,53 @@ namespace Back.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("id"));
 
-                    b.Property<string>("Discriminator")
+                    b.Property<string>("apellido")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("direccion")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("dni")
+                        .HasColumnType("int");
+
+                    b.Property<int>("especialidadid")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("fechaNacimiento")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("idMedico")
+                        .HasColumnType("int");
+
+                    b.Property<string>("matriculaMedico")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("nombre")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("usuarioMedicoid")
+                        .HasColumnType("int");
+
+                    b.HasKey("id");
+
+                    b.HasIndex("especialidadid");
+
+                    b.HasIndex("usuarioMedicoid");
+
+                    b.ToTable("Medicos");
+                });
+
+            modelBuilder.Entity("Back.Paciente", b =>
+                {
+                    b.Property<int>("id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("id"));
 
                     b.Property<string>("apellido")
                         .IsRequired()
@@ -124,17 +168,61 @@ namespace Back.Migrations
                     b.Property<DateTime>("fechaNacimiento")
                         .HasColumnType("datetime2");
 
+                    b.Property<int>("idPaciente")
+                        .HasColumnType("int");
+
                     b.Property<string>("nombre")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<bool>("vacunasAlDia")
+                        .HasColumnType("bit");
+
                     b.HasKey("id");
 
-                    b.ToTable("Personas");
+                    b.ToTable("Pacientes");
+                });
 
-                    b.HasDiscriminator<string>("Discriminator").HasValue("Persona");
+            modelBuilder.Entity("Back.Secretaria", b =>
+                {
+                    b.Property<int>("id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
 
-                    b.UseTphMappingStrategy();
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("id"));
+
+                    b.Property<string>("apellido")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("direccion")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("dni")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("fechaNacimiento")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("idSecretaria")
+                        .HasColumnType("int");
+
+                    b.Property<string>("nombre")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("numerolegajo")
+                        .HasColumnType("int");
+
+                    b.Property<int>("usuarioSecretariaid")
+                        .HasColumnType("int");
+
+                    b.HasKey("id");
+
+                    b.HasIndex("usuarioSecretariaid");
+
+                    b.ToTable("Secretarias");
                 });
 
             modelBuilder.Entity("Back.Turno", b =>
@@ -188,61 +276,6 @@ namespace Back.Migrations
                     b.ToTable("Usuarios");
                 });
 
-            modelBuilder.Entity("Back.Medico", b =>
-                {
-                    b.HasBaseType("Back.Persona");
-
-                    b.Property<string>("contrasenia")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("correo")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<int>("especialidadid")
-                        .HasColumnType("int");
-
-                    b.Property<string>("matriculaMedico")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasIndex("especialidadid");
-
-                    b.HasDiscriminator().HasValue("Medico");
-                });
-
-            modelBuilder.Entity("Back.Paciente", b =>
-                {
-                    b.HasBaseType("Back.Persona");
-
-                    b.Property<int>("idpaciente")
-                        .HasColumnType("int");
-
-                    b.Property<double>("vacunasAlDia")
-                        .HasColumnType("float");
-
-                    b.HasDiscriminator().HasValue("Paciente");
-                });
-
-            modelBuilder.Entity("Back.Secretaria", b =>
-                {
-                    b.HasBaseType("Back.Persona");
-
-                    b.Property<int>("idSecretaria")
-                        .HasColumnType("int");
-
-                    b.Property<int>("numerolegajo")
-                        .HasColumnType("int");
-
-                    b.Property<int>("usuarioSecretariaid")
-                        .HasColumnType("int");
-
-                    b.HasIndex("usuarioSecretariaid");
-
-                    b.HasDiscriminator().HasValue("Secretaria");
-                });
-
             modelBuilder.Entity("Back.Agenda", b =>
                 {
                     b.HasOne("Back.Medico", "medicoAgenda")
@@ -252,6 +285,36 @@ namespace Back.Migrations
                         .IsRequired();
 
                     b.Navigation("medicoAgenda");
+                });
+
+            modelBuilder.Entity("Back.Medico", b =>
+                {
+                    b.HasOne("Back.Especialidad", "especialidad")
+                        .WithMany()
+                        .HasForeignKey("especialidadid")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Back.Usuario", "usuarioMedico")
+                        .WithMany()
+                        .HasForeignKey("usuarioMedicoid")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("especialidad");
+
+                    b.Navigation("usuarioMedico");
+                });
+
+            modelBuilder.Entity("Back.Secretaria", b =>
+                {
+                    b.HasOne("Back.Usuario", "usuarioSecretaria")
+                        .WithMany()
+                        .HasForeignKey("usuarioSecretariaid")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("usuarioSecretaria");
                 });
 
             modelBuilder.Entity("Back.Turno", b =>
@@ -271,28 +334,6 @@ namespace Back.Migrations
                     b.Navigation("medicoTurno");
 
                     b.Navigation("pacienteTurno");
-                });
-
-            modelBuilder.Entity("Back.Medico", b =>
-                {
-                    b.HasOne("Back.Especialidad", "especialidad")
-                        .WithMany()
-                        .HasForeignKey("especialidadid")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("especialidad");
-                });
-
-            modelBuilder.Entity("Back.Secretaria", b =>
-                {
-                    b.HasOne("Back.Usuario", "usuarioSecretaria")
-                        .WithMany()
-                        .HasForeignKey("usuarioSecretariaid")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("usuarioSecretaria");
                 });
 #pragma warning restore 612, 618
         }

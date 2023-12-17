@@ -22,31 +22,39 @@ namespace MRnew
 
         private void ingresoUsuario_Click(object sender, EventArgs e)
         {
-            Usuario usuario = new Usuario(); // ver validacion y persistencia de datos
-            if (usuario.correo == txtBoxCorreo.Text)
-            {
-                if (usuario.contrasenia == txtBoxContrasenia.Text)
-                {
 
-                    if (usuario.tipo == "secretaria")
+            {
+                using (var context = new BaseDeDatosApp())
+                {
+                    var usuario = context.Usuarios.FirstOrDefault(u => u.correo == txtBoxCorreo.Text);
+
+                    if (usuario != null && usuario.contrasenia == txtBoxContrasenia.Text)
                     {
-                        MenuSecretaria form = new MenuSecretaria();
-                        form.Show();
-                        this.Hide();
+
+                        if (usuario.tipo == "secretaria")
+                        {
+                            MenuSecretaria form = new MenuSecretaria();
+                            form.Show();
+                            this.Hide();
+                        }
+                        else
+                        {
+                            MenuMedico form = new MenuMedico();
+                            form.Show();
+                            this.Hide();
+                        }
                     }
                     else
                     {
-                        MenuMedico form = new MenuMedico();
-                        form.Show();
-                        this.Hide();
+                        MessageBox.Show("El usuario o contraseña son incorrectos");
                     }
+                    txtBoxCorreo.Clear();
+                    txtBoxContrasenia.Clear();
                 }
-                else
-                {
-                    MessageBox.Show("Contrasenia Incorrecta");//return false;//Contrasenia invalida
-                }
+
+
+
             }
-            MessageBox.Show("El usuario no existe");//Usuario invalido
 
 
 
@@ -65,6 +73,13 @@ namespace MRnew
         {
             logUsuario2 form = new logUsuario2();
             form.Show();
+            this.Hide();
+        }
+
+        private void butatrasLog_Click(object sender, EventArgs e)
+        {
+            Home home = new Home();
+            home.Show();
             this.Hide();
         }
     }

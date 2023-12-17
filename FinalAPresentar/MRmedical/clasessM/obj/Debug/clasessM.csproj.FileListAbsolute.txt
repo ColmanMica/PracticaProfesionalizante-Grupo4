@@ -1,0 +1,12 @@
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\codigo nuevo\MRmedical\clasessM\obj\Debug\clasessM.csproj.AssemblyReference.cache
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\codigo nuevo\MRmedical\clasessM\obj\Debug\clasessM.csproj.CoreCompileInputs.cache
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\codigo nuevo\MRmedical\clasessM\bin\Debug\clasessM.dll
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\codigo nuevo\MRmedical\clasessM\bin\Debug\clasessM.pdb
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\codigo nuevo\MRmedical\clasessM\obj\Debug\clasessM.dll
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\codigo nuevo\MRmedical\clasessM\obj\Debug\clasessM.pdb
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\codigo primero\MRmedical\clasessM\bin\Debug\clasessM.dll
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\codigo primero\MRmedical\clasessM\bin\Debug\clasessM.pdb
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\codigo primero\MRmedical\clasessM\obj\Debug\clasessM.csproj.AssemblyReference.cache
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\codigo primero\MRmedical\clasessM\obj\Debug\clasessM.csproj.CoreCompileInputs.cache
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\codigo primero\MRmedical\clasessM\obj\Debug\clasessM.dll
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\codigo primero\MRmedical\clasessM\obj\Debug\clasessM.pdb

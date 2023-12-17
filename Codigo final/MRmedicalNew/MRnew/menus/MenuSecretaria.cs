@@ -71,5 +71,24 @@ namespace MRnew
             form.Show();
             this.Hide();
         }
+
+        private void nuevoTurnoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void usuariosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            UsuariosData us = new UsuariosData();
+            us.Show();
+            this.Hide();
+        }
+
+        private void butCloseSesion_Click(object sender, EventArgs e)
+        {
+            LogUsuario logUsuario = new LogUsuario();
+            logUsuario.Show();
+            this.Hide();
+        }
     }
 }

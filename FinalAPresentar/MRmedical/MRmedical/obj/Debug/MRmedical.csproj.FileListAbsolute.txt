@@ -1,0 +1,45 @@
+C:\Users\rocio\source\repos\MRmedical\MRmedical\bin\Debug\MRmedical.exe.config
+C:\Users\rocio\source\repos\MRmedical\MRmedical\bin\Debug\MRmedical.exe
+C:\Users\rocio\source\repos\MRmedical\MRmedical\bin\Debug\MRmedical.pdb
+C:\Users\rocio\source\repos\MRmedical\MRmedical\obj\Debug\MRmedical.csproj.AssemblyReference.cache
+C:\Users\rocio\source\repos\MRmedical\MRmedical\obj\Debug\MRmedical.csproj.SuggestedBindingRedirects.cache
+C:\Users\rocio\source\repos\MRmedical\MRmedical\obj\Debug\MRmedical.Form1.resources
+C:\Users\rocio\source\repos\MRmedical\MRmedical\obj\Debug\MRmedical.Properties.Resources.resources
+C:\Users\rocio\source\repos\MRmedical\MRmedical\obj\Debug\MRmedical.csproj.GenerateResource.cache
+C:\Users\rocio\source\repos\MRmedical\MRmedical\obj\Debug\MRmedical.csproj.CoreCompileInputs.cache
+C:\Users\rocio\source\repos\MRmedical\MRmedical\obj\Debug\MRmedical.exe
+C:\Users\rocio\source\repos\MRmedical\MRmedical\obj\Debug\MRmedical.pdb
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\codigo nuevo\MRmedical\MRmedical\obj\Debug\MRmedical.csproj.AssemblyReference.cache
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\codigo nuevo\MRmedical\MRmedical\obj\Debug\MRmedical.csproj.SuggestedBindingRedirects.cache
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\codigo nuevo\MRmedical\MRmedical\obj\Debug\MRmedical.Form1.resources
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\codigo nuevo\MRmedical\MRmedical\obj\Debug\MRmedical.Form2.resources
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\codigo nuevo\MRmedical\MRmedical\obj\Debug\MRmedical.Properties.Resources.resources
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\codigo nuevo\MRmedical\MRmedical\obj\Debug\MRmedical.csproj.GenerateResource.cache
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\codigo nuevo\MRmedical\MRmedical\obj\Debug\MRmedical.csproj.CoreCompileInputs.cache
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\codigo nuevo\MRmedical\MRmedical\obj\Debug\MRmedical.exe
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\codigo nuevo\MRmedical\MRmedical\obj\Debug\MRmedical.pdb
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\codigo nuevo\MRmedical\MRmedical\bin\Debug\MRmedical.exe.config
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\codigo nuevo\MRmedical\MRmedical\bin\Debug\MRmedical.exe
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\codigo nuevo\MRmedical\MRmedical\bin\Debug\MRmedical.pdb
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\codigo nuevo\MRmedical\MRmedical\bin\Debug\clasessM.dll
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\codigo nuevo\MRmedical\MRmedical\bin\Debug\clasessM.pdb
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\codigo nuevo\MRmedical\MRmedical\obj\Debug\MRmedical.csproj.CopyComplete
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\codigo nuevo\MRmedical\MRmedical\obj\Debug\MRmedical.MenuSecretaria.resources
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\codigo primero\MRmedical\MRmedical\obj\Debug\MRmedical.csproj.AssemblyReference.cache
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\codigo primero\MRmedical\MRmedical\obj\Debug\MRmedical.csproj.SuggestedBindingRedirects.cache
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\codigo primero\MRmedical\MRmedical\obj\Debug\MRmedical.AltaMedico.resources
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\codigo primero\MRmedical\MRmedical\obj\Debug\MRmedical.AltaTurno.resources
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\codigo primero\MRmedical\MRmedical\obj\Debug\MRmedical.LoginUsuario.resources
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\codigo primero\MRmedical\MRmedical\obj\Debug\MRmedical.MenuMedico.resources
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\codigo primero\MRmedical\MRmedical\obj\Debug\MRmedical.MenuSecretaria.resources
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\codigo primero\MRmedical\MRmedical\obj\Debug\MRmedical.Properties.Resources.resources
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\codigo primero\MRmedical\MRmedical\obj\Debug\MRmedical.csproj.GenerateResource.cache
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\codigo primero\MRmedical\MRmedical\obj\Debug\MRmedical.csproj.CoreCompileInputs.cache
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\codigo primero\MRmedical\MRmedical\obj\Debug\MRmedical.exe
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\codigo primero\MRmedical\MRmedical\obj\Debug\MRmedical.pdb
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\codigo primero\MRmedical\MRmedical\bin\Debug\MRmedical.exe.config
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\codigo primero\MRmedical\MRmedical\bin\Debug\MRmedical.exe
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\codigo primero\MRmedical\MRmedical\bin\Debug\MRmedical.pdb
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\codigo primero\MRmedical\MRmedical\bin\Debug\clasessM.dll
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\codigo primero\MRmedical\MRmedical\bin\Debug\clasessM.pdb
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\codigo primero\MRmedical\MRmedical\obj\Debug\MRmedical.csproj.CopyComplete

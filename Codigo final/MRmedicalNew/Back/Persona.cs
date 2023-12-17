@@ -7,8 +7,9 @@ using System.Threading.Tasks;
 
 namespace Back
 {
-    public class Persona
+    public abstract class  Persona
     {
+       
         public int id { get; set; }
         public int dni { get; set; }
         public string nombre { get; set; }
@@ -17,5 +18,7 @@ namespace Back
         public string direccion { get; set; }
 
         
-    }
+     }
 }
+
+

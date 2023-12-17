@@ -1,0 +1,152 @@
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\codigo primero\MRmedical\MedicalRespaldo\bin\Debug\net6.0-windows\MedicalRespaldo.exe
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\codigo primero\MRmedical\MedicalRespaldo\bin\Debug\net6.0-windows\MedicalRespaldo.deps.json
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\codigo primero\MRmedical\MedicalRespaldo\bin\Debug\net6.0-windows\MedicalRespaldo.runtimeconfig.json
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\codigo primero\MRmedical\MedicalRespaldo\bin\Debug\net6.0-windows\MedicalRespaldo.dll
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\codigo primero\MRmedical\MedicalRespaldo\bin\Debug\net6.0-windows\MedicalRespaldo.pdb
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\codigo primero\MRmedical\MedicalRespaldo\bin\Debug\net6.0-windows\Azure.Core.dll
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\codigo primero\MRmedical\MedicalRespaldo\bin\Debug\net6.0-windows\Azure.Identity.dll
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\codigo primero\MRmedical\MedicalRespaldo\bin\Debug\net6.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\codigo primero\MRmedical\MedicalRespaldo\bin\Debug\net6.0-windows\Microsoft.Data.SqlClient.dll
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\codigo primero\MRmedical\MedicalRespaldo\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.dll
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\codigo primero\MRmedical\MedicalRespaldo\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\codigo primero\MRmedical\MedicalRespaldo\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\codigo primero\MRmedical\MedicalRespaldo\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\codigo primero\MRmedical\MedicalRespaldo\bin\Debug\net6.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\codigo primero\MRmedical\MedicalRespaldo\bin\Debug\net6.0-windows\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\codigo primero\MRmedical\MedicalRespaldo\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\codigo primero\MRmedical\MedicalRespaldo\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\codigo primero\MRmedical\MedicalRespaldo\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\codigo primero\MRmedical\MedicalRespaldo\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.dll
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\codigo primero\MRmedical\MedicalRespaldo\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\codigo primero\MRmedical\MedicalRespaldo\bin\Debug\net6.0-windows\Microsoft.Extensions.Options.dll
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\codigo primero\MRmedical\MedicalRespaldo\bin\Debug\net6.0-windows\Microsoft.Extensions.Primitives.dll
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\codigo primero\MRmedical\MedicalRespaldo\bin\Debug\net6.0-windows\Microsoft.Identity.Client.dll
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\codigo primero\MRmedical\MedicalRespaldo\bin\Debug\net6.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\codigo primero\MRmedical\MedicalRespaldo\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\codigo primero\MRmedical\MedicalRespaldo\bin\Debug\net6.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\codigo primero\MRmedical\MedicalRespaldo\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Logging.dll
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\codigo primero\MRmedical\MedicalRespaldo\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.dll
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\codigo primero\MRmedical\MedicalRespaldo\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\codigo primero\MRmedical\MedicalRespaldo\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Tokens.dll
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\codigo primero\MRmedical\MedicalRespaldo\bin\Debug\net6.0-windows\Microsoft.SqlServer.Server.dll
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\codigo primero\MRmedical\MedicalRespaldo\bin\Debug\net6.0-windows\System.Configuration.ConfigurationManager.dll
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\codigo primero\MRmedical\MedicalRespaldo\bin\Debug\net6.0-windows\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\codigo primero\MRmedical\MedicalRespaldo\bin\Debug\net6.0-windows\System.Memory.Data.dll
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\codigo primero\MRmedical\MedicalRespaldo\bin\Debug\net6.0-windows\System.Runtime.Caching.dll
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\codigo primero\MRmedical\MedicalRespaldo\bin\Debug\net6.0-windows\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\codigo primero\MRmedical\MedicalRespaldo\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\codigo primero\MRmedical\MedicalRespaldo\bin\Debug\net6.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\codigo primero\MRmedical\MedicalRespaldo\bin\Debug\net6.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\codigo primero\MRmedical\MedicalRespaldo\bin\Debug\net6.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\codigo primero\MRmedical\MedicalRespaldo\bin\Debug\net6.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\codigo primero\MRmedical\MedicalRespaldo\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\codigo primero\MRmedical\MedicalRespaldo\bin\Debug\net6.0-windows\BackRespaldo.dll
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\codigo primero\MRmedical\MedicalRespaldo\bin\Debug\net6.0-windows\BackRespaldo.pdb
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\codigo primero\MRmedical\MedicalRespaldo\obj\Debug\net6.0-windows\MedicalRespaldo.csproj.AssemblyReference.cache
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\codigo primero\MRmedical\MedicalRespaldo\obj\Debug\net6.0-windows\MedicalRespaldo.csproj.GenerateResource.cache
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\codigo primero\MRmedical\MedicalRespaldo\obj\Debug\net6.0-windows\MedicalRespaldo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\codigo primero\MRmedical\MedicalRespaldo\obj\Debug\net6.0-windows\MedicalRespaldo.AssemblyInfoInputs.cache
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\codigo primero\MRmedical\MedicalRespaldo\obj\Debug\net6.0-windows\MedicalRespaldo.AssemblyInfo.cs
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\codigo primero\MRmedical\MedicalRespaldo\obj\Debug\net6.0-windows\MedicalRespaldo.csproj.CoreCompileInputs.cache
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\codigo primero\MRmedical\MedicalRespaldo\obj\Debug\net6.0-windows\MedicalRespaldo.csproj.CopyComplete
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\codigo primero\MRmedical\MedicalRespaldo\obj\Debug\net6.0-windows\MedicalRespaldo.dll
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\codigo primero\MRmedical\MedicalRespaldo\obj\Debug\net6.0-windows\refint\MedicalRespaldo.dll
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\codigo primero\MRmedical\MedicalRespaldo\obj\Debug\net6.0-windows\MedicalRespaldo.pdb
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\codigo primero\MRmedical\MedicalRespaldo\obj\Debug\net6.0-windows\MedicalRespaldo.genruntimeconfig.cache
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\codigo primero\MRmedical\MedicalRespaldo\obj\Debug\net6.0-windows\ref\MedicalRespaldo.dll
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\codigo primero\MRmedical\MedicalRespaldo\obj\Debug\net6.0-windows\MedicalRespaldo.AltaAgenda.resources
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\codigo primero\MRmedical\MedicalRespaldo\obj\Debug\net6.0-windows\MedicalRespaldo.AltaHistorial.resources
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\codigo primero\MRmedical\MedicalRespaldo\obj\Debug\net6.0-windows\MedicalRespaldo.AltaMedico.resources
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\codigo primero\MRmedical\MedicalRespaldo\obj\Debug\net6.0-windows\MedicalRespaldo.AltaPaciente.resources
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\codigo primero\MRmedical\MedicalRespaldo\obj\Debug\net6.0-windows\MedicalRespaldo.AltaSecretaria.resources
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\codigo primero\MRmedical\MedicalRespaldo\obj\Debug\net6.0-windows\MedicalRespaldo.AltaTurno.resources
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\codigo primero\MRmedical\MedicalRespaldo\obj\Debug\net6.0-windows\MedicalRespaldo.AltaUsuario.resources
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\codigo primero\MRmedical\MedicalRespaldo\obj\Debug\net6.0-windows\MedicalRespaldo.DataGridAgenda.resources
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\codigo primero\MRmedical\MedicalRespaldo\obj\Debug\net6.0-windows\MedicalRespaldo.DataGridEspecialidad.resources
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\codigo primero\MRmedical\MedicalRespaldo\obj\Debug\net6.0-windows\MedicalRespaldo.DataGridHistorial.resources
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\codigo primero\MRmedical\MedicalRespaldo\obj\Debug\net6.0-windows\MedicalRespaldo.DataGridMedico.resources
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\codigo primero\MRmedical\MedicalRespaldo\obj\Debug\net6.0-windows\MedicalRespaldo.DataGridPaciente.resources
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\codigo primero\MRmedical\MedicalRespaldo\obj\Debug\net6.0-windows\MedicalRespaldo.DataGridSecretaria.resources
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\codigo primero\MRmedical\MedicalRespaldo\obj\Debug\net6.0-windows\MedicalRespaldo.DataGridTurno.resources
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\codigo primero\MRmedical\MedicalRespaldo\obj\Debug\net6.0-windows\MedicalRespaldo.DataGridUsuario.resources
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\codigo primero\MRmedical\MedicalRespaldo\obj\Debug\net6.0-windows\MedicalRespaldo.Home.resources
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\codigo primero\MRmedical\MedicalRespaldo\obj\Debug\net6.0-windows\MedicalRespaldo.LogUsuario.resources
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\codigo primero\MRmedical\MedicalRespaldo\obj\Debug\net6.0-windows\MedicalRespaldo.MenuMedico.resources
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\codigo primero\MRmedical\MedicalRespaldo\obj\Debug\net6.0-windows\MedicalRespaldo.MenuSecretaria.resources
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\codigo primero\MRmedical\MedicalRespaldo\obj\Debug\net6.0-windows\MedicalRespaldo.Properties.Resources.resources
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\FinalAPresentar\MRmedical\MedicalRespaldo\bin\Debug\net6.0-windows\MedicalRespaldo.exe
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\FinalAPresentar\MRmedical\MedicalRespaldo\bin\Debug\net6.0-windows\MedicalRespaldo.deps.json
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\FinalAPresentar\MRmedical\MedicalRespaldo\bin\Debug\net6.0-windows\MedicalRespaldo.runtimeconfig.json
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\FinalAPresentar\MRmedical\MedicalRespaldo\bin\Debug\net6.0-windows\MedicalRespaldo.dll
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\FinalAPresentar\MRmedical\MedicalRespaldo\bin\Debug\net6.0-windows\MedicalRespaldo.pdb
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\FinalAPresentar\MRmedical\MedicalRespaldo\bin\Debug\net6.0-windows\Azure.Core.dll
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\FinalAPresentar\MRmedical\MedicalRespaldo\bin\Debug\net6.0-windows\Azure.Identity.dll
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\FinalAPresentar\MRmedical\MedicalRespaldo\bin\Debug\net6.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\FinalAPresentar\MRmedical\MedicalRespaldo\bin\Debug\net6.0-windows\Microsoft.Data.SqlClient.dll
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\FinalAPresentar\MRmedical\MedicalRespaldo\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.dll
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\FinalAPresentar\MRmedical\MedicalRespaldo\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\FinalAPresentar\MRmedical\MedicalRespaldo\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\FinalAPresentar\MRmedical\MedicalRespaldo\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\FinalAPresentar\MRmedical\MedicalRespaldo\bin\Debug\net6.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\FinalAPresentar\MRmedical\MedicalRespaldo\bin\Debug\net6.0-windows\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\FinalAPresentar\MRmedical\MedicalRespaldo\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\FinalAPresentar\MRmedical\MedicalRespaldo\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\FinalAPresentar\MRmedical\MedicalRespaldo\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\FinalAPresentar\MRmedical\MedicalRespaldo\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.dll
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\FinalAPresentar\MRmedical\MedicalRespaldo\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\FinalAPresentar\MRmedical\MedicalRespaldo\bin\Debug\net6.0-windows\Microsoft.Extensions.Options.dll
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\FinalAPresentar\MRmedical\MedicalRespaldo\bin\Debug\net6.0-windows\Microsoft.Extensions.Primitives.dll
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\FinalAPresentar\MRmedical\MedicalRespaldo\bin\Debug\net6.0-windows\Microsoft.Identity.Client.dll
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\FinalAPresentar\MRmedical\MedicalRespaldo\bin\Debug\net6.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\FinalAPresentar\MRmedical\MedicalRespaldo\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\FinalAPresentar\MRmedical\MedicalRespaldo\bin\Debug\net6.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\FinalAPresentar\MRmedical\MedicalRespaldo\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Logging.dll
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\FinalAPresentar\MRmedical\MedicalRespaldo\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.dll
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\FinalAPresentar\MRmedical\MedicalRespaldo\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\FinalAPresentar\MRmedical\MedicalRespaldo\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Tokens.dll
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\FinalAPresentar\MRmedical\MedicalRespaldo\bin\Debug\net6.0-windows\Microsoft.SqlServer.Server.dll
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\FinalAPresentar\MRmedical\MedicalRespaldo\bin\Debug\net6.0-windows\System.Configuration.ConfigurationManager.dll
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\FinalAPresentar\MRmedical\MedicalRespaldo\bin\Debug\net6.0-windows\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\FinalAPresentar\MRmedical\MedicalRespaldo\bin\Debug\net6.0-windows\System.Memory.Data.dll
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\FinalAPresentar\MRmedical\MedicalRespaldo\bin\Debug\net6.0-windows\System.Runtime.Caching.dll
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\FinalAPresentar\MRmedical\MedicalRespaldo\bin\Debug\net6.0-windows\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\FinalAPresentar\MRmedical\MedicalRespaldo\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\FinalAPresentar\MRmedical\MedicalRespaldo\bin\Debug\net6.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\FinalAPresentar\MRmedical\MedicalRespaldo\bin\Debug\net6.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\FinalAPresentar\MRmedical\MedicalRespaldo\bin\Debug\net6.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\FinalAPresentar\MRmedical\MedicalRespaldo\bin\Debug\net6.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\FinalAPresentar\MRmedical\MedicalRespaldo\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\FinalAPresentar\MRmedical\MedicalRespaldo\bin\Debug\net6.0-windows\BackRespaldo.dll
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\FinalAPresentar\MRmedical\MedicalRespaldo\bin\Debug\net6.0-windows\BackRespaldo.pdb
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\FinalAPresentar\MRmedical\MedicalRespaldo\obj\Debug\net6.0-windows\MedicalRespaldo.csproj.AssemblyReference.cache
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\FinalAPresentar\MRmedical\MedicalRespaldo\obj\Debug\net6.0-windows\MedicalRespaldo.AltaAgenda.resources
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\FinalAPresentar\MRmedical\MedicalRespaldo\obj\Debug\net6.0-windows\MedicalRespaldo.AltaHistorial.resources
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\FinalAPresentar\MRmedical\MedicalRespaldo\obj\Debug\net6.0-windows\MedicalRespaldo.AltaMedico.resources
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\FinalAPresentar\MRmedical\MedicalRespaldo\obj\Debug\net6.0-windows\MedicalRespaldo.AltaPaciente.resources
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\FinalAPresentar\MRmedical\MedicalRespaldo\obj\Debug\net6.0-windows\MedicalRespaldo.AltaSecretaria.resources
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\FinalAPresentar\MRmedical\MedicalRespaldo\obj\Debug\net6.0-windows\MedicalRespaldo.AltaTurno.resources
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\FinalAPresentar\MRmedical\MedicalRespaldo\obj\Debug\net6.0-windows\MedicalRespaldo.AltaUsuario.resources
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\FinalAPresentar\MRmedical\MedicalRespaldo\obj\Debug\net6.0-windows\MedicalRespaldo.DataGridAgenda.resources
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\FinalAPresentar\MRmedical\MedicalRespaldo\obj\Debug\net6.0-windows\MedicalRespaldo.DataGridEspecialidad.resources
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\FinalAPresentar\MRmedical\MedicalRespaldo\obj\Debug\net6.0-windows\MedicalRespaldo.DataGridHistorial.resources
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\FinalAPresentar\MRmedical\MedicalRespaldo\obj\Debug\net6.0-windows\MedicalRespaldo.DataGridMedico.resources
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\FinalAPresentar\MRmedical\MedicalRespaldo\obj\Debug\net6.0-windows\MedicalRespaldo.DataGridPaciente.resources
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\FinalAPresentar\MRmedical\MedicalRespaldo\obj\Debug\net6.0-windows\MedicalRespaldo.DataGridSecretaria.resources
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\FinalAPresentar\MRmedical\MedicalRespaldo\obj\Debug\net6.0-windows\MedicalRespaldo.DataGridTurno.resources
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\FinalAPresentar\MRmedical\MedicalRespaldo\obj\Debug\net6.0-windows\MedicalRespaldo.DataGridUsuario.resources
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\FinalAPresentar\MRmedical\MedicalRespaldo\obj\Debug\net6.0-windows\MedicalRespaldo.Home.resources
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\FinalAPresentar\MRmedical\MedicalRespaldo\obj\Debug\net6.0-windows\MedicalRespaldo.LogUsuario.resources
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\FinalAPresentar\MRmedical\MedicalRespaldo\obj\Debug\net6.0-windows\MedicalRespaldo.MenuMedico.resources
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\FinalAPresentar\MRmedical\MedicalRespaldo\obj\Debug\net6.0-windows\MedicalRespaldo.MenuSecretaria.resources
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\FinalAPresentar\MRmedical\MedicalRespaldo\obj\Debug\net6.0-windows\MedicalRespaldo.Properties.Resources.resources
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\FinalAPresentar\MRmedical\MedicalRespaldo\obj\Debug\net6.0-windows\MedicalRespaldo.csproj.GenerateResource.cache
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\FinalAPresentar\MRmedical\MedicalRespaldo\obj\Debug\net6.0-windows\MedicalRespaldo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\FinalAPresentar\MRmedical\MedicalRespaldo\obj\Debug\net6.0-windows\MedicalRespaldo.AssemblyInfoInputs.cache
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\FinalAPresentar\MRmedical\MedicalRespaldo\obj\Debug\net6.0-windows\MedicalRespaldo.AssemblyInfo.cs
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\FinalAPresentar\MRmedical\MedicalRespaldo\obj\Debug\net6.0-windows\MedicalRespaldo.csproj.CoreCompileInputs.cache
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\FinalAPresentar\MRmedical\MedicalRespaldo\obj\Debug\net6.0-windows\MedicalRespaldo.csproj.CopyComplete
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\FinalAPresentar\MRmedical\MedicalRespaldo\obj\Debug\net6.0-windows\MedicalRespaldo.dll
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\FinalAPresentar\MRmedical\MedicalRespaldo\obj\Debug\net6.0-windows\refint\MedicalRespaldo.dll
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\FinalAPresentar\MRmedical\MedicalRespaldo\obj\Debug\net6.0-windows\MedicalRespaldo.pdb
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\FinalAPresentar\MRmedical\MedicalRespaldo\obj\Debug\net6.0-windows\MedicalRespaldo.genruntimeconfig.cache
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\FinalAPresentar\MRmedical\MedicalRespaldo\obj\Debug\net6.0-windows\ref\MedicalRespaldo.dll

@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="Altas\AltaAgenda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Altas\AltaHistorial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Altas\AltaMedico.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Altas\AltaPaciente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Altas\AltaSecretaria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Altas\AltaTurno.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Altas\AltaUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Grillas\DataGridAgenda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Grillas\DataGridEspecialidad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Grillas\DataGridHistorial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Grillas\DataGridMedico.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Grillas\DataGridPaciente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Grillas\DataGridSecretaria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Grillas\DataGridTurno.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Grillas\DataGridUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Homes\Home.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Homes\LogUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Menus\MenuMedico.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Menus\MenuSecretaria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>

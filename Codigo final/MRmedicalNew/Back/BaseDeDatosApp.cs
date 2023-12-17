@@ -15,14 +15,13 @@ namespace Back
         public DbSet<Historial> Historiales { get; set; }
         public DbSet<Medico> Medicos { get; set; }
         public DbSet<Paciente> Pacientes { get; set; }
-        public DbSet<Persona> Personas { get; set; }
-        public DbSet<Secretaria> Secretarias { get; set; }
+        public DbSet<Secretaria> Secretarias{ get; set; }
         public DbSet<Turno> Turnos { get; set; }
         public DbSet<Usuario> Usuarios { get; set; }
         
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder) 
         {
-            optionsBuilder.UseSqlServer("server=ROCIORELLANO;database=BaseMR;trusted_connection=true;encrypt=False");
+            optionsBuilder.UseSqlServer("server=ROCIORELLANO;database=BaseTP;trusted_connection=true;encrypt=False");
         }
 
         

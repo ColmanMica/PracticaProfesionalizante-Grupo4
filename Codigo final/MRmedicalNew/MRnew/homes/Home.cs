@@ -13,5 +13,10 @@ namespace MRnew
             form.Show();
             this.Hide();
         }
+
+        private void Home_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -10,9 +10,9 @@ namespace Back
     public class Agenda
     {
         public int id {  get; set; }    
-       // public int idAgenda { get; set; }
         public string paciente { get; set; }
         public DateTime fechaHora { get; set; }
         public Medico medicoAgenda { get; set; }
+       
     }
 }

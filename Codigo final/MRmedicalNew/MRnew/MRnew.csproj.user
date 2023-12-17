@@ -1,40 +1,61 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Compile Update="AgendaData.cs">
+    <Compile Update="Altas\AltaSecretaria.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="AMBMedico.cs">
+    <Compile Update="Altas\AltaPaciente.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="FiltroHistorial.cs">
+    <Compile Update="Altas\AltaMedico.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="ABMespecialidad.cs">
+    <Compile Update="Grillas\DataSecretaria.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="homes\Home.cs">
+    <Compile Update="Grillas\AgendaData.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="homes\LogUsuario.cs">
+    <Compile Update="Grillas\AMBMedico.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="logUsuario2.cs">
+    <Compile Update="Grillas\FiltroHistorial.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="menus\MenuMedico.cs">
+    <Compile Update="Grillas\ABMespecialidad.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="menus\MenuSecretaria.cs">
+    <Compile Update="Homes\Home.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="PacientesData.cs">
+    <Compile Update="Homes\LogUsuario.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="TurnosData.cs">
+    <Compile Update="Altas\logUsuario2.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="UsuariosData.cs">
+    <Compile Update="Menus\MenuMedico.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Menus\MenuSecretaria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Grillas\PacientesData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Grillas\TurnosData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Grillas\UsuariosData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Altas\RegistroAgenda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Altas\NuevoHistorial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Altas\NuevoTurno.cs">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>

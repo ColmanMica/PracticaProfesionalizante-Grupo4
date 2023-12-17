@@ -1,0 +1,28 @@
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\codigo primero\MRmedical\BackRespaldo\bin\Debug\net6.0\BackRespaldo.deps.json
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\codigo primero\MRmedical\BackRespaldo\bin\Debug\net6.0\BackRespaldo.runtimeconfig.json
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\codigo primero\MRmedical\BackRespaldo\bin\Debug\net6.0\BackRespaldo.dll
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\codigo primero\MRmedical\BackRespaldo\bin\Debug\net6.0\BackRespaldo.pdb
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\codigo primero\MRmedical\BackRespaldo\obj\Debug\net6.0\BackRespaldo.csproj.AssemblyReference.cache
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\codigo primero\MRmedical\BackRespaldo\obj\Debug\net6.0\BackRespaldo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\codigo primero\MRmedical\BackRespaldo\obj\Debug\net6.0\BackRespaldo.AssemblyInfoInputs.cache
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\codigo primero\MRmedical\BackRespaldo\obj\Debug\net6.0\BackRespaldo.AssemblyInfo.cs
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\codigo primero\MRmedical\BackRespaldo\obj\Debug\net6.0\BackRespaldo.csproj.CoreCompileInputs.cache
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\codigo primero\MRmedical\BackRespaldo\obj\Debug\net6.0\BackRespaldo.dll
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\codigo primero\MRmedical\BackRespaldo\obj\Debug\net6.0\refint\BackRespaldo.dll
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\codigo primero\MRmedical\BackRespaldo\obj\Debug\net6.0\BackRespaldo.pdb
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\codigo primero\MRmedical\BackRespaldo\obj\Debug\net6.0\BackRespaldo.genruntimeconfig.cache
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\codigo primero\MRmedical\BackRespaldo\obj\Debug\net6.0\ref\BackRespaldo.dll
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\FinalAPresentar\MRmedical\BackRespaldo\bin\Debug\net6.0\BackRespaldo.deps.json
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\FinalAPresentar\MRmedical\BackRespaldo\bin\Debug\net6.0\BackRespaldo.runtimeconfig.json
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\FinalAPresentar\MRmedical\BackRespaldo\bin\Debug\net6.0\BackRespaldo.dll
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\FinalAPresentar\MRmedical\BackRespaldo\bin\Debug\net6.0\BackRespaldo.pdb
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\FinalAPresentar\MRmedical\BackRespaldo\obj\Debug\net6.0\BackRespaldo.csproj.AssemblyReference.cache
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\FinalAPresentar\MRmedical\BackRespaldo\obj\Debug\net6.0\BackRespaldo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\FinalAPresentar\MRmedical\BackRespaldo\obj\Debug\net6.0\BackRespaldo.AssemblyInfoInputs.cache
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\FinalAPresentar\MRmedical\BackRespaldo\obj\Debug\net6.0\BackRespaldo.AssemblyInfo.cs
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\FinalAPresentar\MRmedical\BackRespaldo\obj\Debug\net6.0\BackRespaldo.csproj.CoreCompileInputs.cache
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\FinalAPresentar\MRmedical\BackRespaldo\obj\Debug\net6.0\BackRespaldo.dll
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\FinalAPresentar\MRmedical\BackRespaldo\obj\Debug\net6.0\refint\BackRespaldo.dll
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\FinalAPresentar\MRmedical\BackRespaldo\obj\Debug\net6.0\BackRespaldo.pdb
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\FinalAPresentar\MRmedical\BackRespaldo\obj\Debug\net6.0\BackRespaldo.genruntimeconfig.cache
+C:\Users\rocio\OneDrive\Documentos\GitHub\PracticaProfesionalizante-Grupo4\FinalAPresentar\MRmedical\BackRespaldo\obj\Debug\net6.0\ref\BackRespaldo.dll

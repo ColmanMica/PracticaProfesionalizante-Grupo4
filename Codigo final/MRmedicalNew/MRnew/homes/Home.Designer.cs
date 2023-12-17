@@ -69,6 +69,7 @@
             Controls.Add(label1);
             Controls.Add(butIngresoSistem);
             Name = "Home";
+            Load += Home_Load;
             ResumeLayout(false);
             PerformLayout();
         }

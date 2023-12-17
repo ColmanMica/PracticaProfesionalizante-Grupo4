@@ -9,9 +9,8 @@ namespace Back
 {
     public class Paciente : Persona
     {
-        //public int id { get; set; }
-        public int idpaciente {  get; set; }
-        public double vacunasAlDia { get; set; }
+        public int idPaciente { get; set; }
+        public bool vacunasAlDia { get; set; }
     }
 }
 

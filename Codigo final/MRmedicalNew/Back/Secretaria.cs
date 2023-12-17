@@ -9,9 +9,8 @@ namespace Back
 {
     public class Secretaria:Persona
     {
-        //public int id { get; set; }
-        public int idSecretaria { get; set;  }
-        public int numerolegajo { get; set; }
+        public int idSecretaria { get; set; }
+       public int numerolegajo { get; set; }
         public Usuario usuarioSecretaria { get; set; }
     }
 }
