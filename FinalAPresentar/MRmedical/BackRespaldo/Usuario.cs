@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
@@ -13,5 +14,7 @@ namespace BackRespaldo
         public string correo { get; set; }
         public string contrasenia { get; set; }
         public string tipo { get; set; }
+
+        public static Usuario usulogueado { get; set; }
     }
 }

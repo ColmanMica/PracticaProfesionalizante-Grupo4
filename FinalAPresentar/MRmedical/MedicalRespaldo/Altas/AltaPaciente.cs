@@ -40,7 +40,7 @@ namespace MedicalRespaldo
 
             MessageBox.Show(" El paciente fue guardado");
 
-            
+
             txtdni.Clear();
             txtnombre.Clear();
             txtdirecc.Clear();
@@ -50,8 +50,8 @@ namespace MedicalRespaldo
 
         private void AltaPaciente_Load(object sender, EventArgs e)
         {
-            combovacunas.Items.Add("Si");
-            combovacunas.Items.Add("No");
+            combovacunas.Items.Add("True");
+            combovacunas.Items.Add("False");
         }
     }
 }

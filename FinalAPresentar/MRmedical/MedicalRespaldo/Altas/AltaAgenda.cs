@@ -108,12 +108,12 @@ namespace MedicalRespaldo
 
         private void comboTurno_SelectedIndexChanged(object sender, EventArgs e)
         {
-           
+
         }
 
         private void comboMed_SelectedIndexChanged(object sender, EventArgs e)
         {
-           
+
         }
 
         private void comboPac_SelectedIndexChanged(object sender, EventArgs e)
@@ -137,5 +137,5 @@ namespace MedicalRespaldo
             comboTurno.DisplayMember = "fechaHora";
         }
     }
-    
+
 }

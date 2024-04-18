@@ -42,7 +42,7 @@
             // button1
             // 
             button1.BackColor = Color.Silver;
-            button1.Location = new Point(694, 12);
+            button1.Location = new Point(610, 12);
             button1.Name = "button1";
             button1.Size = new Size(94, 57);
             button1.TabIndex = 27;
@@ -117,13 +117,14 @@
             comboTipo.Name = "comboTipo";
             comboTipo.Size = new Size(196, 28);
             comboTipo.TabIndex = 28;
+            comboTipo.SelectedIndexChanged += comboTipo_SelectedIndexChanged;
             // 
             // AltaUsuario
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.Lavender;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(749, 450);
             Controls.Add(comboTipo);
             Controls.Add(button1);
             Controls.Add(label3);

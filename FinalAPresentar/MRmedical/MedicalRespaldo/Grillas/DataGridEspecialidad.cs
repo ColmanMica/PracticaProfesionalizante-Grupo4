@@ -28,9 +28,9 @@ namespace MedicalRespaldo
 
         private void dataGridEspecialidades_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-            /*BindingSource aBind = new BindingSource();
-            aBind.DataSource = especialidadBindingSource;
-            dataGridEspecialidades.DataSource = aBind;*/
+            BindingSource aBind = new BindingSource();
+            aBind.DataSource = principal.MostrarAgenda();
+            dataGridEspecialidades.DataSource = aBind;
         }
 
         private void DataGridEspecialidad_Load(object sender, EventArgs e)

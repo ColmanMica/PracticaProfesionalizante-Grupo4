@@ -83,6 +83,7 @@
             DoubleBuffered = true;
             MainMenuStrip = menuStrip1;
             Name = "MenuMedico";
+            Load += MenuMedico_Load;
             menuStrip1.ResumeLayout(false);
             menuStrip1.PerformLayout();
             ResumeLayout(false);

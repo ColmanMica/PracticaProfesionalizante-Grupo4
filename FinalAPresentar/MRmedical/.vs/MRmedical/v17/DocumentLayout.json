@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\rocio\\OneDrive\\Documentos\\GitHub\\PracticaProfesionalizante-Grupo4\\FinalAPresentar\\MRmedical\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A60C02C8-1941-4D83-8335-5235839CF04B}|MedicalRespaldo\\MedicalRespaldo.csproj|c:\\users\\rocio\\onedrive\\documentos\\github\\practicaprofesionalizante-grupo4\\finalapresentar\\mrmedical\\medicalrespaldo\\grillas\\datagridagenda_.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A60C02C8-1941-4D83-8335-5235839CF04B}|MedicalRespaldo\\MedicalRespaldo.csproj|solutionrelative:medicalrespaldo\\grillas\\datagridagenda_.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86C22562-D166-4B90-96E5-85EC1FC3BFE0}|BackRespaldo\\BackRespaldo.csproj|C:\\Users\\rocio\\OneDrive\\Documentos\\GitHub\\PracticaProfesionalizante-Grupo4\\FinalAPresentar\\MRmedical\\backrespaldo\\principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86C22562-D166-4B90-96E5-85EC1FC3BFE0}|BackRespaldo\\BackRespaldo.csproj|solutionrelative:backrespaldo\\principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A60C02C8-1941-4D83-8335-5235839CF04B}|MedicalRespaldo\\MedicalRespaldo.csproj|c:\\users\\rocio\\onedrive\\documentos\\github\\practicaprofesionalizante-grupo4\\finalapresentar\\mrmedical\\medicalrespaldo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A60C02C8-1941-4D83-8335-5235839CF04B}|MedicalRespaldo\\MedicalRespaldo.csproj|solutionrelative:medicalrespaldo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DataGridAgenda_.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\rocio\\OneDrive\\Documentos\\GitHub\\PracticaProfesionalizante-Grupo4\\FinalAPresentar\\MRmedical\\MedicalRespaldo\\Grillas\\DataGridAgenda_.cs",
+              "RelativeDocumentMoniker": "MedicalRespaldo\\Grillas\\DataGridAgenda_.cs",
+              "ToolTip": "C:\\Users\\rocio\\OneDrive\\Documentos\\GitHub\\PracticaProfesionalizante-Grupo4\\FinalAPresentar\\MRmedical\\MedicalRespaldo\\Grillas\\DataGridAgenda_.cs [Dise\u00F1o]",
+              "RelativeToolTip": "MedicalRespaldo\\Grillas\\DataGridAgenda_.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-23T12:49:33.339Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\rocio\\OneDrive\\Documentos\\GitHub\\PracticaProfesionalizante-Grupo4\\FinalAPresentar\\MRmedical\\MedicalRespaldo\\Program.cs",
+              "RelativeDocumentMoniker": "MedicalRespaldo\\Program.cs",
+              "ToolTip": "C:\\Users\\rocio\\OneDrive\\Documentos\\GitHub\\PracticaProfesionalizante-Grupo4\\FinalAPresentar\\MRmedical\\MedicalRespaldo\\Program.cs",
+              "RelativeToolTip": "MedicalRespaldo\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-11-03T18:10:39.124Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Principal.cs",
+              "DocumentMoniker": "C:\\Users\\rocio\\OneDrive\\Documentos\\GitHub\\PracticaProfesionalizante-Grupo4\\FinalAPresentar\\MRmedical\\BackRespaldo\\Principal.cs",
+              "RelativeDocumentMoniker": "BackRespaldo\\Principal.cs",
+              "ToolTip": "C:\\Users\\rocio\\OneDrive\\Documentos\\GitHub\\PracticaProfesionalizante-Grupo4\\FinalAPresentar\\MRmedical\\BackRespaldo\\Principal.cs",
+              "RelativeToolTip": "BackRespaldo\\Principal.cs",
+              "ViewState": "AQIAAMoAAAAAAAAAAAAcwBABAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-17T16:15:33.295Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

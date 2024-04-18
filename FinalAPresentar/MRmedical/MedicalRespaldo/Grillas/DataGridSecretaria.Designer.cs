@@ -49,35 +49,38 @@
             // 
             // button4
             // 
-            button4.BackgroundImage = Properties.Resources.Elim;
+            button4.BackColor = Color.LightGray;
             button4.BackgroundImageLayout = ImageLayout.Zoom;
-            button4.Location = new Point(1057, 229);
+            button4.Location = new Point(1023, 257);
             button4.Name = "button4";
-            button4.Size = new Size(61, 56);
+            button4.Size = new Size(84, 64);
             button4.TabIndex = 9;
-            button4.UseVisualStyleBackColor = true;
+            button4.Text = "Eliminar";
+            button4.UseVisualStyleBackColor = false;
             button4.Click += button4_Click;
             // 
             // button3
             // 
-            button3.BackgroundImage = Properties.Resources.edit;
+            button3.BackColor = Color.LightGray;
             button3.BackgroundImageLayout = ImageLayout.Zoom;
-            button3.Location = new Point(1057, 142);
+            button3.Location = new Point(1023, 147);
             button3.Name = "button3";
-            button3.Size = new Size(74, 54);
+            button3.Size = new Size(84, 61);
             button3.TabIndex = 8;
-            button3.UseVisualStyleBackColor = true;
+            button3.Text = "Modificar";
+            button3.UseVisualStyleBackColor = false;
             button3.Click += button3_Click;
             // 
             // button2
             // 
-            button2.BackgroundImage = Properties.Resources.nuevo;
+            button2.BackColor = Color.LightGray;
             button2.BackgroundImageLayout = ImageLayout.Zoom;
-            button2.Location = new Point(1057, 46);
+            button2.Location = new Point(1023, 46);
             button2.Name = "button2";
-            button2.Size = new Size(70, 61);
+            button2.Size = new Size(84, 61);
             button2.TabIndex = 7;
-            button2.UseVisualStyleBackColor = true;
+            button2.Text = "Agregar";
+            button2.UseVisualStyleBackColor = false;
             button2.Click += button2_Click;
             // 
             // button1
@@ -97,11 +100,11 @@
             dataGridS.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridS.Columns.AddRange(new DataGridViewColumn[] { idDataGridViewTextBoxColumn, numerolegajoDataGridViewTextBoxColumn, dniDataGridViewTextBoxColumn, nombreDataGridViewTextBoxColumn, apellidoDataGridViewTextBoxColumn, fechaNacimientoDataGridViewTextBoxColumn, direccionDataGridViewTextBoxColumn });
             dataGridS.DataSource = secretariaBindingSource;
-            dataGridS.Location = new Point(47, 34);
+            dataGridS.Location = new Point(12, 34);
             dataGridS.Name = "dataGridS";
             dataGridS.RowHeadersWidth = 51;
             dataGridS.RowTemplate.Height = 29;
-            dataGridS.Size = new Size(925, 359);
+            dataGridS.Size = new Size(927, 359);
             dataGridS.TabIndex = 5;
             dataGridS.CellContentClick += dataGridView1_CellContentClick;
             // 
@@ -181,7 +184,7 @@
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.Lavender;
-            ClientSize = new Size(1242, 450);
+            ClientSize = new Size(1169, 450);
             Controls.Add(button5);
             Controls.Add(button4);
             Controls.Add(button3);

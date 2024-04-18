@@ -24,43 +24,41 @@ namespace BackRespaldo
         {
             using (var context = new BaseDeDatosApp())
             {
-                var pacienteAActualizar = context.Pacientes.Find(paciente.dni);
+                var pacienteAActualizar = context.Pacientes.Find(paciente.id);
                 if (pacienteAActualizar != null)
                 {
                     if (pacienteAActualizar.nombre != paciente.nombre)
                     {
-                        paciente.nombre = pacienteAActualizar.nombre;
+                        pacienteAActualizar.nombre = paciente.nombre;
                     }
                     if (pacienteAActualizar.apellido != paciente.apellido)
                     {
-                        paciente.apellido = pacienteAActualizar.apellido;
+                        pacienteAActualizar.apellido = paciente.apellido;
                     }
                     if (pacienteAActualizar.vacunasAlDia != paciente.vacunasAlDia)
                     {
-                        paciente.vacunasAlDia = pacienteAActualizar.vacunasAlDia;
+                        pacienteAActualizar.vacunasAlDia = paciente.vacunasAlDia;
                     }
                     if (pacienteAActualizar.direccion != paciente.direccion)
                     {
-                        paciente.direccion = pacienteAActualizar.direccion;
-                    }
-
-                    context.SaveChanges();
+                        pacienteAActualizar.direccion = paciente.direccion;
+                    }   
                 }
-
+               context.SaveChanges();
             }
-
         }
 
         public void EliminarPaciente(Paciente paciente)
         {
             using (var context = new BaseDeDatosApp())
             {
-                var pacienteABorrar = context.Pacientes.Find(paciente.dni);
+                var pacienteABorrar = context.Pacientes.Find(paciente.id);
                 if (pacienteABorrar != null)
                 {
                     context.Pacientes.Remove(pacienteABorrar);
-                    context.SaveChanges();
+                   
                 }
+                context.SaveChanges();
             }
         }
 
@@ -69,7 +67,7 @@ namespace BackRespaldo
             using (var context = new BaseDeDatosApp())
             {
                 var nuevoMedico = new Medico { dni = medico.dni, matriculaMedico = medico.matriculaMedico, nombre = medico.nombre, apellido = medico.apellido, fechaNacimiento = medico.fechaNacimiento, especialidad = medico.especialidad, direccion = medico.direccion };
-                context.Medicos.Add(nuevoMedico);
+                context.Medicos.Add(medico);
                
                 context.SaveChanges();
             }
@@ -95,8 +93,9 @@ namespace BackRespaldo
                         medicoAActualizar.direccion = medico.direccion;
                     }
 
-                    context.SaveChanges();
+                    
                 }
+                context.SaveChanges();
 
             }
 
@@ -110,8 +109,9 @@ namespace BackRespaldo
                 if (medicoABorrar != null)
                 {
                     context.Medicos.Remove(medicoABorrar);
-                    context.SaveChanges();
+                    
                 }
+                context.SaveChanges();
             }
         }
 
@@ -149,22 +149,20 @@ namespace BackRespaldo
                     {
                         historialAActualizar.obraSocial = historial.obraSocial;
                     }
-
-                    context.SaveChanges();
                 }
-
+                context.SaveChanges();
             }
         }
         public void EliminarHistorial(Historial historial)
         {
             using (var context = new BaseDeDatosApp())
             {
-                var historialABorrar = context.Historiales.Find(historial.paciente);
+                var historialABorrar = context.Historiales.Find(historial.id);
                 if (historialABorrar != null)
                 {
                     context.Historiales.Remove(historialABorrar);
-                    context.SaveChanges();
                 }
+                context.SaveChanges();
             }
         }
         public void Altaturno(Turno turno)
@@ -197,9 +195,9 @@ namespace BackRespaldo
                         TurnoAModificar.pacienteTurno = turno.pacienteTurno;
                     }
 
-                    context.SaveChanges();
+                    
                 }
-
+                context.SaveChanges();
             }
         }
         public void EliminarTurno(Turno turno)
@@ -270,7 +268,7 @@ namespace BackRespaldo
             using (var context = new BaseDeDatosApp())
             {
 
-                var nuevaAgenda = new Agenda { paciente = paciente.nombre, medicoAgenda = medico, fechaHora = fechadelturno.fechaHora };
+                var nuevaAgenda = new Agenda { paciente = paciente, medicoAgenda = medico, fechaHora = fechadelturno.fechaHora };
                 context.Agendas.Add(nuevaAgenda);
                 context.SaveChanges();
             }
@@ -316,7 +314,7 @@ namespace BackRespaldo
             using (var context = new BaseDeDatosApp())
             {
 
-                var nuevaSecretaria = new Secretaria { numerolegajo = secretaria.numerolegajo, dni = secretaria.dni, nombre = secretaria.nombre, apellido = secretaria.apellido, fechaNacimiento = secretaria.fechaNacimiento, direccion = secretaria.direccion };
+                var nuevaSecretaria = new Secretaria { numerolegajo = secretaria.numerolegajo, dni = secretaria.dni, nombre = secretaria.nombre, apellido = secretaria.apellido, fechaNacimiento = secretaria.fechaNacimiento, direccion = secretaria.direccion};
                 context.Secretarias.Add(nuevaSecretaria);
                 context.SaveChanges();
             }
@@ -345,9 +343,11 @@ namespace BackRespaldo
                         secretariaAModificar.direccion = secretaria.direccion;
                     }
                 }
-                context.SaveChanges();
+               context.SaveChanges();
             }
         }
+
+
         public void EliminarSecretaria(Secretaria secretaria)
         {
             using (var context = new BaseDeDatosApp())

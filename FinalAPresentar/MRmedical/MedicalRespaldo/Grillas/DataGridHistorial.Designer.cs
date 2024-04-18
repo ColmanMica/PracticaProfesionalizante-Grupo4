@@ -36,25 +36,24 @@
             butModHist = new Button();
             dataGridHist = new DataGridView();
             historialBindingSource = new BindingSource(components);
-            historialBindingSource1 = new BindingSource(components);
             idDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
             pacientecolum = new DataGridViewComboBoxColumn();
             obraSocialDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
             fechaHoraDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)dataGridHist).BeginInit();
             ((System.ComponentModel.ISupportInitialize)historialBindingSource).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)historialBindingSource1).BeginInit();
             SuspendLayout();
             // 
             // buthardarHist
             // 
-            buthardarHist.BackgroundImage = Properties.Resources.nuevo;
+            buthardarHist.BackColor = Color.LightGray;
             buthardarHist.BackgroundImageLayout = ImageLayout.Zoom;
-            buthardarHist.Location = new Point(993, 37);
+            buthardarHist.Location = new Point(673, 61);
             buthardarHist.Name = "buthardarHist";
-            buthardarHist.Size = new Size(58, 58);
+            buthardarHist.Size = new Size(95, 52);
             buthardarHist.TabIndex = 11;
-            buthardarHist.UseVisualStyleBackColor = true;
+            buthardarHist.Text = "Agregar";
+            buthardarHist.UseVisualStyleBackColor = false;
             buthardarHist.Click += buthardarHist_Click;
             // 
             // butVS
@@ -82,36 +81,38 @@
             // 
             // butElimHist
             // 
-            butElimHist.BackgroundImage = Properties.Resources.Elim;
+            butElimHist.BackColor = Color.LightGray;
             butElimHist.BackgroundImageLayout = ImageLayout.Zoom;
-            butElimHist.ForeColor = Color.PaleGoldenrod;
-            butElimHist.Location = new Point(993, 213);
+            butElimHist.ForeColor = Color.Black;
+            butElimHist.Location = new Point(673, 257);
             butElimHist.Name = "butElimHist";
-            butElimHist.Size = new Size(65, 51);
+            butElimHist.Size = new Size(95, 55);
             butElimHist.TabIndex = 8;
-            butElimHist.UseVisualStyleBackColor = true;
+            butElimHist.Text = "Eliminar";
+            butElimHist.UseVisualStyleBackColor = false;
             butElimHist.Click += butElimHist_Click;
             // 
             // butModHist
             // 
-            butModHist.BackgroundImage = Properties.Resources.edit;
+            butModHist.BackColor = Color.LightGray;
             butModHist.BackgroundImageLayout = ImageLayout.Zoom;
-            butModHist.Location = new Point(993, 135);
+            butModHist.Location = new Point(673, 160);
             butModHist.Name = "butModHist";
-            butModHist.Size = new Size(61, 50);
+            butModHist.Size = new Size(95, 58);
             butModHist.TabIndex = 7;
-            butModHist.UseVisualStyleBackColor = true;
+            butModHist.Text = "Modificar";
+            butModHist.UseVisualStyleBackColor = false;
             butModHist.Click += butModHist_Click;
             // 
             // dataGridHist
             // 
             dataGridHist.AutoGenerateColumns = false;
-            dataGridHist.BackgroundColor = Color.PaleGoldenrod;
+            dataGridHist.BackgroundColor = Color.Lavender;
             dataGridHist.BorderStyle = BorderStyle.None;
             dataGridHist.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridHist.Columns.AddRange(new DataGridViewColumn[] { idDataGridViewTextBoxColumn, pacientecolum, obraSocialDataGridViewTextBoxColumn, fechaHoraDataGridViewTextBoxColumn });
-            dataGridHist.DataSource = historialBindingSource1;
-            dataGridHist.Location = new Point(209, 68);
+            dataGridHist.DataSource = historialBindingSource;
+            dataGridHist.Location = new Point(44, 61);
             dataGridHist.Name = "dataGridHist";
             dataGridHist.RowHeadersWidth = 51;
             dataGridHist.RowTemplate.Height = 29;
@@ -119,14 +120,11 @@
             dataGridHist.TabIndex = 6;
             dataGridHist.CellContentClick += dataGridHist_CellContentClick;
             dataGridHist.CellParsing += dataGridHist_CellParsing;
+            dataGridHist.TabIndexChanged += dataGridHist_TabIndexChanged;
             // 
             // historialBindingSource
             // 
             historialBindingSource.DataSource = typeof(BackRespaldo.Historial);
-            // 
-            // historialBindingSource1
-            // 
-            historialBindingSource1.DataSource = typeof(BackRespaldo.Historial);
             // 
             // idDataGridViewTextBoxColumn
             // 
@@ -166,8 +164,8 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.PaleGoldenrod;
-            ClientSize = new Size(1096, 450);
+            BackColor = Color.Lavender;
+            ClientSize = new Size(832, 450);
             Controls.Add(buthardarHist);
             Controls.Add(butVS);
             Controls.Add(butAtras);
@@ -179,7 +177,6 @@
             Load += DataGridHistorial_Load;
             ((System.ComponentModel.ISupportInitialize)dataGridHist).EndInit();
             ((System.ComponentModel.ISupportInitialize)historialBindingSource).EndInit();
-            ((System.ComponentModel.ISupportInitialize)historialBindingSource1).EndInit();
             ResumeLayout(false);
         }
 
@@ -200,6 +197,5 @@
         private DataGridViewComboBoxColumn pacientecolum;
         private DataGridViewTextBoxColumn obraSocialDataGridViewTextBoxColumn;
         private DataGridViewTextBoxColumn fechaHoraDataGridViewTextBoxColumn;
-        private BindingSource historialBindingSource1;
     }
 }

@@ -188,7 +188,7 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.PaleGoldenrod;
+            BackColor = Color.Lavender;
             ClientSize = new Size(800, 450);
             Controls.Add(Pickerfechanac);
             Controls.Add(butAtras);

@@ -11,6 +11,11 @@ namespace BackRespaldo
     {
         public int id { get; set; }
          public bool vacunasAlDia { get; set; }
+
+        public override string ToString()
+        {
+            return nombre;
+        }
     }
 }
 

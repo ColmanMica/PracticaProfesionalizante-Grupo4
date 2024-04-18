@@ -20,9 +20,7 @@ namespace MedicalRespaldo
 
         private void butatrasLog_Click(object sender, EventArgs e)
         {
-            Home home = new Home();
-            home.Show();
-            this.Hide();
+           
         }
 
         private void ingresoUsuario_Click(object sender, EventArgs e)
@@ -30,21 +28,22 @@ namespace MedicalRespaldo
             using (var context = new BaseDeDatosApp())
             {
                 var usuario = context.Usuarios.FirstOrDefault(u => u.correo == txtBoxCorreo.Text);
-
+                
                 if (usuario != null && usuario.contrasenia == txtBoxContrasenia.Text)
                 {
+                    Usuario.usulogueado = usuario;
 
-                    if (usuario.tipo == "secretaria")
+                    if (usuario.tipo == "Secretaria")
                     {
                         MenuSecretaria form = new MenuSecretaria();
                         form.Show();
-                        this.Hide();
+                        this.Hide();    
                     }
                     else
                     {
                         MenuMedico form = new MenuMedico();
                         form.Show();
-                        this.Hide();
+                        this.Hide();  
                     }
                 }
                 else
@@ -53,8 +52,6 @@ namespace MedicalRespaldo
                 }
                 txtBoxCorreo.Clear();
                 txtBoxContrasenia.Clear();
-
-
             }
 
         }

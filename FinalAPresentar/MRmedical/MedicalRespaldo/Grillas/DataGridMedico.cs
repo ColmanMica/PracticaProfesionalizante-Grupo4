@@ -36,6 +36,8 @@ namespace MedicalRespaldo
         private void butModMed_Click(object sender, EventArgs e)
         {
             Medico UserSeleccionado = (Medico)DataGridView1.CurrentRow.DataBoundItem;
+
+            //((BindingList<Paciente>)dataGridHist.DataSource).ResetBindings();
         }
 
         private void butElimMed_Click(object sender, EventArgs e)
@@ -45,27 +47,31 @@ namespace MedicalRespaldo
             if (confirmar == DialogResult.OK)
             {
                 principal.EliminarMedico(UserSeleccionado);
+                
             }
+
+            //((BindingList<Paciente>)dataGridHist.DataSource).ResetBindings();
         }
 
         private void DataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-            /*BindingSource aBind = new BindingSource();
-            aBind.DataSource = medicoBindingSource;
-            DataGridView1.DataSource = aBind;*/
+            BindingSource aBind = new BindingSource();
+            aBind.DataSource = principal.MostrarMedicos();
+            DataGridView1.DataSource = aBind;
         }
 
         private void DataGridMedico_Load(object sender, EventArgs e)
         {
             DataGridView1.DataSource = new BindingList<Medico>(principal.MostrarMedicos());
-           ((DataGridViewComboBoxColumn)DataGridView1.Columns["especColumn"]).DataSource = principal.MostrarEspecialidades().ToArray();
+            
+            ((DataGridViewComboBoxColumn)DataGridView1.Columns["especialidadColumn"]).DataSource = principal.MostrarEspecialidades();
 
         }
 
         private void DataGridView1_CellParsing(object sender, DataGridViewCellParsingEventArgs e)
         {
             // Acá estoy por ver los valores que hay en la celda para llenar mi objeto del tipo especialidad
-            if (e.ColumnIndex == 6)
+            if (e.ColumnIndex == 7)
             {
                 string especialidadString = e.Value.ToString();
 

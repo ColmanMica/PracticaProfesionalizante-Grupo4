@@ -11,6 +11,6 @@ namespace BackRespaldo
     {
         public int id { get; set; }
         public int numerolegajo { get; set; }
-        public Usuario usuarioSecretaria { get; set; }
+        public Usuario? usuarioSecretaria { get; set; }
     }
 }

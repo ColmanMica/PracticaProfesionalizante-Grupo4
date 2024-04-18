@@ -118,8 +118,8 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.PaleGoldenrod;
-            ClientSize = new Size(800, 450);
+            BackColor = Color.Lavender;
+            ClientSize = new Size(682, 450);
             Controls.Add(PickerTurno);
             Controls.Add(combopaciente);
             Controls.Add(butGuardarturno);

@@ -46,10 +46,10 @@ namespace MedicalRespaldo
 
         private void dataGridUsuarios_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-            
-            /*BindingSource aBind = new BindingSource();
+
+            BindingSource aBind = new BindingSource();
             aBind.DataSource = 
-            dataGridUsuarios.DataSource = aBind;*/
+            dataGridUsuarios.DataSource = aBind;
         }
 
         private void DataGridUsuario_Load(object sender, EventArgs e)

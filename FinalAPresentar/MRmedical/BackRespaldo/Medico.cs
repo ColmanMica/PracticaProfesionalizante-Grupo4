@@ -14,9 +14,13 @@ namespace BackRespaldo
         public int id { get; set; }
         public string matriculaMedico { get; set; }
         public Especialidad especialidad { get; set; }
-        public Usuario usuarioMedico { get; set; }
-       
-        public static Medico buscarMedico(Usuario paramusuario)
+        public Usuario? usuarioMedico { get; set; }
+        public override string ToString()
+        {
+            return nombre;
+        }
+
+        /*public static Medico buscarMedico(Usuario paramusuario)
         {
             Principal mivarprin = new Principal();
             Medico medicoEncontrado = mivarprin.MostrarMedicos().FirstOrDefault(m => m.usuarioMedico == paramusuario);
@@ -24,9 +28,9 @@ namespace BackRespaldo
             return medicoEncontrado;
         
         
-        } 
+        } */
 
-     }
+    }
 
 
        

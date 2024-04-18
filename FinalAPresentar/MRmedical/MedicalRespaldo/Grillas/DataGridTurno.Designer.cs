@@ -34,24 +34,25 @@
             butElimMed = new Button();
             butModTurno = new Button();
             dataGridT = new DataGridView();
+            turnoBindingSource = new BindingSource(components);
             idDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
             pacienteColumn = new DataGridViewComboBoxColumn();
             medicoColumn = new DataGridViewComboBoxColumn();
             fechaHoraDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
-            turnoBindingSource = new BindingSource(components);
             ((System.ComponentModel.ISupportInitialize)dataGridT).BeginInit();
             ((System.ComponentModel.ISupportInitialize)turnoBindingSource).BeginInit();
             SuspendLayout();
             // 
             // button1
             // 
-            button1.BackgroundImage = Properties.Resources.nuevo;
+            button1.BackColor = Color.LightGray;
             button1.BackgroundImageLayout = ImageLayout.Zoom;
-            button1.Location = new Point(757, 54);
+            button1.Location = new Point(744, 54);
             button1.Name = "button1";
-            button1.Size = new Size(65, 59);
+            button1.Size = new Size(93, 59);
             button1.TabIndex = 9;
-            button1.UseVisualStyleBackColor = true;
+            button1.Text = "Agregar";
+            button1.UseVisualStyleBackColor = false;
             button1.Click += button1_Click;
             // 
             // buttAtras
@@ -67,30 +68,32 @@
             // 
             // butElimMed
             // 
-            butElimMed.BackgroundImage = Properties.Resources.Elim;
+            butElimMed.BackColor = Color.LightGray;
             butElimMed.BackgroundImageLayout = ImageLayout.Zoom;
-            butElimMed.Location = new Point(757, 223);
+            butElimMed.Location = new Point(744, 251);
             butElimMed.Name = "butElimMed";
-            butElimMed.Size = new Size(65, 51);
+            butElimMed.Size = new Size(93, 58);
             butElimMed.TabIndex = 7;
-            butElimMed.UseVisualStyleBackColor = true;
+            butElimMed.Text = "Eliminar";
+            butElimMed.UseVisualStyleBackColor = false;
             butElimMed.Click += butElimMed_Click;
             // 
             // butModTurno
             // 
-            butModTurno.BackgroundImage = Properties.Resources.edit;
+            butModTurno.BackColor = Color.LightGray;
             butModTurno.BackgroundImageLayout = ImageLayout.Zoom;
-            butModTurno.Location = new Point(757, 142);
+            butModTurno.Location = new Point(744, 155);
             butModTurno.Name = "butModTurno";
-            butModTurno.Size = new Size(65, 55);
+            butModTurno.Size = new Size(93, 58);
             butModTurno.TabIndex = 6;
-            butModTurno.UseVisualStyleBackColor = true;
+            butModTurno.Text = "Modificar";
+            butModTurno.UseVisualStyleBackColor = false;
             butModTurno.Click += butModTurno_Click;
             // 
             // dataGridT
             // 
             dataGridT.AutoGenerateColumns = false;
-            dataGridT.BackgroundColor = Color.PaleGoldenrod;
+            dataGridT.BackgroundColor = Color.Lavender;
             dataGridT.BorderStyle = BorderStyle.None;
             dataGridT.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridT.Columns.AddRange(new DataGridViewColumn[] { idDataGridViewTextBoxColumn, pacienteColumn, medicoColumn, fechaHoraDataGridViewTextBoxColumn });
@@ -103,6 +106,10 @@
             dataGridT.TabIndex = 5;
             dataGridT.CellContentClick += dataGridT_CellContentClick;
             dataGridT.CellParsing += dataGridT_CellParsing;
+            // 
+            // turnoBindingSource
+            // 
+            turnoBindingSource.DataSource = typeof(BackRespaldo.Turno);
             // 
             // idDataGridViewTextBoxColumn
             // 
@@ -138,18 +145,15 @@
             fechaHoraDataGridViewTextBoxColumn.HeaderText = "fechaHora";
             fechaHoraDataGridViewTextBoxColumn.MinimumWidth = 6;
             fechaHoraDataGridViewTextBoxColumn.Name = "fechaHoraDataGridViewTextBoxColumn";
+            fechaHoraDataGridViewTextBoxColumn.Resizable = DataGridViewTriState.True;
             fechaHoraDataGridViewTextBoxColumn.Width = 125;
-            // 
-            // turnoBindingSource
-            // 
-            turnoBindingSource.DataSource = typeof(BackRespaldo.Turno);
             // 
             // DataGridTurno
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.PaleGoldenrod;
-            ClientSize = new Size(951, 450);
+            BackColor = Color.Lavender;
+            ClientSize = new Size(903, 450);
             Controls.Add(button1);
             Controls.Add(buttAtras);
             Controls.Add(butElimMed);
@@ -170,10 +174,10 @@
         private Button butElimMed;
         private Button butModTurno;
         private DataGridView dataGridT;
+        private BindingSource turnoBindingSource;
         private DataGridViewTextBoxColumn idDataGridViewTextBoxColumn;
         private DataGridViewComboBoxColumn pacienteColumn;
         private DataGridViewComboBoxColumn medicoColumn;
         private DataGridViewTextBoxColumn fechaHoraDataGridViewTextBoxColumn;
-        private BindingSource turnoBindingSource;
     }
 }

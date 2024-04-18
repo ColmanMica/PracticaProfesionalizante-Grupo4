@@ -36,7 +36,6 @@
             butatras = new Button();
             medicoBindingSource = new BindingSource(components);
             DataGridView1 = new DataGridView();
-            medicoBindingSource1 = new BindingSource(components);
             idDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
             matriculaMedicoDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
             dniDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
@@ -47,20 +46,19 @@
             especialidadColumn = new DataGridViewComboBoxColumn();
             ((System.ComponentModel.ISupportInitialize)medicoBindingSource).BeginInit();
             ((System.ComponentModel.ISupportInitialize)DataGridView1).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)medicoBindingSource1).BeginInit();
             SuspendLayout();
             // 
             // butAgrMed
             // 
-            butAgrMed.BackColor = Color.Silver;
-            butAgrMed.BackgroundImage = Properties.Resources.nuevo;
+            butAgrMed.BackColor = Color.LightGray;
             butAgrMed.BackgroundImageLayout = ImageLayout.Zoom;
             butAgrMed.FlatStyle = FlatStyle.Popup;
             butAgrMed.ForeColor = SystemColors.ControlText;
-            butAgrMed.Location = new Point(1124, 28);
+            butAgrMed.Location = new Point(1124, 63);
             butAgrMed.Name = "butAgrMed";
             butAgrMed.Size = new Size(87, 62);
             butAgrMed.TabIndex = 9;
+            butAgrMed.Text = "Agregar";
             butAgrMed.UseVisualStyleBackColor = false;
             butAgrMed.Click += butAgrMed_Click;
             // 
@@ -75,28 +73,32 @@
             // 
             // butElimMed
             // 
-            butElimMed.BackgroundImage = Properties.Resources.Elim;
+            butElimMed.BackColor = Color.LightGray;
             butElimMed.BackgroundImageLayout = ImageLayout.Zoom;
             butElimMed.Cursor = Cursors.IBeam;
+            butElimMed.FlatStyle = FlatStyle.Popup;
             butElimMed.ForeColor = SystemColors.ControlText;
-            butElimMed.Location = new Point(1124, 214);
+            butElimMed.Location = new Point(1124, 284);
             butElimMed.Name = "butElimMed";
-            butElimMed.Size = new Size(73, 60);
+            butElimMed.Size = new Size(87, 60);
             butElimMed.TabIndex = 7;
-            butElimMed.UseVisualStyleBackColor = true;
+            butElimMed.Text = "Eliminar";
+            butElimMed.UseVisualStyleBackColor = false;
             butElimMed.Click += butElimMed_Click;
             // 
             // butModMed
             // 
-            butModMed.BackgroundImage = Properties.Resources.edit;
+            butModMed.BackColor = Color.LightGray;
             butModMed.BackgroundImageLayout = ImageLayout.Zoom;
             butModMed.Cursor = Cursors.IBeam;
-            butModMed.ForeColor = Color.DarkSlateGray;
-            butModMed.Location = new Point(1124, 120);
+            butModMed.FlatStyle = FlatStyle.Popup;
+            butModMed.ForeColor = Color.Black;
+            butModMed.Location = new Point(1124, 171);
             butModMed.Name = "butModMed";
-            butModMed.Size = new Size(87, 58);
+            butModMed.Size = new Size(87, 68);
             butModMed.TabIndex = 6;
-            butModMed.UseVisualStyleBackColor = true;
+            butModMed.Text = "Modificar";
+            butModMed.UseVisualStyleBackColor = false;
             butModMed.Click += butModMed_Click;
             // 
             // butatras
@@ -123,7 +125,7 @@
             DataGridView1.BorderStyle = BorderStyle.None;
             DataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             DataGridView1.Columns.AddRange(new DataGridViewColumn[] { idDataGridViewTextBoxColumn, matriculaMedicoDataGridViewTextBoxColumn, dniDataGridViewTextBoxColumn, nombreDataGridViewTextBoxColumn, apellidoDataGridViewTextBoxColumn, fechaNacimientoDataGridViewTextBoxColumn, direccionDataGridViewTextBoxColumn, especialidadColumn });
-            DataGridView1.DataSource = medicoBindingSource1;
+            DataGridView1.DataSource = medicoBindingSource;
             DataGridView1.Location = new Point(26, 63);
             DataGridView1.Name = "DataGridView1";
             DataGridView1.RowHeadersWidth = 51;
@@ -132,10 +134,6 @@
             DataGridView1.TabIndex = 11;
             DataGridView1.CellContentClick += DataGridView1_CellContentClick;
             DataGridView1.CellParsing += DataGridView1_CellParsing;
-            // 
-            // medicoBindingSource1
-            // 
-            medicoBindingSource1.DataSource = typeof(BackRespaldo.Medico);
             // 
             // idDataGridViewTextBoxColumn
             // 
@@ -221,7 +219,6 @@
             Load += DataGridMedico_Load;
             ((System.ComponentModel.ISupportInitialize)medicoBindingSource).EndInit();
             ((System.ComponentModel.ISupportInitialize)DataGridView1).EndInit();
-            ((System.ComponentModel.ISupportInitialize)medicoBindingSource1).EndInit();
             ResumeLayout(false);
         }
 
@@ -234,7 +231,6 @@
         private Button butatras;
         private BindingSource medicoBindingSource;
         private DataGridView DataGridView1;
-        private BindingSource medicoBindingSource1;
         private DataGridViewTextBoxColumn idDataGridViewTextBoxColumn;
         private DataGridViewTextBoxColumn matriculaMedicoDataGridViewTextBoxColumn;
         private DataGridViewTextBoxColumn dniDataGridViewTextBoxColumn;

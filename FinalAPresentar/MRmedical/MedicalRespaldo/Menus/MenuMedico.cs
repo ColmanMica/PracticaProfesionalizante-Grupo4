@@ -35,9 +35,14 @@ namespace MedicalRespaldo
         private void agendaToolStripMenuItem_Click(object sender, EventArgs e)
         {
 
-            DataGridAgenda form = new DataGridAgenda();
+            DataGridAgenda_ form = new DataGridAgenda_();
             form.Show();
             this.Hide();
+        }
+
+        private void MenuMedico_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

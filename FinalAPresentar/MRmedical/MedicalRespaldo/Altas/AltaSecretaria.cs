@@ -28,10 +28,12 @@ namespace MedicalRespaldo
             nuevaSecretaria.apellido = txtapellido.Text;
             nuevaSecretaria.fechaNacimiento = (DateTime)PickerFechaNac.Value;
             nuevaSecretaria.direccion = txtndirecc.Text;
+        
+
 
             principal.AltaSecretaria(nuevaSecretaria);
 
-            MessageBox.Show("El paciente fue guardado");
+            MessageBox.Show("Nueva secretaria guardada");
             txtnumlegajo.Clear();
             txtdni.Clear();
             txtnombre.Clear();

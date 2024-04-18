@@ -57,30 +57,32 @@
             // 
             // butModUsuario
             // 
-            butModUsuario.BackgroundImage = Properties.Resources.edit;
+            butModUsuario.BackColor = Color.LightGray;
             butModUsuario.BackgroundImageLayout = ImageLayout.Zoom;
-            butModUsuario.Location = new Point(703, 52);
+            butModUsuario.Location = new Point(688, 89);
             butModUsuario.Name = "butModUsuario";
-            butModUsuario.Size = new Size(57, 62);
+            butModUsuario.Size = new Size(102, 70);
             butModUsuario.TabIndex = 24;
-            butModUsuario.UseVisualStyleBackColor = true;
+            butModUsuario.Text = "Modificar";
+            butModUsuario.UseVisualStyleBackColor = false;
             butModUsuario.Click += butModUsuario_Click;
             // 
             // butElimUser
             // 
-            butElimUser.BackgroundImage = Properties.Resources.Elim;
+            butElimUser.BackColor = Color.LightGray;
             butElimUser.BackgroundImageLayout = ImageLayout.Zoom;
-            butElimUser.Location = new Point(703, 145);
+            butElimUser.Location = new Point(688, 224);
             butElimUser.Name = "butElimUser";
-            butElimUser.Size = new Size(57, 64);
+            butElimUser.Size = new Size(102, 64);
             butElimUser.TabIndex = 23;
-            butElimUser.UseVisualStyleBackColor = true;
+            butElimUser.Text = "Eliminar";
+            butElimUser.UseVisualStyleBackColor = false;
             butElimUser.Click += butElimUser_Click;
             // 
             // dataGridUsuarios
             // 
             dataGridUsuarios.AutoGenerateColumns = false;
-            dataGridUsuarios.BackgroundColor = Color.PaleGoldenrod;
+            dataGridUsuarios.BackgroundColor = Color.Lavender;
             dataGridUsuarios.BorderStyle = BorderStyle.None;
             dataGridUsuarios.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridUsuarios.Columns.AddRange(new DataGridViewColumn[] { idDataGridViewTextBoxColumn, tipoDataGridViewTextBoxColumn, correoDataGridViewTextBoxColumn, contraseniaDataGridViewTextBoxColumn });
@@ -133,8 +135,8 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.PaleGoldenrod;
-            ClientSize = new Size(914, 450);
+            BackColor = Color.Lavender;
+            ClientSize = new Size(835, 450);
             Controls.Add(butAtrasU);
             Controls.Add(butModUsuario);
             Controls.Add(butElimUser);

@@ -35,26 +35,36 @@ namespace MedicalRespaldo
 
         private void butMosPaciente_Click(object sender, EventArgs e)
         {
-            Paciente UserSeleccionado = (Paciente)dataGridPte.CurrentRow.DataBoundItem;
+            Paciente PteSeleccionado = (Paciente)dataGridPte.CurrentRow.DataBoundItem;
+            
+            principal.ActualizarPaciente(PteSeleccionado);
 
-            principal.ActualizarPaciente(UserSeleccionado);
+            //((BindingList<Paciente>)dataGridPte.DataSource).ResetBindings();
         }
 
         private void butElimPaciente_Click(object sender, EventArgs e)
         {
-            Paciente UserSeleccionado = (Paciente)dataGridPte.CurrentRow.DataBoundItem;
+            Paciente pacienteSeleccionado = (Paciente)dataGridPte.CurrentRow.DataBoundItem;
             var confirmar = MessageBox.Show("¿Seguro que quiere eliminar este paciente?", "Paciente eliminado", MessageBoxButtons.OKCancel);
             if (confirmar == DialogResult.OK)
             {
-                principal.EliminarPaciente(UserSeleccionado);
+                principal.EliminarPaciente(pacienteSeleccionado);
             }
+
+            //((BindingList<Paciente>)dataGridPte.DataSource).ResetBindings();
         }
 
         private void dataGridPte_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-           /* BindingSource aBind = new BindingSource();
-            aBind.DataSource = pacienteBindingSource;
-            dataGridPte.DataSource = aBind;*/
+            using (var context = new BaseDeDatosApp()) 
+            {
+                BindingSource aBind = new BindingSource();
+                aBind.DataSource = context.Pacientes.ToList();
+                dataGridPte.DataSource = aBind;
+            }
+            
+            
+            
         }
 
         private void DataGridPaciente_Load(object sender, EventArgs e)

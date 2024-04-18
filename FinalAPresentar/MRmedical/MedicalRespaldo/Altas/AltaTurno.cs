@@ -58,9 +58,10 @@ namespace MedicalRespaldo
             comboMedico.Items.AddRange(medicos.ToArray());
             comboMedico.DisplayMember = "nombre";
 
-            var pacienteas = principal.MostrarPacientes();
-            combopaciente.Items.AddRange(medicos.ToArray());
+            var pacientes = principal.MostrarPacientes();
+            combopaciente.Items.AddRange(pacientes.ToArray());
             combopaciente.DisplayMember = "nombre";
+            
 
         }
     }

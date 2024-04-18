@@ -38,6 +38,8 @@ namespace MedicalRespaldo
             Turno UserSeleccionado = (Turno)dataGridT.CurrentRow.DataBoundItem;
 
             principal.ModificarTurno(UserSeleccionado);
+
+            //((BindingList<Paciente>)dataGridHist.DataSource).ResetBindings();
         }
 
         private void butElimMed_Click(object sender, EventArgs e)
@@ -48,13 +50,15 @@ namespace MedicalRespaldo
             {
                 principal.EliminarTurno(UserSeleccionado);
             }
+
+            //((BindingList<Paciente>)dataGridHist.DataSource).ResetBindings();
         }
 
         private void dataGridT_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-           /* BindingSource aBind = new BindingSource();
-            aBind.DataSource = turnoBindingSource;
-            dataGridT.DataSource = aBind;*/
+            BindingSource aBind = new BindingSource();
+            aBind.DataSource = principal.MostrarTurnos();
+            dataGridT.DataSource = aBind;
         }
 
         private void DataGridTurno_Load(object sender, EventArgs e)

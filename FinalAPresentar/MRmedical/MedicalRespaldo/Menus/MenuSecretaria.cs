@@ -99,7 +99,7 @@ namespace MedicalRespaldo
 
         private void abrirAgendaToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            DataGridAgenda form = new DataGridAgenda();
+            DataGridAgenda_ form = new DataGridAgenda_();
             form.Show();
             this.Hide();
         }

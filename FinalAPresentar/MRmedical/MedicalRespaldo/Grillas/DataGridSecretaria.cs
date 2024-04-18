@@ -40,6 +40,8 @@ namespace MedicalRespaldo
             principal.ModificarSecretaria(seceretariaSeleccionada);
         }
 
+        //((BindingList<Paciente>)dataGridHist.DataSource).ResetBindings();
+
         private void button4_Click(object sender, EventArgs e)
         {
             Secretaria seceretariaSeleccionada = (Secretaria)dataGridS.CurrentRow.DataBoundItem;
@@ -48,13 +50,15 @@ namespace MedicalRespaldo
             {
                 principal.EliminarSecretaria(seceretariaSeleccionada);
             }
+
+            //((BindingList<Paciente>)dataGridHist.DataSource).ResetBindings();
         }
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-            /*BindingSource aBind = new BindingSource();
-            aBind.DataSource = secretariaBindingSource;
-            dataGridS.DataSource = aBind;*/
+            BindingSource aBind = new BindingSource();
+            aBind.DataSource = principal.MostrarSecretarias();
+            dataGridS.DataSource = aBind;
         }
 
         private void DataGridSecretaria_Load(object sender, EventArgs e)

@@ -36,13 +36,13 @@ namespace MedicalRespaldo
 
                 if (usuario != null && usuario.contrasenia == txtBoxContrasenia.Text)
                 {
-                    if (comboTipo.Text == "secretaria")
+                    if (comboTipo.Text == "Secretaria")
                     {
                         usuario.tipo = comboTipo.SelectedItem.ToString();
                     }
                     else
                     {
-                        if (comboTipo.Text == "medico")
+                        if (comboTipo.Text == "Medico")
                         {
                             usuario.tipo = comboTipo.SelectedItem.ToString();
                         }
@@ -69,6 +69,11 @@ namespace MedicalRespaldo
         }
 
         private void txtTipo_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void comboTipo_SelectedIndexChanged(object sender, EventArgs e)
         {
 
         }

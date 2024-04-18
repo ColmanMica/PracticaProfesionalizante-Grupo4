@@ -48,13 +48,14 @@
             // 
             // button1
             // 
-            button1.BackgroundImage = Properties.Resources.nuevo;
+            button1.BackColor = Color.LightGray;
             button1.BackgroundImageLayout = ImageLayout.Zoom;
             button1.Location = new Point(962, 47);
             button1.Name = "button1";
-            button1.Size = new Size(73, 60);
+            button1.Size = new Size(88, 65);
             button1.TabIndex = 9;
-            button1.UseVisualStyleBackColor = true;
+            button1.Text = "Agregar";
+            button1.UseVisualStyleBackColor = false;
             button1.Click += button1_Click;
             // 
             // butatrasp
@@ -71,30 +72,32 @@
             // 
             // butElimPaciente
             // 
-            butElimPaciente.BackgroundImage = Properties.Resources.Elim;
+            butElimPaciente.BackColor = Color.LightGray;
             butElimPaciente.BackgroundImageLayout = ImageLayout.Zoom;
-            butElimPaciente.Location = new Point(967, 234);
+            butElimPaciente.Location = new Point(962, 248);
             butElimPaciente.Name = "butElimPaciente";
-            butElimPaciente.Size = new Size(56, 62);
+            butElimPaciente.Size = new Size(88, 62);
             butElimPaciente.TabIndex = 7;
-            butElimPaciente.UseVisualStyleBackColor = true;
+            butElimPaciente.Text = "Eliminar";
+            butElimPaciente.UseVisualStyleBackColor = false;
             butElimPaciente.Click += butElimPaciente_Click;
             // 
             // butMosPaciente
             // 
-            butMosPaciente.BackgroundImage = Properties.Resources.edit;
+            butMosPaciente.BackColor = Color.LightGray;
             butMosPaciente.BackgroundImageLayout = ImageLayout.Zoom;
-            butMosPaciente.Location = new Point(967, 142);
+            butMosPaciente.Location = new Point(962, 146);
             butMosPaciente.Name = "butMosPaciente";
-            butMosPaciente.Size = new Size(68, 58);
+            butMosPaciente.Size = new Size(88, 66);
             butMosPaciente.TabIndex = 6;
-            butMosPaciente.UseVisualStyleBackColor = true;
+            butMosPaciente.Text = "Modificar";
+            butMosPaciente.UseVisualStyleBackColor = false;
             butMosPaciente.Click += butMosPaciente_Click;
             // 
             // dataGridPte
             // 
             dataGridPte.AutoGenerateColumns = false;
-            dataGridPte.BackgroundColor = Color.PaleGoldenrod;
+            dataGridPte.BackgroundColor = Color.Lavender;
             dataGridPte.BorderStyle = BorderStyle.None;
             dataGridPte.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridPte.Columns.AddRange(new DataGridViewColumn[] { idDataGridViewTextBoxColumn, dniDataGridViewTextBoxColumn, nombreDataGridViewTextBoxColumn, apellidoDataGridViewTextBoxColumn, fechaNacimientoDataGridViewTextBoxColumn, direccionDataGridViewTextBoxColumn, vacunasAlDiaDataGridViewCheckBoxColumn });
@@ -173,7 +176,7 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.PaleGoldenrod;
+            BackColor = Color.Lavender;
             ClientSize = new Size(1073, 450);
             Controls.Add(button1);
             Controls.Add(butatrasp);
